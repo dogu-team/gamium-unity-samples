@@ -1,0 +1,245 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 36
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5e6fedc2472449cead18ef23b5cb30d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Library:
+  - m_Name: Head
+    m_Hash: 0
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: Head
+      m_Hash: 0
+      m_Sprite: {fileID: -1998075294749729395, guid: 4fef15738a59d464a9875fadef0b2d74, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: -8531319653309433899, guid: 2ece1488092154985a4fc4d2f362963a, type: 3}
+    m_FromMain: 1
+    m_EntryOverrideCount: 0
+  - m_Name: Hair Front
+    m_Hash: 0
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: Hair Front
+      m_Hash: 0
+      m_Sprite: {fileID: 4394873542608800252, guid: 4fef15738a59d464a9875fadef0b2d74, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 1379294060872288596, guid: 2ece1488092154985a4fc4d2f362963a, type: 3}
+    m_FromMain: 1
+    m_EntryOverrideCount: 0
+  - m_Name: Hair Back
+    m_Hash: 0
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: Hair Back
+      m_Hash: 0
+      m_Sprite: {fileID: 7860323181143582079, guid: 4fef15738a59d464a9875fadef0b2d74, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: -5707246141625547801, guid: 2ece1488092154985a4fc4d2f362963a, type: 3}
+    m_FromMain: 1
+    m_EntryOverrideCount: 0
+  - m_Name: Eye L
+    m_Hash: 0
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: Open
+      m_Hash: 0
+      m_Sprite: {fileID: -2349373582096655809, guid: 4fef15738a59d464a9875fadef0b2d74, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: -8673387509053711522, guid: 2ece1488092154985a4fc4d2f362963a, type: 3}
+    - m_Name: Closed
+      m_Hash: 0
+      m_Sprite: {fileID: -3591797071705260518, guid: 4fef15738a59d464a9875fadef0b2d74, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 453713858776121418, guid: 2ece1488092154985a4fc4d2f362963a, type: 3}
+    m_FromMain: 1
+    m_EntryOverrideCount: 0
+  - m_Name: Eye R
+    m_Hash: 0
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: Open
+      m_Hash: 0
+      m_Sprite: {fileID: 7185994753417162485, guid: 4fef15738a59d464a9875fadef0b2d74, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: -8093658627442914233, guid: 2ece1488092154985a4fc4d2f362963a, type: 3}
+    - m_Name: Closed
+      m_Hash: 0
+      m_Sprite: {fileID: -2831759638622039178, guid: 4fef15738a59d464a9875fadef0b2d74, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 8127074125880648195, guid: 2ece1488092154985a4fc4d2f362963a, type: 3}
+    m_FromMain: 1
+    m_EntryOverrideCount: 0
+  - m_Name: Mouth
+    m_Hash: 0
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: Normal
+      m_Hash: 0
+      m_Sprite: {fileID: 7682764469034504664, guid: 4fef15738a59d464a9875fadef0b2d74, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 7260666204632754585, guid: 2ece1488092154985a4fc4d2f362963a, type: 3}
+    - m_Name: Open
+      m_Hash: 0
+      m_Sprite: {fileID: 2100075508309409553, guid: 4fef15738a59d464a9875fadef0b2d74, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 6840234404796783302, guid: 2ece1488092154985a4fc4d2f362963a, type: 3}
+    - m_Name: Teeth
+      m_Hash: 0
+      m_Sprite: {fileID: 5842535172032467493, guid: 4fef15738a59d464a9875fadef0b2d74, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 5765554430304484911, guid: 2ece1488092154985a4fc4d2f362963a, type: 3}
+    m_FromMain: 1
+    m_EntryOverrideCount: 0
+  - m_Name: Neck
+    m_Hash: 0
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: Neck
+      m_Hash: 0
+      m_Sprite: {fileID: 8989269499581228969, guid: 4fef15738a59d464a9875fadef0b2d74, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: -1122894538114790475, guid: 2ece1488092154985a4fc4d2f362963a, type: 3}
+    m_FromMain: 1
+    m_EntryOverrideCount: 0
+  - m_Name: Neck Element
+    m_Hash: 0
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: Neck Element
+      m_Hash: 0
+      m_Sprite: {fileID: -7091327277004229960, guid: 4fef15738a59d464a9875fadef0b2d74, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: -8622448547541158960, guid: 2ece1488092154985a4fc4d2f362963a, type: 3}
+    m_FromMain: 1
+    m_EntryOverrideCount: 0
+  - m_Name: Torso
+    m_Hash: 0
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: Torso
+      m_Hash: 0
+      m_Sprite: {fileID: -5620015689142230347, guid: 4fef15738a59d464a9875fadef0b2d74, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 5986868564341688611, guid: 2ece1488092154985a4fc4d2f362963a, type: 3}
+    m_FromMain: 1
+    m_EntryOverrideCount: 0
+  - m_Name: Coat Front
+    m_Hash: 0
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: Coat Front
+      m_Hash: 0
+      m_Sprite: {fileID: 8360229078413850521, guid: 4fef15738a59d464a9875fadef0b2d74, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: -8371560938474789107, guid: 2ece1488092154985a4fc4d2f362963a, type: 3}
+    m_FromMain: 1
+    m_EntryOverrideCount: 0
+  - m_Name: Coat Back
+    m_Hash: 0
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: Coat Back
+      m_Hash: 0
+      m_Sprite: {fileID: -1916915453484536497, guid: 4fef15738a59d464a9875fadef0b2d74, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 3920708050374018330, guid: 2ece1488092154985a4fc4d2f362963a, type: 3}
+    m_FromMain: 1
+    m_EntryOverrideCount: 0
+  - m_Name: Shoulder Plate L
+    m_Hash: 0
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: Shoulder Plate L
+      m_Hash: 0
+      m_Sprite: {fileID: -4072796295463949746, guid: 4fef15738a59d464a9875fadef0b2d74, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: -5923279259791792892, guid: 2ece1488092154985a4fc4d2f362963a, type: 3}
+    m_FromMain: 1
+    m_EntryOverrideCount: 0
+  - m_Name: Arm L
+    m_Hash: 0
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: Arm L
+      m_Hash: 0
+      m_Sprite: {fileID: -7807117763656615239, guid: 4fef15738a59d464a9875fadef0b2d74, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: -1782573920121814979, guid: 2ece1488092154985a4fc4d2f362963a, type: 3}
+    m_FromMain: 1
+    m_EntryOverrideCount: 0
+  - m_Name: Hand L Top
+    m_Hash: 0
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: Hand L Top
+      m_Hash: 0
+      m_Sprite: {fileID: -2338115538066045697, guid: 4fef15738a59d464a9875fadef0b2d74, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 7259002135578531099, guid: 2ece1488092154985a4fc4d2f362963a, type: 3}
+    m_FromMain: 1
+    m_EntryOverrideCount: 0
+  - m_Name: Shoulder Plate R
+    m_Hash: 0
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: Shoulder Plate R
+      m_Hash: 0
+      m_Sprite: {fileID: 2848614652121671099, guid: 4fef15738a59d464a9875fadef0b2d74, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: -1151125887281254003, guid: 2ece1488092154985a4fc4d2f362963a, type: 3}
+    m_FromMain: 1
+    m_EntryOverrideCount: 0
+  - m_Name: Arm R
+    m_Hash: 0
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: Arm R
+      m_Hash: 0
+      m_Sprite: {fileID: -4705715003614516388, guid: 4fef15738a59d464a9875fadef0b2d74, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 7746000823198413279, guid: 2ece1488092154985a4fc4d2f362963a, type: 3}
+    m_FromMain: 1
+    m_EntryOverrideCount: 0
+  - m_Name: Hand R Bottom
+    m_Hash: 0
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: Hand R Bottom
+      m_Hash: 0
+      m_Sprite: {fileID: 5755246370070851595, guid: 4fef15738a59d464a9875fadef0b2d74, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 7518962988976763692, guid: 2ece1488092154985a4fc4d2f362963a, type: 3}
+    m_FromMain: 1
+    m_EntryOverrideCount: 0
+  - m_Name: Leg L
+    m_Hash: 0
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: Leg L
+      m_Hash: 0
+      m_Sprite: {fileID: -764978644365997414, guid: 4fef15738a59d464a9875fadef0b2d74, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: -8139520306211246910, guid: 2ece1488092154985a4fc4d2f362963a, type: 3}
+    m_FromMain: 1
+    m_EntryOverrideCount: 0
+  - m_Name: Leg R
+    m_Hash: 0
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: Leg R
+      m_Hash: 0
+      m_Sprite: {fileID: 5346672782747141346, guid: 4fef15738a59d464a9875fadef0b2d74, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: -4894661906749227659, guid: 2ece1488092154985a4fc4d2f362963a, type: 3}
+    m_FromMain: 1
+    m_EntryOverrideCount: 0
+  m_PrimaryLibraryGUID: 54544361953a298479fa5405cc82e86c

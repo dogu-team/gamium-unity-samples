@@ -1,0 +1,6 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/Uss/Inventory.uss?fileID=7433441132597879392&amp;guid=4547e954a2090aa4caefc95123df9c05&amp;type=3#Inventory" />
+    <ui:VisualElement name="gear-item__icon" class="gear-item">
+        <ui:VisualElement name="gear-item__checkmark" style="position: absolute; width: 50%; height: 50%; background-image: url(&apos;project://database/Assets/UI/Textures/UI_atlas.psd?fileID=-5269792559901832439&amp;guid=68de98d899585b7469e0fb40a0fcbc56&amp;type=3#icon_checkmark&apos;); display: none;" />
+    </ui:VisualElement>
+</ui:UXML>

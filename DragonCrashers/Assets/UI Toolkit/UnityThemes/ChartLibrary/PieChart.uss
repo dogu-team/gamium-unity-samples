@@ -1,0 +1,10 @@
+.pie-chart {
+    --color-slice-1: #B6EB7A;
+    --color-slice-2: #F7F7EE;
+    --color-slice-3: #FB7813;
+    --color-slice-4: #17706E;
+    --color-slice-5: #00BDAA;
+    --color-slice-6: #400082;
+    --color-slice-7: #FE346E;
+    --color-slice-8: #F1E7B6;
+}

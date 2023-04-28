@@ -1,0 +1,3 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:VisualElement name="reference-inventory-screen" picking-mode="Ignore" class="referenceMainMenu reference-main-menu" style="background-image: url(&apos;project://database/Assets/UI/Reference/3%20inventory-screen.jpg?fileID=2800000&amp;guid=12ce56334ecdcf64e9357f8f325e1144&amp;type=3#3 inventory-screen&apos;); -unity-background-image-tint-color: rgb(255, 255, 255); opacity: 1; width: 100%; height: 100%; position: absolute; display: flex;" />
+</ui:UXML>

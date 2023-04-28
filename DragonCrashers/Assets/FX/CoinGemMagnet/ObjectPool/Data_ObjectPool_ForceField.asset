@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e188150743e19034785f0c77e5f7fde4, type: 3}
+  m_Name: Data_ObjectPool_ForceField
+  m_EditorClassIdentifier: 
+  objectToPool: {fileID: 7697683416158263308, guid: 2aeab82fad1899346b59aff114a3bd98, type: 3}
+  amountToPool: 10
+  shouldExpand: 1

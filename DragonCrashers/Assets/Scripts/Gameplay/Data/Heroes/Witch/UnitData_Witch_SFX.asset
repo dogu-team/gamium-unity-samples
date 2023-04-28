@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 808aed9944496784291afdfc61f82336, type: 3}
+  m_Name: UnitData_Witch_SFX
+  m_EditorClassIdentifier: 
+  audioClipsGetHit:
+  - {fileID: 8300000, guid: 16131b490ddb3bd449c95de4443cf3c7, type: 3}
+  - {fileID: 8300000, guid: 13645acedea13e04593c1ce5c312afd8, type: 3}
+  - {fileID: 8300000, guid: fe3f7535aa8df8c4e969c40ca453b950, type: 3}
+  audioClipsDeath:
+  - {fileID: 8300000, guid: fac140664ee0f0a4c870ed8c4b13e7a6, type: 3}
+  - {fileID: 8300000, guid: 9d5fc8d1f6e201f4a98757993aa12946, type: 3}
+  - {fileID: 8300000, guid: 867c92ce67ded1840bcf292968383c53, type: 3}

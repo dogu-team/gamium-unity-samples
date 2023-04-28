@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ccdaf773113a6a4e8a2567e58b66259, type: 3}
+  m_Name: BarbarianSkill1
+  m_EditorClassIdentifier: 
+  skillName: Axe Strike
+  category: 0
+  damagePoints: 150
+  damageTime: 2
+  sprite: {fileID: -2458927257570641172, guid: a263e50625394fe4a891952f2f05257a, type: 3}

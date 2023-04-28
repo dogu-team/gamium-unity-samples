@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 79eb9f12f74541b0b172b5bfa615c42a, type: 3}
+  m_Name: IronBootVariadicItemInfo
+  m_EditorClassIdentifier: 
+  type: 0
+  value:
+    rid: 2950379291527610373
+  references:
+    version: 2
+    RefIds:
+    - rid: 2950379291527610373
+      type: {class: EquipmentVariadicItemInfo, ns: Data.Static, asm: Assembly-CSharp}
+      data:
+        id: 130
+        nickname: IronBoot
+        description: starting boots
+        icon: {fileID: 21300000, guid: 5170e0068a8cf184fb119834fa7ba0f3, type: 3}
+        equipmentPosition: 4
+        upgradeMax: 10
+        prices:
+          points: 3c000000000000007200000000000000a800000000000000de0000000000000014010000000000004a010000000000008001000000000000b601000000000000ec010000000000002202000000000000
+          xmin: 0
+          xmax: 10
+          ymin: 60
+          ymax: 600
+          interpolationType: 0
+        upgradeFailChances:
+          points: 1e0000000000000025000000000000002c0000000000000033000000000000003a00000000000000410000000000000048000000000000004f0000000000000056000000000000005d00000000000000
+          xmin: 0
+          xmax: 10
+          ymin: 30
+          ymax: 100
+          interpolationType: 0
+        stats:
+        - type: 9
+          value:
+            points: 0300000000000000050000000000000008000000000000000b000000000000000d0000000000000010000000000000001300000000000000150000000000000018000000000000001b00000000000000
+            xmin: 0
+            xmax: 10
+            ymin: 3
+            ymax: 30
+            interpolationType: 0
+        onGenerate: 0

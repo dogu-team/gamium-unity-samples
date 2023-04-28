@@ -1,0 +1,112 @@
+.game-win-lose__overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
+    background-color: rgba(0, 0, 0, 0.43);
+}
+
+.game-win-lose__container {
+    width: 708px;
+    height: 516px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(52, 152, 219, 0);
+    background-image: none;
+    -unity-background-scale-mode: scale-to-fit;
+    flex-direction: row;
+    -unity-font-definition: url('project://database/Assets/UI/Fonts/ChelaOne-Regular%20SDF%201.asset?fileID=11400000&guid=4e008579d9e985040974fa631b2f2b80&type=2#ChelaOne-Regular SDF 1');
+}
+
+.game-win-lose__banner {
+    background-color: rgba(52, 73, 94, 0);
+    width: 100%;
+    height: 100%;
+    align-items: stretch;
+    justify-content: center;
+    background-image: url('project://database/Assets/UI/Textures/UI_atlas.psd?fileID=3711017767371944856&guid=68de98d899585b7469e0fb40a0fcbc56&type=3#Defeat_banner');
+    -unity-background-scale-mode: scale-to-fit;
+    left: auto;
+    -unity-font-definition: url('project://database/Assets/UI/Fonts/ChelaOne-Regular%20SDF%201.asset?fileID=11400000&guid=4e008579d9e985040974fa631b2f2b80&type=2#ChelaOne-Regular SDF 1');
+}
+
+.game-win-lose__label {
+    -unity-text-align: middle-center;
+    -unity-font-style: normal;
+    font-size: 69px;
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0);
+    border-left-color: rgba(0, 0, 0, 0);
+    border-right-color: rgba(0, 0, 0, 0);
+    border-top-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(0, 0, 0, 0);
+    -unity-font-definition: url('project://database/Assets/UI/Fonts/ChelaOne-Regular%20SDF%201.asset?fileID=11400000&guid=4e008579d9e985040974fa631b2f2b80&type=2#ChelaOne-Regular SDF 1');
+    position: absolute;
+    top: 41%;
+    width: auto;
+    height: auto;
+}
+
+.game-win-lose__button {
+    -unity-font-style: normal;
+    font-size: 41px;
+    bottom: auto;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0);
+    color: rgb(255, 255, 255);
+    border-left-color: rgba(0, 0, 0, 0);
+    border-right-color: rgba(0, 0, 0, 0);
+    border-top-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(0, 0, 0, 0);
+    background-image: url('project://database/Assets/UI/Textures/UI_atlas.psd?fileID=-4355731583856638786&guid=68de98d899585b7469e0fb40a0fcbc56&type=3#bt_08');
+    -unity-font-definition: url('project://database/Assets/UI/Fonts/ChelaOne-Regular%20SDF%201.asset?fileID=11400000&guid=4e008579d9e985040974fa631b2f2b80&type=2#ChelaOne-Regular SDF 1');
+    width: 365px;
+    height: 14%;
+    justify-content: space-around;
+    -unity-text-align: middle-center;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    top: -53px;
+}
+
+.game-win-lose__button:hover {
+    background-color: rgba(241, 196, 15, 0);
+    border-left-color: rgba(0, 0, 0, 0);
+    border-right-color: rgba(0, 0, 0, 0);
+    border-top-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(0, 0, 0, 0);
+    -unity-background-image-tint-color: rgb(230, 126, 34);
+    transition-duration: 0.25s;
+    cursor: url('project://database/Assets/UI/Textures/Cursors/Cursor_B.png?fileID=2800000&guid=f3c815d95da3a483385620d7bd8fc545&type=3#Cursor_B');
+    scale: 1.1 1.1;
+    -unity-font-definition: url('project://database/Assets/UI/Fonts/ChelaOne-Regular%20SDF%201.asset?fileID=11400000&guid=4e008579d9e985040974fa631b2f2b80&type=2#ChelaOne-Regular SDF 1');
+}
+
+.game-win-lose__banner-container {
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: -28px;
+    margin-right: -28px;
+    margin-top: -28px;
+    margin-bottom: -28px;
+    -unity-font-definition: url('project://database/Assets/UI/Fonts/ChelaOne-Regular%20SDF%201.asset?fileID=11400000&guid=4e008579d9e985040974fa631b2f2b80&type=2#ChelaOne-Regular SDF 1');
+}
+
+.game-win-lose__button:active {
+    background-color: rgba(241, 196, 15, 0);
+    border-left-color: rgba(0, 0, 0, 0);
+    border-right-color: rgba(0, 0, 0, 0);
+    border-top-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(0, 0, 0, 0);
+    -unity-background-image-tint-color: rgb(255, 209, 13);
+    transition-duration: 0.25s;
+    scale: 1.1 1.1;
+    -unity-font-definition: url('project://database/Assets/UI/Fonts/ChelaOne-Regular%20SDF%201.asset?fileID=11400000&guid=4e008579d9e985040974fa631b2f2b80&type=2#ChelaOne-Regular SDF 1');
+}

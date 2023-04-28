@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba5c1350c9c1148418af341ffcbdcd7b, type: 3}
+  m_Name: WolfmanOriz
+  m_EditorClassIdentifier: 
+  characterName: Wolfman Oriz
+  characterVisualsPrefab: {fileID: 1611433817897212104, guid: cd52117218b74c64ba11bdefc50ca968, type: 3}
+  characterClass: 2
+  rarity: 2
+  attackType: 0
+  bioTitle: Under a Full Moon
+  bio: "Lorem ipsum dolor sit amet consectetur adipiscing elit neque lobortis donec
+    curabitur, interdum ligula cubilia sodales leo convallis malesuada sed ridiculus
+    tempus, cursus potenti in ultricies congue venenatis vulputate dictumst vestibulum
+    sagittis. \r\n\r\nAccumsan sed dignissim ut dictum tortor cursus hac pellentesque
+    consectetur porta platea, ultrices justo molestie dolor viverra quisque ultricies
+    mus class. Curabitur lectus semper potenti facilisis eros facilisi placerat mauris
+    justo, primis in dictum commodo neque adipiscing phasellus hac, quisque torquent
+    rutrum proin duis vitae nullam bibendum. \r\n\r\nMus litora leo posuere laoreet
+    urna dolor suscipit aliquam hendrerit, venenatis donec vivamus diam facilisis
+    mollis gravida pretium vulputate, enim magnis cursus ligula dapibus lacus proin
+    sit. Hendrerit nec massa praesent congue sem ad justo, morbi nulla lobortis nostra
+    ridiculus suscipit, viverra gravida lacinia pellentesque venenatis urna. \r\n\r\nSed
+    placerat morbi tellus himenaeos mi blandit hac suspendisse tempus sollicitudin
+    faucibus conubia, ipsum nunc curae scelerisque tortor arcu semper purus aliquet
+    primis. Lobortis dolor tempus scelerisque interdum laoreet ullamcorper auctor
+    vivamus tortor praesent tincidunt, purus sociis ultrices vel potenti sodales
+    leo orci curae blandit, adipiscing in pellentesque montes mauris cubilia condimentum
+    lectus parturient nunc. Bibendum sed egestas habitant ante non in ultrices nunc
+    auctor parturient, per euismod odio vestibulum netus sodales eget quisque platea,
+    condimentum sociosqu ridiculus sociis natoque ut malesuada potenti nibh. "
+  basePointsLife: 400
+  basePointsDefense: 220
+  basePointsAttack: 567
+  basePointsAttackSpeed: 0.5
+  basePointsSpecialAttack: 5
+  basePointsCriticalHit: 626
+  skill1: {fileID: 11400000, guid: a0a776aaf09550a4e865158eb013e797, type: 2}
+  skill2: {fileID: 11400000, guid: 12d232d7e403a7d40be46fd92b51c65d, type: 2}
+  skill3: {fileID: 11400000, guid: ce1307ecc068f624d8155fc93a7d81e2, type: 2}
+  defaultWeapon: {fileID: 11400000, guid: 542f628349ff3924b958bab7f15572d0, type: 2}
+  defaultShieldAndArmor: {fileID: 0}
+  defaultHelmet: {fileID: 0}
+  defaultBoots: {fileID: 11400000, guid: 77e9429c2dc728c4c97858722491e09d, type: 2}
+  defaultGloves: {fileID: 0}

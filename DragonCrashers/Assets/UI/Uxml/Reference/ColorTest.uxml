@@ -1,0 +1,8 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/Uss/PopUpText.uss?fileID=7433441132597879392&amp;guid=e90f0306f89465149b28de122050005a&amp;type=3#PopUpText" />
+    <ui:VisualElement focusable="true" picking-mode="Ignore" name="main-menu-popup" style="position: absolute; width: 50%; height: 50%; left: 25%; top: 25%; transition-duration: 0.25s; justify-content: center; align-items: center; display: flex;">
+        <ui:Label text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." display-tooltip-when-elided="true" name="main-menu-popup_text" picking-mode="Ignore" class="popup-text-dark-transluscent popup-text popup-text-inactive" />
+        <ui:Label text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." display-tooltip-when-elided="true" name="main-menu-popup_text" picking-mode="Ignore" class="popup-text-dark-transluscent popup-text" />
+        <ui:Label text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." display-tooltip-when-elided="true" name="main-menu-popup_text" picking-mode="Ignore" class="popup-text-dark-transluscent popup-text" style="color: rgba(192, 142, 52, 255); position: absolute; top: 13%;" />
+    </ui:VisualElement>
+</ui:UXML>

@@ -1,0 +1,6 @@
+.radial-counter {
+    min-width: 20px;
+    min-height: 20px;
+    --track-color: #00161A;
+    --progress-color: #D1F379;
+}

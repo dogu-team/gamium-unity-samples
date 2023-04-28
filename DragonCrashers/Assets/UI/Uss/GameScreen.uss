@@ -1,0 +1,407 @@
+.pause__button {
+    color: rgb(255, 255, 255);
+    width: 90px;
+    height: 90px;
+    background-color: rgba(243, 156, 18, 0);
+    justify-content: center;
+    align-items: center;
+    -unity-text-outline-color: rgba(0, 0, 0, 0);
+    background-image: url('project://database/Assets/UI/Textures/UI_atlas.psd?fileID=8930942156644639977&guid=68de98d899585b7469e0fb40a0fcbc56&type=3#bt_13');
+    -unity-background-scale-mode: scale-to-fit;
+    border-left-color: rgba(0, 0, 0, 0);
+    border-right-color: rgba(0, 0, 0, 0);
+    border-top-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(0, 0, 0, 0);
+    cursor: url('project://database/Assets/UI/Textures/Cursors/Cursor_B.png?fileID=2800000&guid=f3c815d95da3a483385620d7bd8fc545&type=3#Cursor_B');
+}
+
+.pause__button:hover {
+    background-color: rgba(241, 196, 15, 0);
+    border-left-color: rgba(0, 0, 0, 0);
+    border-right-color: rgba(0, 0, 0, 0);
+    border-top-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(0, 0, 0, 0);
+    -unity-background-image-tint-color: rgb(255, 255, 255);
+    transition-duration: 0.25s;
+    scale: 1.1 1.1;
+    cursor: url('project://database/Assets/UI/Textures/Cursors/Cursor_B.png?fileID=2800000&guid=f3c815d95da3a483385620d7bd8fc545&type=3#Cursor_B');
+}
+
+.pause__button:active {
+    background-color: rgba(255, 255, 255, 0);
+    border-left-color: rgba(0, 0, 0, 0);
+    border-right-color: rgba(0, 0, 0, 0);
+    border-top-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(0, 0, 0, 0);
+    scale: 1.1 1.1;
+    cursor: url('project://database/Assets/UI/Textures/Cursors/Cursor_B.png?fileID=2800000&guid=f3c815d95da3a483385620d7bd8fc545&type=3#Cursor_B');
+}
+
+.pause__button-panel {
+    top: 0;
+    right: 0;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    margin-left: 12px;
+    margin-right: 12px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.pause__button-graphic {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(52, 73, 94, 0);
+    -unity-text-outline-color: rgba(0, 0, 0, 0);
+}
+
+.healing-potion__space {
+    width: 250px;
+    height: 250px;
+    background-color: rgba(52, 73, 94, 0);
+    justify-content: center;
+    align-items: center;
+    background-image: url('project://database/Assets/UI/Textures/UI_atlas.psd?fileID=-3316262457266660700&guid=68de98d899585b7469e0fb40a0fcbc56&type=3#Heal_button_bg');
+    -unity-background-scale-mode: scale-to-fit;
+}
+
+.healing-potion__image {
+    width: 200px;
+    height: 200px;
+    background-color: rgba(52, 152, 219, 0);
+    justify-content: flex-end;
+    align-items: center;
+    background-image: url('project://database/Assets/UI/Textures/UI_atlas.psd?fileID=3273140767458088001&guid=68de98d899585b7469e0fb40a0fcbc56&type=3#icon_heal');
+    -unity-background-scale-mode: scale-to-fit;
+}
+
+.healing-potion__count {
+    -unity-font-style: normal;
+    font-size: 77px;
+    color: rgb(255, 255, 255);
+    background-image: url('project://database/Assets/UI/Textures/UI_atlas.psd?fileID=-6563724706208684342&guid=68de98d899585b7469e0fb40a0fcbc56&type=3#Amount_shape_01');
+    -unity-background-scale-mode: scale-to-fit;
+    width: 124px;
+    height: auto;
+    bottom: -29px;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    -unity-text-align: upper-center;
+    -unity-font-definition: url('project://database/Assets/UI/Fonts/ChelaOne-Regular%20SDF%201.asset?fileID=11400000&guid=4e008579d9e985040974fa631b2f2b80&type=2#ChelaOne-Regular SDF 1');
+    white-space: normal;
+    letter-spacing: 0;
+    background-color: rgba(0, 0, 0, 0);
+    -unity-background-image-tint-color: rgb(255, 255, 255);
+    flex-grow: 0;
+    overflow: visible;
+}
+
+.potion--active {
+    width: 150px;
+    opacity: 1;
+    height: 150px;
+    position: absolute;
+    cursor: url('project://database/Assets/UI/Textures/Cursors/Cursor_B.png?fileID=2800000&guid=f3c815d95da3a483385620d7bd8fc545&type=3#Cursor_B');
+}
+
+.potion--inactive {
+    width: 150px;
+    opacity: 0.8;
+    height: 150px;
+    position: absolute;
+    cursor: url('project://database/Assets/UI/Textures/Cursors/Cursor_B.png?fileID=2800000&guid=f3c815d95da3a483385620d7bd8fc545&type=3#Cursor_B');
+    -unity-background-image-tint-color: rgb(70, 70, 70);
+    transition-property: opacity, -unity-background-image-tint-color;
+    transition-duration: 2s, 2s;
+    transition-timing-function: ease-out-sine, ease-out-sine;
+}
+
+.healing-potion__slot {
+    position: absolute;
+    left: 14%;
+    top: 22%;
+    width: 300px;
+    height: 400px;
+    background-color: rgba(255, 0, 0, 0.26);
+    border-left-width: 3px;
+    border-right-width: 3px;
+    border-top-width: 3px;
+    border-bottom-width: 3px;
+    border-left-color: rgb(255, 255, 255);
+    border-right-color: rgb(255, 255, 255);
+    border-top-color: rgb(255, 255, 255);
+    border-bottom-color: rgb(255, 255, 255);
+}
+
+.game-char__panel {
+    position: absolute;
+    left: 0;
+    bottom: 20px;
+    width: 1384px;
+    height: 257px;
+    background-color: rgba(44, 62, 80, 0);
+    flex-direction: row;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    align-items: center;
+    opacity: 0.91;
+}
+
+.game-char__fx {
+    position: absolute;
+    width: 307px;
+    height: 337px;
+    background-image: url('project://database/Assets/UI/Textures/RenderTextures/fireFrameVFXRenderTexture.renderTexture?fileID=8400000&guid=f3572b670522442ccba9cc7324eb025d&type=2#fireFrameVFXRenderTexture');
+    top: -100px;
+    left: -33px;
+    display: none;
+}
+
+.game-char__space {
+    width: 200px;
+    height: 200px;
+    background-color: rgba(41, 128, 185, 0);
+    justify-content: center;
+    align-items: center;
+    background-image: url('project://database/Assets/UI/Textures/UI_atlas.psd?fileID=6465899754313300131&guid=68de98d899585b7469e0fb40a0fcbc56&type=3#frame_01');
+    -unity-background-scale-mode: stretch-to-fill;
+    -unity-slice-left: 0;
+    -unity-slice-top: 0;
+    -unity-slice-right: 0;
+    -unity-slice-bottom: 0;
+    border-left-color: rgba(0, 0, 0, 0);
+    border-right-color: rgba(0, 0, 0, 0);
+    border-top-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(0, 0, 0, 0);
+    max-width: 200px;
+    min-width: 100px;
+    max-height: 200px;
+    min-height: 100px;
+}
+
+.game-char__space--fx {
+    width: 200px;
+    height: 200px;
+    background-color: rgba(41, 128, 185, 0);
+    justify-content: center;
+    align-items: center;
+    -unity-background-scale-mode: stretch-to-fill;
+    -unity-slice-left: 0;
+    -unity-slice-top: 0;
+    -unity-slice-right: 0;
+    -unity-slice-bottom: 0;
+    border-left-color: rgba(0, 0, 0, 0);
+    border-right-color: rgba(0, 0, 0, 0);
+    border-top-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(0, 0, 0, 0);
+    max-width: 200px;
+    min-width: 100px;
+    max-height: 200px;
+    min-height: 100px;
+    left: 3%;
+    top: 1%;
+    background-image: url('project://database/Assets/UI/Textures/UI_atlas.psd?fileID=6565004816378016310&guid=68de98d899585b7469e0fb40a0fcbc56&type=3#frame_halloween');
+    display: flex;
+    position: absolute;
+}
+
+.game-char__progress-bar {
+    width: 100%;
+    height: 30px;
+    -unity-font-style: bold;
+    color: rgb(255, 255, 255);
+    font-size: 23px;
+    position: absolute;
+    bottom: -30px;
+    background-color: rgb(44, 62, 80);
+}
+
+.game-char__image {
+    width: 170px;
+    height: 180px;
+    background-color: rgba(127, 140, 141, 0);
+    justify-content: flex-end;
+    align-items: center;
+    background-image: url('project://database/Assets/UI/Textures/CharacterPortraits/Knight_meter_v2.png?fileID=21300000&guid=b54af6a8f00f55f409935ecfef9e5607&type=3#Knight_meter_v2');
+    -unity-background-scale-mode: scale-to-fit;
+    margin-left: 24px;
+    margin-right: 24px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    flex-wrap: nowrap;
+}
+
+.enemy__bar-label {
+    -unity-font-style: bold;
+    font-size: 37px;
+    -unity-text-align: middle-center;
+    color: rgb(255, 255, 255);
+    height: 15px;
+    justify-content: center;
+    width: 174px;
+    position: absolute;
+    top: 0;
+}
+
+.enemy__life-bar {
+    height: 33px;
+    width: 641px;
+    top: 5px;
+    background-color: rgb(1, 0, 255);
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    align-items: center;
+    justify-content: flex-start;
+    -unity-text-align: middle-left;
+    display: flex;
+    border-left-color: rgb(60, 60, 60);
+    border-right-color: rgb(60, 60, 60);
+    border-top-color: rgb(60, 60, 60);
+    border-bottom-color: rgb(60, 60, 60);
+    border-left-width: 3px;
+    border-right-width: 3px;
+    border-top-width: 3px;
+    border-bottom-width: 3px;
+}
+
+.enemy__name-label {
+    height: 48px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    position: relative;
+    width: 98%;
+    -unity-font-style: bold;
+    font-size: 38px;
+    -unity-text-align: middle-center;
+    color: rgb(255, 255, 255);
+}
+
+.enemy__banner {
+    background-color: rgb(231, 76, 60);
+    height: 63px;
+    width: 414px;
+    top: 0;
+    font-size: 7px;
+    align-items: center;
+    justify-content: center;
+}
+
+.enemy__panel {
+    right: 34px;
+    bottom: 20px;
+    height: 112px;
+    width: 730px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    opacity: 0.45;
+}
+
+.game-timer__label {
+    align-items: center;
+    justify-content: center;
+    -unity-text-align: upper-center;
+    color: rgb(253, 240, 219);
+    font-size: 59px;
+    height: 66px;
+    -unity-font-style: normal;
+    position: absolute;
+    -unity-font-definition: url('project://database/Assets/UI/Fonts/ChelaOne-Regular%20SDF%201.asset?fileID=11400000&guid=4e008579d9e985040974fa631b2f2b80&type=2#ChelaOne-Regular SDF 1');
+    top: 0;
+}
+
+.game-timer__panel {
+    width: 20%;
+    height: 100px;
+    position: absolute;
+    left: 40%;
+    background-color: rgba(31, 255, 0, 0);
+    top: 2px;
+    opacity: 1;
+    align-items: center;
+    justify-content: center;
+}
+
+.game-timer__background {
+    position: absolute;
+    height: 66px;
+    width: 278px;
+    background-color: rgba(0, 0, 0, 0);
+    background-image: url('project://database/Assets/UI/Textures/UI_atlas.psd?fileID=-2609491617324022786&guid=68de98d899585b7469e0fb40a0fcbc56&type=3#Hud_bg_01');
+    -unity-background-image-tint-color: rgba(0, 0, 0, 0.59);
+}
+
+.screen__anchor--top-left {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.health-bar__container {
+    width: 100%;
+    height: 100%;
+    top: -4px;
+    align-items: center;
+    position: absolute;
+}
+
+.health-bar__background {
+    background-image: url('project://database/Assets/UI/Textures/UI_atlas.psd?fileID=7766684025725128029&guid=68de98d899585b7469e0fb40a0fcbc56&type=3#Life_Hud_bg');
+    background-color: rgba(0, 0, 0, 0);
+    -unity-background-scale-mode: stretch-to-fill;
+    width: 194px;
+    height: 33px;
+    position: absolute;
+    bottom: -61px;
+    display: flex;
+    visibility: visible;
+    cursor: url('project://database/Assets/UI/Textures/Cursors/Cursor_A.png?fileID=2800000&guid=0fc53ad8e877049c3aef54a3f8a1e01a&type=3#Cursor_A');
+}
+
+.health-bar__progress {
+    background-image: url('project://database/Assets/UI/Textures/UI_atlas.psd?fileID=-5139160609270041249&guid=68de98d899585b7469e0fb40a0fcbc56&type=3#Life_Hud_juice_04');
+    background-color: rgba(0, 0, 0, 0);
+    width: 100%;
+    height: 100%;
+    position: relative;
+    align-items: flex-start;
+    justify-content: center;
+    -unity-background-scale-mode: stretch-to-fill;
+    cursor: url('project://database/Assets/UI/Textures/Cursors/Cursor_A.png?fileID=2800000&guid=0fc53ad8e877049c3aef54a3f8a1e01a&type=3#Cursor_A');
+}
+
+.health-bar__label {
+    visibility: hidden;
+}
+
+.info-demo__panel {
+    width: 100%;
+    align-items: center;
+}
+
+.demo-info__label {
+    -unity-font-definition: url('project://database/Assets/UI/Fonts/ChelaOne-Regular%20SDF%201.asset?fileID=11400000&guid=4e008579d9e985040974fa631b2f2b80&type=2#ChelaOne-Regular SDF 1');
+    font-size: 30px;
+    color: rgba(185, 185, 185, 0.5);
+}

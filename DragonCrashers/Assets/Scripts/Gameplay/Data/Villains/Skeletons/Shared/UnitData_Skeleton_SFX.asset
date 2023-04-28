@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 808aed9944496784291afdfc61f82336, type: 3}
+  m_Name: UnitData_Skeleton_SFX
+  m_EditorClassIdentifier: 
+  audioClipsGetHit:
+  - {fileID: 8300000, guid: 50c2993dd55467646b3ab4702dd10c2d, type: 3}
+  - {fileID: 8300000, guid: aa456d1305594d44e8e5484933161210, type: 3}
+  audioClipsDeath:
+  - {fileID: 8300000, guid: dddebf2e3e2767840b9f526d45339bd5, type: 3}
+  - {fileID: 8300000, guid: bbad777603951c443b3d7c7b6578e370, type: 3}

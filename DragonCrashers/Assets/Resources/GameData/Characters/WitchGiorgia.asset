@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba5c1350c9c1148418af341ffcbdcd7b, type: 3}
+  m_Name: WitchGiorgia
+  m_EditorClassIdentifier: 
+  characterName: Witch Giorgia
+  characterVisualsPrefab: {fileID: 5360480908917160698, guid: 601caeefd26acb34592f1a07ee796ffc, type: 3}
+  characterClass: 1
+  rarity: 1
+  attackType: 1
+  bioTitle: Tale of the Witch
+  bio: "Lorem ipsum dolor sit amet consectetur adipiscing elit metus mus, condimentum
+    non nec dictumst eget massa ornare luctus accumsan venenatis, penatibus leo facilisi
+    dui pulvinar purus porta hendrerit. Hendrerit donec dis viverra aliquam porttitor
+    vestibulum molestie enim, luctus aenean porta penatibus eros varius sociis, quisque
+    ac netus curabitur vivamus auctor sem. Fames orci condimentum pretium nisi tempus
+    interdum urna enim curae, elementum in integer justo morbi quis vitae consequat,
+    aliquet pellentesque sodales ad tellus tincidunt platea gravida.\r\n\r\nLuctus
+    rutrum malesuada egestas justo viverra praesent hendrerit vel imperdiet integer,
+    blandit sodales taciti vitae facilisis facilisi ullamcorper faucibus auctor cubilia
+    magna, a dictumst aptent fermentum metus suscipit parturient habitant quisque.
+    Libero nisl interdum maecenas cursus habitasse dui cras per lectus, eu neque
+    ut rhoncus velit phasellus duis torquent fusce, natoque vestibulum erat bibendum
+    primis condimentum est cum. \\n \nPretium scelerisque ultrices laoreet egestas
+    risus ut et aenean, dictumst non iaculis in proin quam faucibus, metus morbi
+    nisi gravida nisl nostra netus."
+  basePointsLife: 190
+  basePointsDefense: 155
+  basePointsAttack: 222
+  basePointsAttackSpeed: 0.3
+  basePointsSpecialAttack: 4
+  basePointsCriticalHit: 312
+  skill1: {fileID: 11400000, guid: fddff5b150e81254aa5710957259bc91, type: 2}
+  skill2: {fileID: 11400000, guid: 47084178b4b1b594497f14179eb8aaf3, type: 2}
+  skill3: {fileID: 11400000, guid: 6eefed88ff5de1d4aa655ef8c6a44ece, type: 2}
+  defaultWeapon: {fileID: 11400000, guid: 159d14b89d9a18a43b76b164cac233d2, type: 2}
+  defaultShieldAndArmor: {fileID: 0}
+  defaultHelmet: {fileID: 11400000, guid: fcc1d32b0487864479ccdee47e89249b, type: 2}
+  defaultBoots: {fileID: 11400000, guid: 6ae4f968f3d7150458a39b4e87660882, type: 2}
+  defaultGloves: {fileID: 0}

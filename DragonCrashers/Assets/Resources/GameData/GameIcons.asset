@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43cd23c2ca665964da65df68923fbe0f, type: 3}
+  m_Name: GameIcons
+  m_EditorClassIdentifier: 
+  currencyIcons:
+  - icon: {fileID: 6161000958321840084, guid: 68de98d899585b7469e0fb40a0fcbc56, type: 3}
+    currencyType: 0
+  - icon: {fileID: 7429233924804342823, guid: 68de98d899585b7469e0fb40a0fcbc56, type: 3}
+    currencyType: 1
+  - icon: {fileID: -8627399951371066753, guid: 68de98d899585b7469e0fb40a0fcbc56, type: 3}
+    currencyType: 2
+  shopItemTypeIcons:
+  - icon: {fileID: 6161000958321840084, guid: 68de98d899585b7469e0fb40a0fcbc56, type: 3}
+    shopItemType: 0
+  - icon: {fileID: 7429233924804342823, guid: 68de98d899585b7469e0fb40a0fcbc56, type: 3}
+    shopItemType: 1
+  - icon: {fileID: 3273140767458088001, guid: 68de98d899585b7469e0fb40a0fcbc56, type: 3}
+    shopItemType: 2
+  - icon: {fileID: -3856444077584420230, guid: 68de98d899585b7469e0fb40a0fcbc56, type: 3}
+    shopItemType: 3
+  characterClassIcons:
+  - icon: {fileID: -292458207336279327, guid: 68de98d899585b7469e0fb40a0fcbc56, type: 3}
+    characterClass: 0
+  - icon: {fileID: -2770413777280868161, guid: 68de98d899585b7469e0fb40a0fcbc56, type: 3}
+    characterClass: 1
+  - icon: {fileID: -5431652833078076462, guid: 68de98d899585b7469e0fb40a0fcbc56, type: 3}
+    characterClass: 2
+  - icon: {fileID: -2770413777280868161, guid: 68de98d899585b7469e0fb40a0fcbc56, type: 3}
+    characterClass: 3
+  rarityIcons:
+  - icon: {fileID: -8627399951371066753, guid: 68de98d899585b7469e0fb40a0fcbc56, type: 3}
+    rarity: 0
+  - icon: {fileID: 5329159937081524557, guid: 68de98d899585b7469e0fb40a0fcbc56, type: 3}
+    rarity: 1
+  - icon: {fileID: -2385097949926813060, guid: 68de98d899585b7469e0fb40a0fcbc56, type: 3}
+    rarity: 2
+  attackTypeIcons:
+  - icon: {fileID: -5048415128929058164, guid: 68de98d899585b7469e0fb40a0fcbc56, type: 3}
+    attackType: 0
+  - icon: {fileID: -8353500187802510425, guid: 68de98d899585b7469e0fb40a0fcbc56, type: 3}
+    attackType: 1
+  - icon: {fileID: 656738090244631422, guid: 68de98d899585b7469e0fb40a0fcbc56, type: 3}
+    attackType: 2

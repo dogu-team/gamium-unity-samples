@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 79eb9f12f74541b0b172b5bfa615c42a, type: 3}
+  m_Name: LeatherArmorVariadicItemInfo
+  m_EditorClassIdentifier: 
+  type: 0
+  value:
+    rid: 2950379291527610373
+  references:
+    version: 2
+    RefIds:
+    - rid: 2950379291527610373
+      type: {class: EquipmentVariadicItemInfo, ns: Data.Static, asm: Assembly-CSharp}
+      data:
+        id: 90
+        nickname: LeatherArmor
+        description: starting armor
+        icon: {fileID: 21300000, guid: e37ee0b1cbe20c5458102626b95a6b7c, type: 3}
+        equipmentPosition: 3
+        upgradeMax: 10
+        prices:
+          points: 32000000000000009100000000000000f0000000000000004f01000000000000ae010000000000000d020000000000006c02000000000000cb020000000000002a030000000000008903000000000000
+          xmin: 0
+          xmax: 10
+          ymin: 50
+          ymax: 1000
+          interpolationType: 0
+        upgradeFailChances:
+          points: 1e0000000000000025000000000000002c0000000000000033000000000000003a00000000000000410000000000000048000000000000004f0000000000000056000000000000005d00000000000000
+          xmin: 0
+          xmax: 10
+          ymin: 30
+          ymax: 100
+          interpolationType: 0
+        stats:
+        - type: 7
+          value:
+            points: 050000000000000009000000000000000e00000000000000120000000000000017000000000000001b000000000000002000000000000000240000000000000029000000000000002d00000000000000
+            xmin: 0
+            xmax: 10
+            ymin: 5
+            ymax: 50
+            interpolationType: 0
+        onGenerate: 0

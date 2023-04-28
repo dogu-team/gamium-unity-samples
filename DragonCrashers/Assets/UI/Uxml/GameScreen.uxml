@@ -1,0 +1,43 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:Template name="PauseScreen" src="project://database/Assets/UI/Uxml/PauseScreen.uxml?fileID=9197481963319205126&amp;guid=f910f0cedcaa5104daa6f49e54ef48ce&amp;type=3#PauseScreen" />
+    <ui:Template name="GameWinScreen" src="project://database/Assets/UI/Uxml/GameWinScreen.uxml?fileID=9197481963319205126&amp;guid=bd5a86368cf3f304db9a26b3f2555585&amp;type=3#GameWinScreen" />
+    <ui:Template name="GameLoseScreen" src="project://database/Assets/UI/Uxml/GameLoseScreen.uxml?fileID=9197481963319205126&amp;guid=40d28487be7919749bc1274f2fe2030a&amp;type=3#GameLoseScreen" />
+    <ui:Template name="ReferenceGameScreen" src="project://database/Assets/UI/Uxml/Reference/ReferenceGameScreen.uxml?fileID=9197481963319205126&amp;guid=6f7b4d5c47e98e74794c75594a4964ca&amp;type=3#ReferenceGameScreen" />
+    <Style src="project://database/Assets/UI/Uss/GameScreen.uss?fileID=7433441132597879392&amp;guid=8746b9f036847ad45a0f843f9ac56092&amp;type=3#GameScreen" />
+    <ui:VisualElement name="game-background" style="position: absolute; width: 100%; height: 100%; border-left-color: rgba(0, 0, 0, 0); border-right-color: rgba(0, 0, 0, 0); border-top-color: rgba(0, 0, 0, 0); border-bottom-color: rgba(0, 0, 0, 0); background-color: rgba(41, 12, 33, 0); cursor: url(&apos;project://database/Assets/UI/Textures/Cursors/Cursor_A.png?fileID=2800000&amp;guid=0fc53ad8e877049c3aef54a3f8a1e01a&amp;type=3#Cursor_A&apos;);" />
+    <ui:VisualElement name="info-demo__panel" picking-mode="Ignore" class="info-demo__panel">
+        <ui:Label text="This is a small slice of the 2D demo, Dragon Crashers, available on the Asset Store" display-tooltip-when-elided="true" name="demo-info__label" enable-rich-text="false" picking-mode="Ignore" class="demo-info__label" />
+    </ui:VisualElement>
+    <ui:VisualElement name="pause__button-panel" picking-mode="Ignore" class="pause__button-panel" style="display: flex;">
+        <ui:Button display-tooltip-when-elided="true" name="pause__button" class="pause__button" style="cursor: url(&apos;project://database/Assets/UI/Textures/Cursors/Cursor_B.png?fileID=2800000&amp;guid=f3c815d95da3a483385620d7bd8fc545&amp;type=3#Cursor_B&apos;); transition-duration: 0.25s;">
+            <ui:VisualElement name="pause__button-graphic" picking-mode="Ignore" class="pause__button-graphic" style="background-color: rgba(52, 73, 94, 0);" />
+        </ui:Button>
+    </ui:VisualElement>
+    <ui:VisualElement name="game-char__panel" picking-mode="Ignore" class="game-char__panel" style="bottom: 40px;">
+        <ui:VisualElement name="healing-potion__space" class="healing-potion__space" style="width: 200px; height: 200px; left: 1%; top: 7%; margin-right: 40px; cursor: url(&apos;project://database/Assets/UI/Textures/Cursors/Cursor_B.png?fileID=2800000&amp;guid=f3c815d95da3a483385620d7bd8fc545&amp;type=3#Cursor_B&apos;);">
+            <ui:VisualElement name="healing-potion__image" class="healing-potion__image potion--active" />
+            <ui:Label text="3" display-tooltip-when-elided="true" name="healing-potion__count" picking-mode="Ignore" class="healing-potion__count" style="width: 90px; bottom: -16px; position: absolute;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+    <ui:VisualElement name="game-timer__panel" picking-mode="Ignore" class="game-timer__panel" style="display: none; opacity: 1;">
+        <ui:VisualElement name="game-timer__background" picking-mode="Ignore" class="game-timer__background" />
+        <ui:Label text="99:59" display-tooltip-when-elided="true" name="game-timer__label" picking-mode="Ignore" class="game-timer__label" />
+    </ui:VisualElement>
+    <ui:VisualElement name="enemy__panel" picking-mode="Ignore" class="enemy__panel" style="display: none; opacity: 1;">
+        <ui:VisualElement name="enemy__banner" class="enemy__banner">
+            <ui:Label text="ENEMY NAME" display-tooltip-when-elided="true" name="enemy__name-label" class="enemy__name-label" />
+        </ui:VisualElement>
+        <ui:ProgressBar title=" " name="enemy__life-bar" class="enemy__life-bar" style="background-color: rgb(46, 204, 113);">
+            <ui:Label text="99/999" display-tooltip-when-elided="true" name="enemy__life-bar-label" class="game-enemy-bar-label" />
+        </ui:ProgressBar>
+    </ui:VisualElement>
+    <ui:Instance template="PauseScreen" name="PauseScreen" picking-mode="Ignore" style="position: absolute; left: 0; top: 0; width: 100%; height: 100%; opacity: 1; display: none;" />
+    <ui:Instance template="GameWinScreen" name="GameWinScreen" class="screen__anchor--top-left" style="display: none;" />
+    <ui:Instance template="GameLoseScreen" name="GameLoseScreen" class="screen__anchor--top-left" style="display: none;" />
+    <ui:Instance template="ReferenceGameScreen" name="ReferenceGameScreen" picking-mode="Ignore" style="left: 0; top: 0; width: 1920px; height: 1080px; opacity: 0; display: none;" />
+    <ui:VisualElement name="healing-potion__drag-area" picking-mode="Ignore" style="height: 100%; width: 55%; position: absolute; background-color: rgba(89, 83, 83, 0);">
+        <ui:VisualElement name="healing-potion__slot1" class="healing-potion__slot" style="background-color: rgba(255, 0, 0, 0.18); cursor: url(&apos;project://database/Assets/UI/Textures/Cursors/Cursor_B.png?fileID=2800000&amp;guid=f3c815d95da3a483385620d7bd8fc545&amp;type=3#Cursor_B&apos;);" />
+        <ui:VisualElement name="healing-potion__slot2" class="healing-potion__slot" style="position: absolute; left: 43%; top: 12%; width: 300px; height: 389px; background-color: rgba(0, 28, 255, 0.39); cursor: url(&apos;project://database/Assets/UI/Textures/Cursors/Cursor_B.png?fileID=2800000&amp;guid=f3c815d95da3a483385620d7bd8fc545&amp;type=3#Cursor_B&apos;);" />
+        <ui:VisualElement name="healing-potion__slot3" class="healing-potion__slot" style="position: absolute; left: 60%; top: 34%; width: 300px; height: 370px; background-color: rgba(210, 210, 210, 0.26); cursor: url(&apos;project://database/Assets/UI/Textures/Cursors/Cursor_B.png?fileID=2800000&amp;guid=f3c815d95da3a483385620d7bd8fc545&amp;type=3#Cursor_B&apos;);" />
+    </ui:VisualElement>
+</ui:UXML>

@@ -1,0 +1,18 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/Uss/Common.uss?fileID=7433441132597879392&amp;guid=463d710b9ab873a4e98850c5473d5fe8&amp;type=3#Common" />
+    <ui:VisualElement name="screen__anchor--top-left" picking-mode="Ignore" class="screen__anchor--top-left">
+        <ui:VisualElement class="blue-box 100px" />
+    </ui:VisualElement>
+    <ui:VisualElement name="screen__anchor--top-right" picking-mode="Ignore" class="screen__anchor--top-right" style="display: flex;">
+        <ui:VisualElement class="blue-box 100px" />
+    </ui:VisualElement>
+    <ui:VisualElement name="screen__anchor--bottom-left" picking-mode="Ignore" style="position: absolute; width: 100%; height: 100%; justify-content: flex-end; align-items: flex-start; bottom: 0; left: 0;">
+        <ui:VisualElement class="blue-box 100px" />
+    </ui:VisualElement>
+    <ui:VisualElement name="screen__anchor--bottom-right" picking-mode="Ignore" class="screen__anchor--bottom-right" style="right: 0; bottom: 0;">
+        <ui:VisualElement class="blue-box 100px" />
+    </ui:VisualElement>
+    <ui:VisualElement picking-mode="Ignore" name="screen__anchor--center" style="width: 100%; height: 100%; align-items: center; justify-content: center;">
+        <ui:VisualElement class="100px" />
+    </ui:VisualElement>
+</ui:UXML>

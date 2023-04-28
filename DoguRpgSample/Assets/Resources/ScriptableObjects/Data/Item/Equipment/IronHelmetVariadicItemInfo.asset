@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 79eb9f12f74541b0b172b5bfa615c42a, type: 3}
+  m_Name: IronHelmetVariadicItemInfo
+  m_EditorClassIdentifier: 
+  type: 0
+  value:
+    rid: 2950379291527610373
+  references:
+    version: 2
+    RefIds:
+    - rid: 2950379291527610373
+      type: {class: EquipmentVariadicItemInfo, ns: Data.Static, asm: Assembly-CSharp}
+      data:
+        id: 120
+        nickname: IronHelmet
+        description: starting helmet
+        icon: {fileID: 21300000, guid: b227c6c1c35b36940b602110d9556b13, type: 3}
+        equipmentPosition: 2
+        upgradeMax: 10
+        prices:
+          points: 28000000000000007400000000000000c0000000000000000c010000000000005801000000000000a401000000000000f0010000000000003c020000000000008802000000000000d402000000000000
+          xmin: 0
+          xmax: 10
+          ymin: 40
+          ymax: 800
+          interpolationType: 0
+        upgradeFailChances:
+          points: 1e0000000000000025000000000000002c0000000000000033000000000000003a00000000000000410000000000000048000000000000004f0000000000000056000000000000005d00000000000000
+          xmin: 0
+          xmax: 10
+          ymin: 30
+          ymax: 100
+          interpolationType: 0
+        stats:
+        - type: 7
+          value:
+            points: 050000000000000008000000000000000c000000000000000f00000000000000130000000000000016000000000000001a000000000000001d0000000000000021000000000000002400000000000000
+            xmin: 0
+            xmax: 10
+            ymin: 5
+            ymax: 40
+            interpolationType: 0
+        onGenerate: 0

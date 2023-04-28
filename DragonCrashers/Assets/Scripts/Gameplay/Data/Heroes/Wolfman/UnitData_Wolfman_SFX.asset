@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 808aed9944496784291afdfc61f82336, type: 3}
+  m_Name: UnitData_Wolfman_SFX
+  m_EditorClassIdentifier: 
+  audioClipsGetHit:
+  - {fileID: 8300000, guid: 9cf068a7634ae484bbeef93360f04088, type: 3}
+  - {fileID: 8300000, guid: deee523d53ff09a4ba321c8e803cb3b8, type: 3}
+  - {fileID: 8300000, guid: 87aad92970eb6034baa0046596856b76, type: 3}
+  - {fileID: 8300000, guid: f7a1bb3e8d452194798a4a4a888a63d7, type: 3}
+  audioClipsDeath:
+  - {fileID: 8300000, guid: 37234df482dd59d4d970364785c232b1, type: 3}
+  - {fileID: 8300000, guid: f7da1ed91ceda3b44bb897933582ee87, type: 3}
+  - {fileID: 8300000, guid: 26e88bb30281e37409ca95915cf1c7d2, type: 3}

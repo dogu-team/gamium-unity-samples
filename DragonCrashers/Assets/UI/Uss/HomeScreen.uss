@@ -1,0 +1,176 @@
+.play-level__number {
+    -unity-font-style: bold;
+    font-size: 275%;
+    color: rgb(255, 255, 255);
+    -unity-text-align: middle-center;
+    align-items: center;
+
+    justify-content: center;
+}
+
+.play-level__banner {
+    left: 5%;
+    top: -10%;
+    -unity-text-align: middle-center;
+    position: absolute;
+    width: 90%;
+    height: 15%;
+    justify-content: center;
+    align-items: center;
+    background-image: url('project://database/Assets/UI/Textures/UI_atlas.psd?fileID=-4117160685329014779&guid=68de98d899585b7469e0fb40a0fcbc56&type=3#Header_bg_02');
+}
+
+.play-level__name {
+    align-items: flex-start;
+    justify-content: flex-end;
+    color: rgb(236, 240, 241);
+    font-size: 250%;
+    -unity-font-style: bold;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    -unity-text-align: middle-center;
+
+    background-color: rgb(17, 0, 0);
+    top: 68%;
+    position: absolute;
+    height: 15%;
+}
+
+.play-level__button {
+    position: absolute;
+    width: 258px;
+    height: 66px;
+    bottom: 17px;
+
+    -unity-font-style: bold;
+    font-size: 35px;
+    background-color: rgb(243, 156, 18);
+    color: rgb(255, 255, 255);
+    cursor: url('project://database/Assets/UI/Textures/Cursors/Cursor_B.png?fileID=2800000&guid=f3c815d95da3a483385620d7bd8fc545&type=3#Cursor_B') 10 11;
+    transition-duration: 0.25s;
+}
+
+.play-level__button:hover {
+    position: absolute;
+    width: 258px;
+    height: 66px;
+    bottom: 17px;
+
+    -unity-font-style: bold;
+    font-size: 35px;
+    background-color: rgb(243, 156, 18);
+    color: rgb(255, 255, 255);
+    cursor: url('project://database/Assets/UI/Textures/Cursors/Cursor_B.png?fileID=2800000&guid=f3c815d95da3a483385620d7bd8fc545&type=3#Cursor_B') 10 11;
+    transition-duration: 0.25s;
+    scale: 1.1 1.1;
+    -unity-background-image-tint-color: rgb(243, 156, 18);
+}
+
+.play-level__button:active {
+    background-color: rgb(255, 255, 255);
+    -unity-background-image-tint-color: rgb(0, 110, 255);
+    cursor: url('project://database/Assets/UI/Textures/Cursors/Cursor_B.png?fileID=2800000&guid=f3c815d95da3a483385620d7bd8fc545&type=3#Cursor_B') 24 17;
+}
+
+.play-level__panel {
+    position: absolute;
+    left: 74.5%;
+    width: 448px;
+    height: 576px;
+    top: 27%;
+    -unity-background-scale-mode: scale-and-crop;
+    background-color: rgb(77, 77, 77);
+}
+
+.play-level__frame {
+    background-color: rgb(44, 62, 80);
+    border-left-color: rgb(255, 255, 255);
+    border-right-color: rgb(255, 255, 255);
+    border-top-color: rgb(255, 255, 255);
+    border-bottom-color: rgb(255, 255, 255);
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    align-items: center;
+    justify-content: flex-start;
+    top: 3%;
+    display: flex;
+    position: absolute;
+    background-image: url('project://database/Assets/UI/Textures/UI_atlas.psd?fileID=6465899754313300131&guid=68de98d899585b7469e0fb40a0fcbc56&type=3#frame_01');
+    -unity-background-image-tint-color: rgb(255, 255, 255);
+    border-left-width: 0;
+    border-right-width: 0;
+    border-top-width: 0;
+    border-bottom-width: 0;
+    background-color: rgba(44, 62, 80, 0);
+    -unity-background-scale-mode: stretch-to-fill;
+    height: 619px;
+    margin-top: -33px;
+    width: 468px;
+    -unity-text-outline-color: rgba(255, 0, 0, 0);
+    left: -3%;
+}
+
+.title__graphic {
+    background-image: url('project://database/Assets/UI/Textures/UI_atlas.psd?fileID=7092703706131164029&guid=68de98d899585b7469e0fb40a0fcbc56&type=3#DC_logo');
+    background-color: rgba(126, 0, 255, 0);
+    transform-origin: center;
+    -unity-background-scale-mode: scale-to-fit;
+    height: 430px;
+    width: 845px;
+    align-items: stretch;
+    left: 0;
+    position: relative;
+    top: -57%;
+}
+
+.chat__panel-icon {
+    width: 87px;
+    height: 68px;
+    left: 4%;
+    top: 23%;
+}
+
+.chat__panel-text {
+    flex-basis: 70%;
+    flex-grow: 3;
+    background-color: rgba(149, 165, 166, 0.25);
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    flex-wrap: nowrap;
+
+    font-size: 25px;
+    white-space: normal;
+    color: rgb(255, 255, 255);
+    -unity-font-style: bold;
+}
+
+.chat__panel-bg {
+    opacity: 1;
+    flex-grow: 0;
+    height: 94%;
+    width: 100%;
+    background-image: url('project://database/Assets/UI/Textures/UI_atlas.psd?fileID=538741276683817778&guid=68de98d899585b7469e0fb40a0fcbc56&type=3#Window_bg_01');
+    background-color: rgba(255, 255, 255, 0);
+    bottom: 0;
+}
+
+.chat__panel-parent {
+    background-image: none;
+    margin-bottom: -12px;
+    -unity-background-image-tint-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0);
+    bottom: -38%;
+    min-height: 165px;
+    -unity-background-scale-mode: stretch-to-fill;
+    align-items: center;
+}

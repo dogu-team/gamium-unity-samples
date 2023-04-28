@@ -1,0 +1,101 @@
+.popup-text-active {
+    left: 8%;
+    opacity: 1;
+    transition-property: opacity;
+}
+
+.popup-text-inactive {
+    left: 8%;
+    opacity: 0;
+    transition-property: opacity;
+}
+
+.popup-text-active--left {
+    opacity: 1;
+    left: -23%;
+    top: -11%;
+    transition-property: opacity;
+}
+
+.popup-text-inactive--left {
+    opacity: 0;
+    left: -23%;
+    top: -11%;
+    transition-property: opacity;
+}
+
+.popup-text {
+    transition-duration: 0.3s;
+    background-color: rgba(64, 88, 106, 0.88);
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    white-space: normal;
+    font-size: 49px;
+    color: rgb(233, 224, 200);
+    -unity-font-definition: url('project://database/Assets/UI/Fonts/ChelaOne-Regular%20SDF%201.asset?fileID=11400000&guid=4e008579d9e985040974fa631b2f2b80&type=2#ChelaOne-Regular SDF 1');
+    -unity-text-align: upper-center;
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.76);
+    translate: 0 0;
+    scale: 1 1;
+    -unity-text-outline-width: 1px;
+    -unity-text-outline-color: rgb(198, 82, 4);
+    background-image: url('project://database/Assets/UI/Textures/UI_atlas.psd?fileID=6939680958470395103&guid=68de98d899585b7469e0fb40a0fcbc56&type=3#Frame_03');
+}
+
+.popup-text-active--home {
+    opacity: 1;
+    left: 0;
+    top: 35%;
+    transition-property: opacity;
+    max-width: 85%;
+    -unity-text-align: upper-center;
+    min-width: 85%;
+    width: 85%;
+}
+
+.popup-text-inactive--home {
+    opacity: 0;
+    left: 0;
+    top: 35%;
+    transition-property: opacity;
+    max-width: 85%;
+    -unity-text-align: upper-center;
+    min-width: 85%;
+    width: 85%;
+}
+
+.popup-text-active--right {
+    opacity: 1;
+    left: 37%;
+    top: 6%;
+    transition-property: opacity;
+    max-width: 85%;
+    -unity-text-align: upper-center;
+    min-width: 85%;
+    width: 85%;
+    transition-duration: 0.25s;
+    max-height: 50%;
+    height: 30%;
+    min-height: 30%;
+}
+
+.popup-text-inactive--right {
+    opacity: 0;
+    left: 37%;
+    top: 6%;
+    transition-property: opacity;
+    max-width: 85%;
+    -unity-text-align: upper-center;
+    min-width: 85%;
+    width: 85%;
+    transition-duration: 0.25s;
+    max-height: 50%;
+    height: 30%;
+    min-height: 30%;
+}

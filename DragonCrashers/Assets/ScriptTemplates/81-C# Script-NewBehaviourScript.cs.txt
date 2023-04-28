@@ -1,0 +1,23 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.UIElements;
+
+#ROOTNAMESPACEBEGIN#
+namespace UIToolkitDemo
+{
+    public class #SCRIPTNAME# : MonoBehaviour
+    {
+        void Awake()
+        {
+            #NOTRIM#
+        }
+
+        void Start()
+        {
+            #NOTRIM#
+        }
+
+    }
+}
+#ROOTNAMESPACEEND#

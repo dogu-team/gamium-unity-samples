@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7411679610656640428
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7411679610656640430}
+  - component: {fileID: 7411679610656640431}
+  m_Layer: 0
+  m_Name: P_AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7411679610656640430
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7411679610656640428}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7411679610656640431
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7411679610656640428}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56662d7438cc11b42bebf96c5230efa4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MainAudioMixer: {fileID: 24100000, guid: ac794248e9b1e8a4195696f279f2d1cc, type: 2}
+  m_DefaultButtonSound: {fileID: 8300000, guid: c5270734ff02ea2468e4a4085ab2c04f, type: 3}
+  m_AltButtonSound: {fileID: 8300000, guid: 7f69ba1545c43434a8578dc6fa42e2e4, type: 3}
+  m_TransactionSound: {fileID: 8300000, guid: e39d7f8311ca34f4cbd60756b352e8da, type: 3}
+  m_DefaultWarningSound: {fileID: 8300000, guid: 8181bfb7372b845489e06e586b9977fc, type: 3}
+  m_VictorySound: {fileID: 8300000, guid: e00ac121338f9344b8e1da98b29b0e7b, type: 3}
+  m_DefeatSound: {fileID: 8300000, guid: f32401a57cf6f934db488b8ec58231c4, type: 3}
+  m_PotionSound: {fileID: 8300000, guid: c820bb8be8a50402896f244c9ed89b04, type: 3}

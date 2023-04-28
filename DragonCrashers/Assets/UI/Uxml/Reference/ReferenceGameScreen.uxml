@@ -1,0 +1,3 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:VisualElement name="reference-game-screen" picking-mode="Ignore" class="referenceMainMenu reference-main-menu" style="background-image: url(&apos;project://database/Assets/UI/Reference/7a%20game-screen.jpg?fileID=2800000&amp;guid=26c4e11abf6d0224db8d071ab92351e7&amp;type=3#7a game-screen&apos;); -unity-background-image-tint-color: rgb(255, 255, 255); opacity: 1; width: 100%; height: 100%; position: absolute; display: flex;" />
+</ui:UXML>

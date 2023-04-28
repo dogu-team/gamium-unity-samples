@@ -1,0 +1,3 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:VisualElement name="reference-mail-screen" picking-mode="Ignore" class="referenceMainMenu reference-main-menu" style="background-image: url(&apos;project://database/Assets/UI/Reference/6%20mail-screen.jpg?fileID=2800000&amp;guid=45b1c148a40a8f642a6fa7e3b4b5a27e&amp;type=3#6 mail-screen&apos;); -unity-background-image-tint-color: rgb(255, 255, 255); opacity: 1; width: 100%; height: 100%; position: absolute; display: flex;" />
+</ui:UXML>

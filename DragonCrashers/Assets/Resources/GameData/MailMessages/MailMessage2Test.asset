@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d8dd07ee0cc82d3428d57bd241c95768, type: 3}
+  m_Name: MailMessage2Test
+  m_EditorClassIdentifier: 
+  sender: Cicero
+  subjectLine: Sed ut perspiciatis unde
+  date: 01/11/2021
+  emailText: Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+    doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis
+    et quasi architecto beatae vitae dicta sunt explicabo.
+  emailPicAttachment: {fileID: -7719237169059716375, guid: 68de98d899585b7469e0fb40a0fcbc56, type: 3}
+  rewardValue: 100
+  rewardType: 1
+  isClaimed: 0
+  isImportant: 0
+  isNew: 1
+  isDeleted: 0

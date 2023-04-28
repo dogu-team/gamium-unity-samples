@@ -1,0 +1,25 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:Template name="HomeScreen" src="project://database/Assets/UI/Uxml/HomeScreen.uxml?fileID=9197481963319205126&amp;guid=015c643d742c0c84499b44c0776ad69d&amp;type=3#HomeScreen" />
+    <ui:Template name="CharScreen" src="project://database/Assets/UI/Uxml/CharScreen.uxml?fileID=9197481963319205126&amp;guid=4705e5ae0a326a947ac6978934d79d2e&amp;type=3#CharScreen" />
+    <ui:Template name="InfoScreen" src="project://database/Assets/UI/Uxml/InfoScreen.uxml?fileID=9197481963319205126&amp;guid=dabb8b1b8ef78bd42bd893ab76127257&amp;type=3#InfoScreen" />
+    <ui:Template name="MailScreen" src="project://database/Assets/UI/Uxml/MailScreen.uxml?fileID=9197481963319205126&amp;guid=5a34ad4b27d626448863cd68afb2f677&amp;type=3#MailScreen" />
+    <ui:Template name="shop-screen" src="project://database/Assets/UI/Uxml/ShopScreen.uxml?fileID=9197481963319205126&amp;guid=dff22c9f90bc46f438685e698954a5b5&amp;type=3#ShopScreen" />
+    <ui:Template name="MenuBar" src="project://database/Assets/UI/Uxml/MenuBar.uxml?fileID=9197481963319205126&amp;guid=870424c256eda4c458e29b8b80f662c5&amp;type=3#MenuBar" />
+    <ui:Template name="OptionsBar" src="project://database/Assets/UI/Uxml/OptionsBar.uxml?fileID=9197481963319205126&amp;guid=1f7c51bb9190976498e000a6f9926f95&amp;type=3#OptionsBar" />
+    <ui:Template name="OptionsScreen" src="project://database/Assets/UI/Uxml/SettingsScreen.uxml?fileID=9197481963319205126&amp;guid=9ee4a1af2692ea9479184e98423a71d4&amp;type=3#SettingsScreen" />
+    <ui:Template name="InventoryScreen" src="project://database/Assets/UI/Uxml/InventoryScreen.uxml?fileID=9197481963319205126&amp;guid=cfdf991bbce7a81469cd91d1fe36e6e3&amp;type=3#InventoryScreen" />
+    <ui:Template name="PopUpText" src="project://database/Assets/UI/Uxml/PopUpText.uxml?fileID=9197481963319205126&amp;guid=2a7d517b6d9ae5047bbe592712bc4562&amp;type=3#PopUpText" />
+    <ui:VisualElement name="background-cursor" style="flex-grow: 1; display: flex; height: 100%; width: 100%; position: absolute; cursor: url(&apos;project://database/Assets/UI/Textures/Cursors/Cursor_A.png?fileID=2800000&amp;guid=0fc53ad8e877049c3aef54a3f8a1e01a&amp;type=3#Cursor_A&apos;);" />
+    <ui:Instance template="HomeScreen" name="HomeScreen" style="left: 0; top: 0; width: 100%; height: 100%; position: absolute; display: flex;" />
+    <ui:Instance template="CharScreen" name="CharScreen" class="screen__anchor--center" style="opacity: 1; display: none;" />
+    <ui:Instance template="InfoScreen" name="InfoScreen" style="position: absolute; height: 100%; width: 100%; right: 0; bottom: 0; display: none;" />
+    <ui:Instance template="MailScreen" name="MailScreen" style="position: absolute; width: 86%; height: 85%; bottom: 4%; right: 2%; display: none;" />
+    <ui:Instance template="shop-screen" name="ShopScreen" picking-mode="Ignore" style="position: absolute; width: 100%; height: 100%; display: none; left: 0; top: 0;" />
+    <ui:Instance template="MenuBar" name="MenuBar" picking-mode="Ignore" style="height: 100%; width: 270px; position: absolute; left: 0;" />
+    <ui:Instance template="OptionsBar" name="OptionsBar" style="position: absolute; right: 0; top: 0;" />
+    <ui:Instance template="OptionsScreen" name="SettingsScreen" style="position: absolute; width: 100%; height: 100%; display: none;" />
+    <ui:Instance template="InventoryScreen" name="InventoryScreen" style="position: absolute; left: 0; top: 0; width: 100%; height: 100%; display: none;" />
+    <ui:Instance template="PopUpText" name="PopUpText" picking-mode="Ignore" style="width: 100%; height: 100%;" />
+    <ui:VisualElement name="overlay-vfx" picking-mode="Ignore" style="background-image: url(&apos;project://database/Assets/UI/Textures/RenderTextures/coinsVFXRenderTexture.renderTexture?fileID=8400000&amp;guid=5466487cbef014bfd949744c18d453ed&amp;type=2#coinsVFXRenderTexture&apos;); flex-grow: 1; display: flex; height: 100%; width: 100%; position: absolute;" />
+    <ui:VisualElement name="main-menu-screen-fader" picking-mode="Ignore" class="screen__fader--off" style="opacity: 1; transition-duration: 1s;" />
+</ui:UXML>

@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 79eb9f12f74541b0b172b5bfa615c42a, type: 3}
+  m_Name: WoodenArmorVariadicItemInfo
+  m_EditorClassIdentifier: 
+  type: 0
+  value:
+    rid: 2950379291527610373
+  references:
+    version: 2
+    RefIds:
+    - rid: 2950379291527610373
+      type: {class: EquipmentVariadicItemInfo, ns: Data.Static, asm: Assembly-CSharp}
+      data:
+        id: 50
+        nickname: WoodenArmor
+        description: starting armor
+        icon: {fileID: 21300000, guid: 541ae020fad5efc48a89a38c6218a601, type: 3}
+        equipmentPosition: 3
+        upgradeMax: 10
+        prices:
+          points: 1e000000000000004d000000000000007c00000000000000ab00000000000000da000000000000000901000000000000380100000000000067010000000000009601000000000000c501000000000000
+          xmin: 0
+          xmax: 10
+          ymin: 30
+          ymax: 500
+          interpolationType: 0
+        upgradeFailChances:
+          points: 1e0000000000000025000000000000002c0000000000000033000000000000003a00000000000000410000000000000048000000000000004f0000000000000056000000000000005d00000000000000
+          xmin: 0
+          xmax: 10
+          ymin: 30
+          ymax: 100
+          interpolationType: 0
+        stats:
+        - type: 7
+          value:
+            points: 0300000000000000050000000000000008000000000000000b000000000000000d0000000000000010000000000000001300000000000000150000000000000018000000000000001b00000000000000
+            xmin: 0
+            xmax: 10
+            ymin: 3
+            ymax: 30
+            interpolationType: 0
+        onGenerate: 0

@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fcf7219bab7fe46a1ad266029b2fee19, type: 3}
+  m_Name: Readme
+  m_EditorClassIdentifier: 
+  icon: {fileID: 2800000, guid: 7c0822b0780ca4a74b276e50db2c68a3, type: 3}
+  title: UI Toolkit Sample - Dragon Crashers
+  sections:
+  - heading: About this project
+    text: "This official sample project showcases Unity\u2019s UI Toolkit for runtime
+      games and UI Builder workflows. Inspired by the 2D side-scrolling idle RPG
+      demo Dragon Crashers, it uses the UI Toolkit with UXML and USS files to recreate
+      common game interface layouts and styles, showing both simple and more advanced
+      use cases for the UI Toolkit."
+    linkText: 
+    url: 
+  - heading: 
+    text: The naming convention and structure of the demo can also be used as a reference
+      for creators starting projects with the UI Toolkit.
+    linkText: 
+    url: 
+  - heading: User interface design and implementation in Unity
+    text: This project was developed as a companion piece to the e-book User interface
+      design and implementation in Unity. The e-book explains how to use UI features
+      in Unity, mainly the UI Toolkit, to create user interfaces.
+    linkText: Get the e-book
+    url: https://create.unity.com/user-interface-design-implementation-in-unity?utm_source=demand-gen?utm_medium=editor&utm_campaign=authoring-ui&utm_content=ui-toolkit-demo
+  - heading: Send us your feedback
+    text: Get the latest updates on the UI Toolkit and share feedback directly with
+      the product team by visiting the new Unity platform roadmap.
+    linkText: See the roadmap
+    url: https://unity.com/roadmap/unity-platform/
+  - heading: 
+    text: You can also share your feedback about this sample project and the UI Toolkit
+      in the UI forum.
+    linkText: Visit the UI forum
+    url: https://forum.unity.com/forums/ui-toolkit.178/
+  - heading: More UI resources
+    text: Learn more about the evolution of the UI Toolkit on the Unity blog.
+    linkText: Go to the blog
+    url: https://blog.unity.com/topic/user-interface
+  - heading: 
+    text: Access UI documentation
+    linkText: Go to the manual
+    url: https://docs.unity3d.com/Manual/UI-system-compare.html
+  loadedLayout: 1

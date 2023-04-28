@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26af7cf2ac5642e2a835768b96553341, type: 3}
+  m_Name: BluePotionItemInfo
+  m_EditorClassIdentifier: 
+  type: 1
+  value:
+    rid: 2950379229120823303
+  references:
+    version: 2
+    RefIds:
+    - rid: 2950379229120823303
+      type: {class: PotionItemInfo, ns: Data.Static, asm: Assembly-CSharp}
+      data:
+        id: 20
+        nickname: BluePotion
+        description: restores a character's mana
+        icon: {fileID: 21300000, guid: b7f77607c82ea4142a2070c0e37e1756, type: 3}
+        price: 10

@@ -1,0 +1,59 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/Uss/Common.uss?fileID=7433441132597879392&amp;guid=463d710b9ab873a4e98850c5473d5fe8&amp;type=3#Common" />
+    <Style src="project://database/Assets/UI/Uss/CharStats.uss?fileID=7433441132597879392&amp;guid=d6bbf61c44c882d44b0598afa867ae8c&amp;type=3#CharStats" />
+    <ui:VisualElement name="char-stats-content" style="width: 100%; height: 100%; flex-grow: 0; position: relative; justify-content: flex-start; opacity: 1; background-color: rgb(189, 195, 199);">
+        <ui:VisualElement name="char-stats-header" style="flex-grow: 0; flex-basis: 17%; align-items: center; position: relative; width: 100%; left: 0; top: 0; background-color: rgb(41, 128, 185); justify-content: center;">
+            <ui:Label text="LEVEL 1" display-tooltip-when-elided="true" name="char-stats__level" style="-unity-font-style: bold; font-size: 58px; -unity-font: url(&apos;project://database/Assets/UI%20Toolkit/UnityThemes/UnityDefaultRuntimeTheme.tss?fileID=2230732570650464555&amp;guid=888f5d4c70c64c84fbb5a299b79e20b4&amp;type=3#NotInter-Regular&apos;); justify-content: flex-start; -unity-text-align: middle-center; color: rgb(236, 240, 241);" />
+        </ui:VisualElement>
+        <ui:VisualElement name="char-stats-subheader" style="flex-grow: 0; flex-basis: 28%; align-items: center; position: relative; width: 100%; left: 0; top: 0; justify-content: center;">
+            <ui:VisualElement name="char-stats-middle" style="width: 70%; flex-direction: row; height: 90%; justify-content: space-between;">
+                <ui:VisualElement name="char-stats-class" class="char-stats__class-group">
+                    <ui:VisualElement name="char-stats__class-icon" style="background-color: rgb(236, 240, 241); width: 100px; height: 100px;" />
+                    <ui:Label text="CLASS" display-tooltip-when-elided="true" name="char-stats__class-label" class="char-stats__class-label" />
+                </ui:VisualElement>
+                <ui:VisualElement name="char-stats-rarity" class="char-stats__class-group">
+                    <ui:VisualElement name="char-stats__rarity-icon" style="background-color: rgb(236, 240, 241); width: 100px; height: 100px;" />
+                    <ui:Label text="RARITY" display-tooltip-when-elided="true" name="char-stats__rarity-label" class="char-stats__class-label" />
+                </ui:VisualElement>
+                <ui:VisualElement name="char-stats-attackType" class="char-stats__class-group">
+                    <ui:VisualElement name="char-stats__attack-type-icon" style="background-color: rgb(236, 240, 241); width: 100px; height: 100px;" />
+                    <ui:Label text="TYPE" display-tooltip-when-elided="true" name="char-stats__attack-type-label" class="char-stats__class-label" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="char-stats-body" style="flex-grow: 0; flex-basis: 55%; align-items: center; position: relative; width: 100%; left: 0; top: 0; justify-content: flex-start;">
+            <ui:VisualElement name="char-stats-border" style="height: 83%; width: 82%; border-left-width: 3px; border-right-width: 3px; border-top-width: 3px; border-bottom-width: 3px; border-top-left-radius: 10px; border-bottom-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; border-left-color: rgb(44, 62, 80); border-right-color: rgb(44, 62, 80); border-top-color: rgb(44, 62, 80); border-bottom-color: rgb(44, 62, 80); align-items: center; justify-content: center;">
+                <ui:VisualElement name="char-stats-row1" style="flex-basis: 30%; width: 90%; justify-content: center; flex-direction: row;">
+                    <ui:VisualElement name="char-stats-life" style="flex-basis: 50%; flex-direction: row;">
+                        <ui:VisualElement name="char-stats-life-icon" class="char-stats__icon" />
+                        <ui:Label text="999" display-tooltip-when-elided="true" name="char-stats__life-value" class="char-stats__value" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="char-stats-defense" style="flex-basis: 50%; left: 5%; flex-direction: row;">
+                        <ui:VisualElement name="char-stats-defense-icon" class="char-stats__icon" />
+                        <ui:Label text="999" display-tooltip-when-elided="true" name="char-stats__defense-value" class="char-stats__value" style="-unity-font: url(&apos;project://database/Assets/UI%20Toolkit/UnityThemes/UnityDefaultRuntimeTheme.tss?fileID=2230732570650464555&amp;guid=888f5d4c70c64c84fbb5a299b79e20b4&amp;type=3#NotInter-Regular&apos;); -unity-font-style: bold; font-size: 31px; margin-left: 25px; -unity-text-align: middle-center;" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+                <ui:VisualElement name="char-stats-row2" style="flex-basis: 30%; width: 90%; justify-content: center; flex-direction: row;">
+                    <ui:VisualElement name="char-stats-attack" style="flex-basis: 50%; flex-direction: row;">
+                        <ui:VisualElement name="char-stats-attack-icon" class="char-stats__icon" />
+                        <ui:Label text="999" display-tooltip-when-elided="true" name="char-stats__attack-value" class="char-stats__value" style="-unity-font: url(&apos;project://database/Assets/UI%20Toolkit/UnityThemes/UnityDefaultRuntimeTheme.tss?fileID=2230732570650464555&amp;guid=888f5d4c70c64c84fbb5a299b79e20b4&amp;type=3#NotInter-Regular&apos;); -unity-font-style: bold; font-size: 31px; margin-left: 25px; -unity-text-align: middle-center;" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="char-stats-attackSpeed" style="flex-basis: 50%; left: 5%; flex-direction: row;">
+                        <ui:VisualElement name="char-stats-attackSpeed-icon" class="char-stats__icon" style="width: 80px; height: 80px;" />
+                        <ui:Label text="0.1/s" display-tooltip-when-elided="true" name="char-stats__attack-speed-value" class="char-stats__value" style="-unity-font: url(&apos;project://database/Assets/UI%20Toolkit/UnityThemes/UnityDefaultRuntimeTheme.tss?fileID=2230732570650464555&amp;guid=888f5d4c70c64c84fbb5a299b79e20b4&amp;type=3#NotInter-Regular&apos;); -unity-font-style: bold; font-size: 31px; margin-left: 25px; -unity-text-align: middle-center;" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+                <ui:VisualElement name="char-stats-row3" style="flex-basis: 30%; width: 90%; justify-content: center; flex-direction: row;">
+                    <ui:VisualElement name="char-stats-specialAttack" style="flex-basis: 50%; flex-direction: row;">
+                        <ui:VisualElement name="char-stats-specialAttackicon" class="char-stats__icon" style="width: 80px; height: 80px;" />
+                        <ui:Label text="2/s" display-tooltip-when-elided="true" name="char-stats__special-attack-value" class="char-stats__value" style="-unity-font: url(&apos;project://database/Assets/UI%20Toolkit/UnityThemes/UnityDefaultRuntimeTheme.tss?fileID=2230732570650464555&amp;guid=888f5d4c70c64c84fbb5a299b79e20b4&amp;type=3#NotInter-Regular&apos;); -unity-font-style: bold; font-size: 31px; margin-left: 25px; -unity-text-align: middle-center;" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="char-stats-criticalHit" style="flex-basis: 50%; left: 5%; flex-direction: row;">
+                        <ui:VisualElement name="char-stats-criticalHit-icon" class="char-stats__icon" style="width: 80px; height: 80px;" />
+                        <ui:Label text="999" display-tooltip-when-elided="true" name="char-stats__critical-hit-value" class="char-stats__value" style="-unity-font: url(&apos;project://database/Assets/UI%20Toolkit/UnityThemes/UnityDefaultRuntimeTheme.tss?fileID=2230732570650464555&amp;guid=888f5d4c70c64c84fbb5a299b79e20b4&amp;type=3#NotInter-Regular&apos;); -unity-font-style: bold; font-size: 31px; margin-left: 25px; -unity-text-align: middle-center;" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

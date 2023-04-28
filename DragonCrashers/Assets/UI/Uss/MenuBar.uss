@@ -1,0 +1,195 @@
+.menu__panel {
+    flex-grow: 1;
+    width: 200px;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    left: 0;
+    bottom: -1%;
+}
+
+.menu__label {
+    position: absolute;
+    bottom: 0;
+    -unity-font-style: normal;
+    color: rgb(253, 238, 213);
+    font-size: 36px;
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.62);
+    display: flex;
+    opacity: 0;
+    transition-property: opacity, scale;
+    transition-duration: 0.4s, 0.25s;
+    scale: 0.5 0.5;
+}
+
+.menu__label--active {
+    position: absolute;
+    bottom: 0;
+    -unity-font-style: normal;
+    color: rgb(253, 238, 213);
+    font-size: 36px;
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.62);
+    display: flex;
+    transition-property: opacity, scale;
+    transition-duration: 0.25s, 0.15s;
+}
+
+.menu__current-marker {
+    height: 18%;
+    width: 35px;
+    position: absolute;
+    left: 0;
+    top: 667px;
+}
+
+.menu__button {
+    flex-basis: 19.6%;
+    width: 92%;
+    -unity-font: url('project://database/Assets/UI/Fonts/ChelaOne-Regular.ttf?fileID=12800000&guid=8c2226f5768e49f4ca5f58858a57cb7a&type=3#ChelaOne-Regular');
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    -unity-text-align: lower-center;
+    -unity-font-style: bold;
+    align-items: center;
+    justify-content: center;
+    -unity-font-definition: url('project://database/Assets/UI/Fonts/ChelaOne-Regular%20SDF%201.asset?fileID=11400000&guid=4e008579d9e985040974fa631b2f2b80&type=2#ChelaOne-Regular SDF 1');
+    background-image: url('project://database/Assets/UI/Textures/UI_atlas.psd?fileID=-3219150286842703583&guid=68de98d899585b7469e0fb40a0fcbc56&type=3#Main_menu_button_01');
+    -unity-background-image-tint-color: rgb(183, 183, 183);
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: -1px;
+    -unity-background-scale-mode: stretch-to-fill;
+    border-left-color: rgba(92, 35, 13, 0.43);
+    border-right-color: rgba(92, 35, 13, 0.43);
+    border-top-color: rgba(92, 35, 13, 0.43);
+    border-bottom-color: rgba(92, 35, 13, 0.43);
+    border-right-width: 0;
+    border-left-width: 2px;
+    left: -11px;
+}
+
+.menu__button:active {
+    width: 100%;
+    background-color: rgb(255, 205, 25);
+    -unity-background-image-tint-color: rgb(255, 205, 25);
+}
+
+.menu__button:hover {
+    background-color: rgb(241, 196, 15);
+    -unity-background-image-tint-color: rgb(255, 205, 25);
+}
+
+.menu__button--active {
+    flex-basis: 19.6%;
+    width: 100%;
+    -unity-font: url('project://database/Assets/UI/Fonts/ChelaOne-Regular.ttf?fileID=12800000&guid=8c2226f5768e49f4ca5f58858a57cb7a&type=3#ChelaOne-Regular');
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    -unity-text-align: lower-center;
+    -unity-font-style: bold;
+    align-items: center;
+    justify-content: center;
+    -unity-font-definition: url('project://database/Assets/UI/Fonts/ChelaOne-Regular%20SDF%201.asset?fileID=11400000&guid=4e008579d9e985040974fa631b2f2b80&type=2#ChelaOne-Regular SDF 1');
+    background-image: url('project://database/Assets/UI/Textures/UI_atlas.psd?fileID=-3219150286842703583&guid=68de98d899585b7469e0fb40a0fcbc56&type=3#Main_menu_button_01');
+    -unity-background-image-tint-color: rgb(255, 205, 25);
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: -1px;
+    -unity-background-scale-mode: stretch-to-fill;
+    border-left-color: rgba(92, 35, 13, 0.43);
+    border-right-color: rgba(92, 35, 13, 0.43);
+    border-top-color: rgba(92, 35, 13, 0.43);
+    border-bottom-color: rgba(92, 35, 13, 0.43);
+    border-right-width: 0;
+    border-left-width: 2px;
+    left: -11px;
+}
+
+.menu__background {
+    width: 184px;
+    height: 100%;
+    opacity: 1;
+    position: absolute;
+    background-image: url('project://database/Assets/UI/Textures/UI_atlas.psd?fileID=4566532133591779066&guid=68de98d899585b7469e0fb40a0fcbc56&type=3#Main_menu_bg');
+}
+
+.menu__icon {
+    background-color: rgb(255, 255, 255);
+    width: 115px;
+    height: 100px;
+    top: 0;
+    -unity-background-scale-mode: scale-to-fit;
+    transition-property: translate;
+    transition-duration: 0.2s;
+}
+
+.menu__icon--active {
+    background-color: rgb(255, 255, 255);
+    width: 115px;
+    height: 100px;
+    top: 0;
+    -unity-background-scale-mode: scale-to-fit;
+    translate: 0 -20px;
+    transition-property: translate, scale;
+    transition-duration: 0.25s, 0.25s;
+    scale: 0.9 0.9;
+}
+
+.xp-meter__background {
+    width: 270px;
+    height: 270px;
+    display: flex;
+    align-items: center;
+    background-color: rgba(190, 123, 8, 0);
+    justify-content: center;
+    position: absolute;
+    top: -3px;
+    left: 10px;
+}
+
+.xp-meter__counter-group {
+    width: 270px;
+    height: 270px;
+    background-color: rgb(255, 255, 255);
+    justify-content: flex-end;
+    position: absolute;
+}
+
+.xp-meter__icon {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    background-color: rgba(52, 152, 219, 0.63);
+    -unity-font-definition: url('project://database/Assets/UI/Fonts/ChelaOne-Regular%20SDF%201.asset?fileID=11400000&guid=4e008579d9e985040974fa631b2f2b80&type=2#ChelaOne-Regular SDF 1');
+}
+
+.xp-meter__level-number {
+    position: relative;
+    font-size: 56px;
+    -unity-text-align: upper-center;
+    -unity-font-style: bold;
+    color: rgb(255, 255, 255);
+    top: 31%;
+}
+
+.xp-meter__radial-counter {
+    width: 90%;
+    height: 90%;
+    color: rgb(255, 255, 255);
+    background-color: rgb(52, 73, 94);
+    justify-content: center;
+    align-items: auto;
+    -unity-text-align: upper-left;
+    left: 5%;
+    bottom: 5%;
+}

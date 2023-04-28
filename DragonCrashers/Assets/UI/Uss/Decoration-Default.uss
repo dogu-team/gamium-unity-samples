@@ -1,0 +1,15 @@
+.theme__decoration--halloween {
+    display: none;
+    opacity: 0;
+}
+
+.theme__decoration--default {
+    display: flex;
+    opacity: 1;
+
+}
+
+.theme__decoration--christmas {
+    display: none;
+    opacity: 0;
+}

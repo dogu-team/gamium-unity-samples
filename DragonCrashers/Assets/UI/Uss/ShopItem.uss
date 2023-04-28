@@ -1,0 +1,202 @@
+.shop-item__description {
+    position: absolute;
+    height: 8%;
+
+    -unity-font-definition: url('project://database/Assets/UI/Fonts/ChelaOne-Regular%20SDF%201.asset?fileID=11400000&guid=4e008579d9e985040974fa631b2f2b80&type=2#ChelaOne-Regular SDF 1');
+    color: rgb(52, 73, 94);
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.33);
+
+    display: flex;
+    font-size: 43px;
+    text-shadow: 0 0 0 rgb(0, 0, 0);
+    color: rgb(117, 78, 35);
+    position: relative;
+    flex-basis: 9%;
+    white-space: normal;
+    -unity-text-align: lower-center;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    flex-shrink: 1;
+}
+
+
+.shop-item__body {
+    -unity-text-align: lower-left;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    flex-grow: 1;
+    max-width: 100%;
+    flex-basis: 48%;
+    width: 100%;
+    background-color: rgba(255, 0, 0, 0);
+    margin-bottom: 3%;
+}
+
+.shop-item__product-background {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 10px;
+    bottom: 0;
+    right: 0;
+    height: 21%;
+    position: absolute;
+    width: 100%;
+    -unity-text-align: lower-left;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    display: flex;
+}
+
+.shop-item__product {
+    width: 80px;
+    height: 80px;
+    padding-right: 0;
+    margin-right: 8%;
+    -unity-background-scale-mode: scale-to-fit;
+    background-image: url('project://database/Assets/UI/Textures/UI_atlas.psd?fileID=7429233924804342823&guid=68de98d899585b7469e0fb40a0fcbc56&type=3#icon_hard_currency');
+    -unity-text-align: lower-center;
+    align-items: center;
+    margin-right: 2%;
+}
+
+
+.shop-item__label {
+    -unity-font-style: normal;
+    color: rgb(255, 255, 255);
+    font-size: 64px;
+    -unity-text-align: middle-center;
+    -unity-font-definition: url('project://database/Assets/UI/Fonts/ChelaOne-Regular%20SDF%201.asset?fileID=11400000&guid=4e008579d9e985040974fa631b2f2b80&type=2#ChelaOne-Regular SDF 1');
+    text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.44);
+    margin-right: 0;
+    margin-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    top: 0;
+}
+
+.shop-item__badge {
+    justify-content: center;
+    align-items: center;
+    background-image: url('project://database/Assets/UI/Textures/UI_atlas.psd?fileID=-7057129629591823551&guid=68de98d899585b7469e0fb40a0fcbc56&type=3#Special_offer_tag');
+        background-image: url('project://database/Assets/UI/Textures/UI_atlas.psd?fileID=-7057129629591823551&guid=68de98d899585b7469e0fb40a0fcbc56&type=3#Special_offer_tag');
+    rotate: 21deg;
+    translate: 69px 0;
+    display: flex;
+    position: absolute;
+    top: 0.5%;
+    right: 18%;
+    width: 187px;
+    height: 99px;
+}
+
+.shop-item__banner {
+    position: absolute;
+    height: 15%;
+    width: 100%;
+    top: -16px;
+    background-image: url('project://database/Assets/UI/Textures/UI_atlas.psd?fileID=-4117160685329014779&guid=68de98d899585b7469e0fb40a0fcbc56&type=3#Header_bg_02');
+    display: flex;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.shop-item__price-icon {
+    flex-basis: 36%;
+    margin-right: 5px;
+}
+
+.shop-item__graphic {
+    width: 80%;
+    height: 80%;
+    top: -3%;
+    -unity-background-scale-mode: scale-to-fit;
+    background-color: rgba(0, 0, 0, 0);
+    background-image: url('project://database/Assets/UI/Textures/UI_atlas.psd?fileID=1211486781070223436&guid=68de98d899585b7469e0fb40a0fcbc56&type=3#Bundle_icon_06');
+    max-width: 270px;
+    max-height: 270px;
+    margin-bottom: 2%;
+}
+
+.shop-item__currency-icon {
+    -unity-background-scale-mode: scale-to-fit;
+    display: flex;
+    align-items: center;
+    background-image: url('project://database/Assets/UI/Textures/UI_atlas.psd?fileID=7429233924804342823&guid=68de98d899585b7469e0fb40a0fcbc56&type=3#icon_hard_currency');
+    width: 50px;
+    height: 50px;
+    min-width: 50px;
+    min-height: 50px;
+    margin-right: 10px;
+}
+
+.shop-item__size--normal {
+    width: 410px;
+    height: 650px;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.shop-item__size--wide {
+    width: 500px;
+    height: 650px;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.shop-item__button {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-image: url('project://database/Assets/UI/Textures/UI_atlas.psd?fileID=-7958151757775347986&guid=68de98d899585b7469e0fb40a0fcbc56&type=3#bt_10');
+    border-left-width: 0;
+    border-right-width: 0;
+    border-top-width: 0;
+    border-bottom-width: 0;
+    height: auto;
+    width: 100%;
+    position: relative;
+    flex-basis: 15%;
+    background-color: rgba(0, 0, 0, 0);
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.shop-item__button:hover {
+    -unity-background-image-tint-color: rgb(255, 226, 124);
+    background-image: url('project://database/Assets/UI/Textures/UI_atlas.psd?fileID=-4355731583856638786&guid=68de98d899585b7469e0fb40a0fcbc56&type=3#bt_08');
+    transition-duration: 0.2s;
+    scale: 1.05 1.05;
+    cursor: url('project://database/Assets/UI/Textures/Cursors/Cursor_B.png?fileID=2800000&guid=f3c815d95da3a483385620d7bd8fc545&type=3#Cursor_B');
+}
+
+.shop-item__button:active {
+    -unity-background-image-tint-color: rgb(255, 177, 0);
+    cursor: url('project://database/Assets/UI/Textures/Cursors/Cursor_B.png?fileID=2800000&guid=f3c815d95da3a483385620d7bd8fc545&type=3#Cursor_B');
+}
+
+.shop-item__cost {
+    -unity-font-definition: url('project://database/Assets/UI/Fonts/ChelaOne-Regular%20SDF%201.asset?fileID=11400000&guid=4e008579d9e985040974fa631b2f2b80&type=2#ChelaOne-Regular SDF 1');
+    font-size: 70px;
+    color: rgba(255, 255, 255, 255);
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.39);
+    -unity-text-align: upper-left;
+    translate: 0 -3px;
+}

@@ -1,0 +1,4 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/Uss/HealthBar.uss?fileID=7433441132597879392&amp;guid=e59348a14f03b9343ab13481f85f3e4f&amp;type=3#HealthBar" />
+    <UIToolkitDemo.HealthBarComponent CurrentHealth="66" currentHealth="131" MaximumHealth="259" name="HealthBarBase" HealthBarTitle="NAME" style="left: auto; position: absolute; width: 0;" />
+</ui:UXML>

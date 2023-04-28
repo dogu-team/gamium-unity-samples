@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f341b8b5c50473abc92fd6a5239422e, type: 3}
+  m_Name: UIPrefabs
+  m_EditorClassIdentifier: 
+  squareButtonPrefab: {fileID: 11434868, guid: 751f7137cfffd4a16b1a4c191e687d64, type: 3}
+  overheadGuagePanelPrefab: {fileID: 4056556966621598575, guid: 47372406b43014bff8a41fee24ab75f2,
+    type: 3}
+  overheadLootPanelPrefab: {fileID: 7641654324105796179, guid: 752270125bbb745f189bc1ac1e727cda,
+    type: 3}
+  confirmPopupPrefab: {fileID: 3486761485105497385, guid: e4c482d7678ec4363aa4b1cfd877a964,
+    type: 3}
+  multipurposePopup: {fileID: 7616049117882233106, guid: 252d8d2f2858044118ee31c9fe2813f0,
+    type: 3}
+  itemSlotPrefab: {fileID: 4308018141146974777, guid: d5b5e606e5c8a4d42b66f1a76b9f2d66,
+    type: 3}
+  productSlotPrefab: {fileID: 242474269199964414, guid: 3fb7840132f7a49b4aadb955f4c6b6cd,
+    type: 3}
+  statChangeRowPrefab: {fileID: 7525920639510778533, guid: 41b621a53ba05411f928d2eba3407db7,
+    type: 3}
+  questSlotPrefab: {fileID: 3193496417078091361, guid: 17bcc3e1880e24aa4b0cf92cc0a4ded6,
+    type: 3}
+  questStackSlotPrefab: {fileID: 4731182863584637884, guid: 21be1ea3b2e99484eb7365ae98579e78,
+    type: 3}

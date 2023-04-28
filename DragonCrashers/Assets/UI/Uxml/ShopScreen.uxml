@@ -1,0 +1,47 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:Template name="ShopItem" src="project://database/Assets/UI/Uxml/ShopItem.uxml?fileID=9197481963319205126&amp;guid=9d9fcbe54fa80084d90732f794161a99&amp;type=3#ShopItem" />
+    <ui:Template name="shop-item" src="project://database/Assets/UI/Uxml/ShopItem.uxml?fileID=9197481963319205126&amp;guid=9d9fcbe54fa80084d90732f794161a99&amp;type=3#ShopItem" />
+    <Style src="project://database/Assets/UI/Uss/ShopItem.uss?fileID=7433441132597879392&amp;guid=9887be294c5e1014ebb8f4c6e22161d5&amp;type=3#ShopItem" />
+    <Style src="project://database/Assets/UI/Uss/ShopScreen.uss?fileID=7433441132597879392&amp;guid=659c7446ac48d504184624131b99a9db&amp;type=3#ShopScreen" />
+    <ui:GroupBox name="shop-screen-anchor" style="position: absolute; width: 98%; height: 100%; align-items: center; justify-content: center; right: 0; bottom: 0; opacity: 1; display: flex; cursor: url(&apos;project://database/Assets/UI/Textures/Cursors/Cursor_A.png?fileID=2800000&amp;guid=0fc53ad8e877049c3aef54a3f8a1e01a&amp;type=3#Cursor_A&apos;);">
+        <ui:GroupBox name="shop-screen-container" picking-mode="Ignore" style="display: flex; width: 84%; height: 86%; position: absolute; top: 22%; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0; left: 11%;">
+            <ui:VisualElement name="shop-screen-content" picking-mode="Ignore" style="padding-left: 20px; height: 91%; background-color: rgba(255, 255, 255, 0); flex-basis: auto;">
+                <ui:VisualElement name="shop-gold-shopcontent" class="shop-content" style="opacity: 1; cursor: url(&apos;project://database/Assets/UI/Textures/Cursors/Cursor_A.png?fileID=2800000&amp;guid=0fc53ad8e877049c3aef54a3f8a1e01a&amp;type=3#Cursor_A&apos;);">
+                    <ui:ScrollView mode="Horizontal" horizontal-scroller-visibility="Auto" name="shop__gold-scrollview" vertical-scroller-visibility="Hidden" picking-mode="Ignore" touch-scroll-type="Elastic" class="shop-screen-scroll-view" style="align-items: stretch; padding-left: 3%; padding-right: 3%; flex-direction: column; padding-top: 3%; position: absolute;">
+                        <ui:Instance template="ShopItem" name="ShopItem" style="width: 400px; height: 600px;" />
+                        <ui:Instance template="ShopItem" name="ShopItem" style="width: 400px; height: 600px;" />
+                        <ui:Instance template="ShopItem" name="ShopItem" style="width: 400px; height: 600px;" />
+                        <ui:Instance template="ShopItem" name="ShopItem" style="width: 400px; height: 600px;" />
+                    </ui:ScrollView>
+                </ui:VisualElement>
+                <ui:VisualElement name="shop-gem-shopcontent" class="shop-content unselected-shopcontent" style="cursor: url(&apos;project://database/Assets/UI/Textures/Cursors/Cursor_A.png?fileID=2800000&amp;guid=0fc53ad8e877049c3aef54a3f8a1e01a&amp;type=3#Cursor_A&apos;);">
+                    <ui:ScrollView name="shop__gem-scrollview" mode="Horizontal" vertical-scroller-visibility="Hidden" horizontal-scroller-visibility="Hidden" horizontal-page-size="3" picking-mode="Ignore" class="shop-screen-scroll-view" style="padding-left: 6%; padding-right: 3%; align-items: center; flex-direction: column; padding-top: 3%; width: 100%; height: 90%;" />
+                </ui:VisualElement>
+                <ui:VisualElement name="shop-potion-shopcontent" class="shop-content unselected-shopcontent" style="background-color: rgba(0, 0, 0, 0); cursor: url(&apos;project://database/Assets/UI/Textures/Cursors/Cursor_A.png?fileID=2800000&amp;guid=0fc53ad8e877049c3aef54a3f8a1e01a&amp;type=3#Cursor_A&apos;);">
+                    <ui:ScrollView mode="Horizontal" horizontal-scroller-visibility="Hidden" vertical-scroller-visibility="Hidden" name="shop__potion-scrollview" horizontal-page-size="2" picking-mode="Ignore" class="shop-screen-scroll-view" style="padding-left: 23%; padding-right: 3%; align-items: center; flex-direction: column; padding-top: 3%; width: 100%; height: 90%;">
+                        <ui:Instance template="shop-item" name="shop-item" />
+                        <ui:Instance template="shop-item" name="shop-item" />
+                        <ui:Instance template="shop-item" name="shop-item" />
+                    </ui:ScrollView>
+                </ui:VisualElement>
+                <ui:VisualElement name="shop-screen-tabs" class="shop-screen-tabs" style="flex-basis: 11%; position: absolute; top: -13.75%; height: 18%; cursor: url(&apos;project://database/Assets/UI/Textures/Cursors/Cursor_B.png?fileID=2800000&amp;guid=f3c815d95da3a483385620d7bd8fc545&amp;type=3#Cursor_B&apos;);">
+                    <ui:VisualElement name="shop-gold-shoptab" class="shoptab selected-shoptab" style="background-color: rgba(0, 0, 0, 0);">
+                        <ui:VisualElement name="shop-gold-icon" picking-mode="Ignore" style="flex-grow: 1; position: absolute; width: 100px; height: 100px; background-image: url(&apos;project://database/Assets/UI/Textures/UI_atlas.psd?fileID=6161000958321840084&amp;guid=68de98d899585b7469e0fb40a0fcbc56&amp;type=3#icon_soft_currency&apos;); -unity-background-scale-mode: scale-to-fit;" />
+                        <ui:Label text="GOLD" display-tooltip-when-elided="true" name="shop-gold-label" style="display: none;" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="shop-gem-shoptab" class="shoptab" style="background-color: rgba(0, 0, 0, 0);">
+                        <ui:VisualElement name="shop-gem-icon" picking-mode="Ignore" style="flex-grow: 1; position: absolute; width: 100px; height: 100px; background-image: url(&apos;project://database/Assets/UI/Textures/UI_atlas.psd?fileID=7429233924804342823&amp;guid=68de98d899585b7469e0fb40a0fcbc56&amp;type=3#icon_hard_currency&apos;); -unity-background-scale-mode: scale-to-fit;" />
+                        <ui:Label text="GEM" display-tooltip-when-elided="true" name="shop-gem-label" style="display: none;" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="shop-potion-shoptab" class="shoptab" style="background-color: rgba(0, 0, 0, 0);">
+                        <ui:VisualElement name="shop-potion-icon" picking-mode="Ignore" style="flex-grow: 1; position: absolute; width: 100px; height: 100px; background-image: url(&apos;project://database/Assets/UI/Textures/UI_atlas.psd?fileID=121253912005250350&amp;guid=68de98d899585b7469e0fb40a0fcbc56&amp;type=3#icon_potions&apos;); -unity-background-scale-mode: scale-to-fit;" />
+                        <ui:Label text="POTION" display-tooltip-when-elided="true" name="shop-potion-label" style="display: none;" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:GroupBox>
+    </ui:GroupBox>
+    <ui:VisualElement name="ReferenceShopGem" picking-mode="Ignore" style="opacity: 0; display: none; width: 100%; height: 100%;">
+        <ui:VisualElement name="reference-shop-gem-screen" picking-mode="Ignore" class="referenceMainMenu reference-main-menu" style="background-image: url(&apos;project://database/Assets/UI/Reference/5a%20shop-gold-screen.jpg?fileID=21300000&amp;guid=6d6c513601b88b148b32db70beb302f5&amp;type=3#5a shop-gold-screen&apos;); -unity-background-image-tint-color: rgb(255, 255, 255); opacity: 1; width: 100%; height: 100%; position: absolute; display: flex;" />
+    </ui:VisualElement>
+</ui:UXML>

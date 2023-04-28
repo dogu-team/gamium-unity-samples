@@ -1,0 +1,15 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/Uss/GameWinLoseScreen.uss?fileID=7433441132597879392&amp;guid=4667a3ecd303e6246ab84e7f290fcfa5&amp;type=3#GameWinLoseScreen" />
+    <ui:VisualElement name="game-lose-overlay" class="game-win-lose__overlay" style="opacity: 1; display: flex;">
+        <ui:VisualElement name="game-lose-container" picking-mode="Ignore" class="game-win-lose__container" style="flex-direction: column; top: 116px;">
+            <ui:VisualElement name="game-lose-banner-container" picking-mode="Ignore" class="game-win-lose__banner__container game-win-lose__banner-container" style="width: 100%; height: 100%; flex-direction: row;">
+                <ui:VisualElement name="game-lose-banner" class="game-win-banner game-win-lose__banner" />
+                <ui:VisualElement name="game-lose-banner" picking-mode="Ignore" class="game-win-banner game-win-lose__banner" style="scale: -1 1; transform-origin: center;" />
+                <ui:Label text="DEFEAT" display-tooltip-when-elided="true" name="game-lose-label" picking-mode="Ignore" class="game-win-label game-win-lose__label" />
+            </ui:VisualElement>
+            <ui:Button text="Retry Level" display-tooltip-when-elided="true" name="game-lose__retry-button" class="game-win-lose__button" style="top: -60px;" />
+            <ui:Button text="Quit" display-tooltip-when-elided="true" name="game-lose__quit-button" class="game-win-lose__button" style="background-image: url(&apos;project://database/Assets/UI/Textures/UI_atlas.psd?fileID=-7887511337294979362&amp;guid=68de98d899585b7469e0fb40a0fcbc56&amp;type=3#bt_12&apos;);" />
+            <ui:VisualElement name="game-lose-image" picking-mode="Ignore" style="position: absolute; background-image: url(&apos;project://database/Assets/UI/Textures/UI_atlas.psd?fileID=659738821457895429&amp;guid=68de98d899585b7469e0fb40a0fcbc56&amp;type=3#Dragon_head&apos;); -unity-background-scale-mode: scale-to-fit; width: 300px; height: 300px; top: -29%;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

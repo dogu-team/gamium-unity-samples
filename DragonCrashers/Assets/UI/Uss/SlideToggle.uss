@@ -1,0 +1,105 @@
+.slide-toggle__input {
+    background-color: rgba(186, 179, 160, 0);
+    max-width: 144px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    overflow: visible;
+    border-left-width: 3px;
+    border-right-width: 3px;
+    border-top-width: 3px;
+    border-bottom-width: 3px;
+    border-right-color: rgba(151, 129, 98, 0);
+    border-top-color: rgba(151, 129, 98, 0);
+    border-bottom-color: rgba(151, 129, 98, 0);
+    max-height: 68px;
+    margin-top: 10px;
+    border-left-color: rgba(151, 129, 98, 0);
+    transition-property: background-color;
+    transition-duration: 0.5s;
+    left: 73px;
+    opacity: 1;
+    background-image: url('project://database/Assets/UI/Textures/UI_atlas.psd?fileID=-7726495693756561115&guid=68de98d899585b7469e0fb40a0fcbc56&type=3#Hud_bg_02');
+    height: auto;
+}
+
+.slide-toggle__input-knob {
+    height: 43px;
+    width: 60px;
+    background-color: rgb(233, 224, 200);
+    position: absolute;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    top: 0;
+    transition-property: translate, background-color;
+    transition-duration: 0.5s, 0.5s;
+    translate: 0 0;
+    border-left-width: 0;
+    border-right-width: 0;
+    border-top-width: 0;
+    border-bottom-width: 0;
+    border-left-color: rgba(255, 255, 255, 0);
+    border-right-color: rgba(255, 255, 255, 0);
+    border-top-color: rgba(255, 255, 255, 0);
+    border-bottom-color: rgba(255, 255, 255, 0);
+    background-image: url('project://database/Assets/UI/Textures/UI_atlas.psd?fileID=3146684561752266830&guid=68de98d899585b7469e0fb40a0fcbc56&type=3#bt_06');
+    bottom: 38px;
+    scale: 1 1;
+    -unity-background-image-tint-color: rgb(255, 255, 255);
+    display: flex;
+}
+
+.slide-toggle__input--checked {
+    background-color: rgba(255, 255, 255, 0);
+    background-image: url('project://database/Assets/UI/Textures/UI_atlas.psd?fileID=-7726495693756561115&guid=68de98d899585b7469e0fb40a0fcbc56&type=3#Hud_bg_02');
+    -unity-background-image-tint-color: rgb(255, 255, 255);
+    border-left-color: rgba(0, 0, 0, 0);
+    border-right-color: rgba(0, 0, 0, 0);
+    border-top-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(0, 0, 0, 0);
+    -unity-font-definition: url('project://database/Assets/UI/Fonts/ChelaOne-Regular%20SDF%201.asset?fileID=11400000&guid=4e008579d9e985040974fa631b2f2b80&type=2#ChelaOne-Regular SDF 1');
+}
+
+.slide-toggle__input--checked > .slide-toggle__input-knob {
+    translate: 78px 0;
+    background-color: rgba(255, 255, 255, 0);
+    opacity: 1;
+}
+
+.slide-toggle:focus .slide-toggle__input-knob {
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-left-color: rgba(0, 106, 166, 0);
+    border-right-color: rgba(0, 106, 166, 0);
+    border-top-color: rgba(0, 106, 166, 0);
+    border-bottom-color: rgba(0, 106, 166, 0);
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.slide-toggle__label {
+    -unity-font-definition: url('project://database/Assets/UI/Fonts/ChelaOne-Regular%20SDF%201.asset?fileID=11400000&guid=4e008579d9e985040974fa631b2f2b80&type=2#ChelaOne-Regular SDF 1');
+    font-size: 39px;
+    color: rgb(151, 129, 98);
+    -unity-text-align: middle-center;
+    transition-property: opacity;
+    transition-duration: 0.1s;
+    transition-delay: 0.1s;
+    cursor: url('project://database/Assets/UI/Textures/Cursors/Cursor_B.png?fileID=2800000&guid=f3c815d95da3a483385620d7bd8fc545&type=3#Cursor_B') 10 11;
+}
+
+.slide-toggle__label--inactive {
+    -unity-font-definition: url('project://database/Assets/UI/Fonts/ChelaOne-Regular%20SDF%201.asset?fileID=11400000&guid=4e008579d9e985040974fa631b2f2b80&type=2#ChelaOne-Regular SDF 1');
+    font-size: 39px;
+    color: rgb(151, 129, 98);
+    -unity-text-align: middle-center;
+    opacity: 0;
+    transition-property: opacity, scale;
+    transition-duration: 0.1s, 0.3s;
+    transition-delay: 0.1s, 0.2s;
+    scale: 0.9 0.9;
+}

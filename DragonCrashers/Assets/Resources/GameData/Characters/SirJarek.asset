@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba5c1350c9c1148418af341ffcbdcd7b, type: 3}
+  m_Name: SirJarek
+  m_EditorClassIdentifier: 
+  characterName: Sir Jarek
+  characterVisualsPrefab: {fileID: 7187018887419012048, guid: 5f5959e33406b5246b721ba3e280bbc1, type: 3}
+  characterClass: 0
+  rarity: 0
+  attackType: 0
+  bioTitle: The Sacred Knight of the Kingdom
+  bio: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+    irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+    nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
+    qui officia deserunt mollit anim id est laborum./nLorem ipsum dolor sit amet,
+    consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+    magna aliqua. Et ligula ullamcorper malesuada proin libero nunc consequat interdum
+    varius. Metus aliquam eleifend mi in nulla posuere sollicitudin. Bibendum enim
+    facilisis gravida neque convallis a cras semper. Eget egestas purus viverra accumsan
+    in nisl nisi scelerisque eu. Quam adipiscing vitae proin sagittis nisl rhoncus
+    mattis rhoncus. Commodo elit at imperdiet dui accumsan sit amet. Sit amet est
+    placerat in egestas erat imperdiet sed. Ultrices eros in cursus turpis massa
+    tincidunt dui. In iaculis nunc sed augue lacus. Sapien pellentesque habitant
+    morbi tristique senectus. Id consectetur purus ut faucibus pulvinar elementum
+    integer. Arcu ac tortor dignissim convallis aenean. Ut morbi tincidunt augue
+    interdum velit euismod in pellentesque. Blandit libero volutpat sed cras ornare
+    arcu dui.
+
+    /n
+
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Et ligula
+    ullamcorper malesuada proin libero nunc consequat interdum varius. Metus aliquam
+    eleifend mi in nulla posuere sollicitudin. Bibendum enim facilisis gravida neque
+    convallis a cras semper. Eget egestas purus viverra accumsan in nisl nisi scelerisque
+    eu. Quam adipiscing vitae proin sagittis nisl rhoncus mattis rhoncus. Commodo
+    elit at imperdiet dui accumsan sit amet. Sit amet est placerat in egestas erat
+    imperdiet sed. Ultrices eros in cursus turpis massa tincidunt dui. In iaculis
+    nunc sed augue lacus. Sapien pellentesque habitant morbi tristique senectus.
+    Id consectetur purus ut faucibus pulvinar elementum integer. Arcu ac tortor dignissim
+    convallis aenean. Ut morbi tincidunt augue interdum velit euismod in pellentesque.
+    Blandit libero volutpat sed cras ornare arcu dui.'
+  basePointsLife: 345
+  basePointsDefense: 265
+  basePointsAttack: 372
+  basePointsAttackSpeed: 0.1
+  basePointsSpecialAttack: 2
+  basePointsCriticalHit: 525
+  skill1: {fileID: 11400000, guid: 47090145366175149bdbf8cb6aa5fb66, type: 2}
+  skill2: {fileID: 11400000, guid: 690b04212876e5940be00f02105647c1, type: 2}
+  skill3: {fileID: 11400000, guid: 5d21bce7a1ab17e478584ad93f08c97a, type: 2}
+  defaultWeapon: {fileID: 11400000, guid: 9e214618b00857c43891a91c2a4310bc, type: 2}
+  defaultShieldAndArmor: {fileID: 11400000, guid: c8837643b0e283c43965ba820290eb18, type: 2}
+  defaultHelmet: {fileID: 11400000, guid: 000b0bbe0f618444bb52bb24dc86c914, type: 2}
+  defaultBoots: {fileID: 0}
+  defaultGloves: {fileID: 0}

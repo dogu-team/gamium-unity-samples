@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 808aed9944496784291afdfc61f82336, type: 3}
+  m_Name: UnitData_Dragon_SFX
+  m_EditorClassIdentifier: 
+  audioClipsGetHit:
+  - {fileID: 8300000, guid: 11896b98227ec0140adf4eff421551da, type: 3}
+  - {fileID: 8300000, guid: 5475aa7b4e8b0e54d9566561a6705b54, type: 3}
+  - {fileID: 8300000, guid: f97ca97a196db444aab0439f18658230, type: 3}
+  audioClipsDeath:
+  - {fileID: 8300000, guid: 40938fca1adc20b4086c33dc7d30a2b5, type: 3}
+  - {fileID: 8300000, guid: bcd6ed91981f03940aac8e58062b5fe2, type: 3}
+  - {fileID: 8300000, guid: ca79d85ffdb40e94d8157f5149c6688f, type: 3}

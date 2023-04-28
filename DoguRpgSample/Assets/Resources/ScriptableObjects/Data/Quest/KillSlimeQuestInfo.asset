@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c35723f39a3f4450a11609f77dea8db6, type: 3}
+  m_Name: KillSlimeQuestInfo
+  m_EditorClassIdentifier: 
+  type: 0
+  value:
+    rid: 2950379311662366772
+  references:
+    version: 2
+    RefIds:
+    - rid: 2950379311662366772
+      type: {class: KillEnemyQuestInfo, ns: Data.Static, asm: Assembly-CSharp}
+      data:
+        id: 0
+        nickname: KillSlime
+        description: If you defeat the slime, your skills will be acknowledged. please
+          kill it
+        rewardItem: {fileID: 11400000, guid: 0e8e4b448a6a6447e8d7bb87029806b1, type: 2}
+        rewardAmount: 1000
+        target: {fileID: 11400000, guid: e3c7dce0b5189491ca12614b40ad685d, type: 2}
+        amount: 2

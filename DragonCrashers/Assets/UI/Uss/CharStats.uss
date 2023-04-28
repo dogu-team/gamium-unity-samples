@@ -1,0 +1,91 @@
+.char-stats__value {
+    -unity-font-style: normal;
+    font-size: 55px;
+    margin-left: 25px;
+    -unity-text-align: middle-center;
+    color: rgb(157, 127, 91);
+    -unity-font-definition: url('project://database/Assets/UI/Fonts/ChelaOne-Regular%20SDF%201.asset?fileID=11400000&guid=4e008579d9e985040974fa631b2f2b80&type=2#ChelaOne-Regular SDF 1');
+}
+
+.char-stats__class-label {
+    -unity-font-style: normal;
+    font-size: 38px;
+    -unity-text-align: middle-center;
+    color: rgb(157, 127, 91);
+    -unity-font-definition: url('project://database/Assets/UI/Fonts/ChelaOne-Regular%20SDF%201.asset?fileID=11400000&guid=4e008579d9e985040974fa631b2f2b80&type=2#ChelaOne-Regular SDF 1');
+}
+
+.char-stats__class-group {
+    flex-basis: 23%;
+    background-color: rgba(52, 73, 94, 0);
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.char-stats__icon {
+    width: 65px;
+    height: 65px;
+    background-image: url('project://database/Assets/UI/Textures/UI_atlas.psd?fileID=-2079728134226908446&guid=68de98d899585b7469e0fb40a0fcbc56&type=3#icon_stat_health');
+    -unity-background-scale-mode: scale-to-fit;
+}
+
+.char-stats__crest {
+    width: 125px;
+    height: 144px;
+    -unity-background-scale-mode: scale-to-fit;
+    background-image: url('project://database/Assets/UI/Textures/UI_atlas.psd?fileID=-474826903757097683&guid=68de98d899585b7469e0fb40a0fcbc56&type=3#type_crest_bg');
+    display: flex;
+}
+
+.char-data__skill-next-last-button {
+    width: 70px;
+    height: 70px;
+    left: 8%;
+    background-image: url('project://database/Assets/UI/Textures/UI_atlas.psd?fileID=3631226721192414999&guid=68de98d899585b7469e0fb40a0fcbc56&type=3#bt_07');
+    rotate: 0;
+    background-color: rgba(188, 188, 188, 0);
+    -unity-background-scale-mode: scale-to-fit;
+    border-left-width: 0;
+    border-right-width: 0;
+    border-top-width: 0;
+    border-bottom-width: 0;
+}
+
+.char-data__skill-next-last-button:hover {
+    -unity-background-image-tint-color: rgb(230, 126, 34);
+}
+
+.char-data__skill-next-last-button:active {
+    -unity-background-image-tint-color: rgb(236, 240, 241);
+}
+
+.char-data__label {
+    -unity-font-style: normal;
+    font-size: 42px;
+    color: rgb(118, 80, 39);
+    -unity-font-definition: url('project://database/Assets/UI/Fonts/ChelaOne-Regular%20SDF%201.asset?fileID=11400000&guid=4e008579d9e985040974fa631b2f2b80&type=2#ChelaOne-Regular SDF 1');
+}
+
+#unity-dragger {
+    background-image: url('project://database/Assets/UI/Textures/UI_atlas.psd?fileID=-3395496807846359274&guid=68de98d899585b7469e0fb40a0fcbc56&type=3#bt_05');
+    -unity-background-scale-mode: scale-to-fit;
+    width: 50px;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0);
+    left: 44px;
+    max-height: 60px;
+    max-width: 60px;
+    border-left-color: rgba(0, 0, 0, 0);
+    border-right-color: rgba(0, 0, 0, 0);
+    border-top-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(0, 0, 0, 0);
+    cursor: url('project://database/Assets/UI/Textures/Cursors/Cursor_B.png?fileID=2800000&guid=f3c815d95da3a483385620d7bd8fc545&type=3#Cursor_B');
+    -unity-font-definition: url('project://database/Assets/UI/Fonts/ChelaOne-Regular%20SDF%201.asset?fileID=11400000&guid=4e008579d9e985040974fa631b2f2b80&type=2#ChelaOne-Regular SDF 1');
+}
+
+#unity-tracker {
+    background-image: url('project://database/Assets/UI/Textures/UI_atlas.psd?fileID=-8408378496309066828&guid=68de98d899585b7469e0fb40a0fcbc56&type=3#scrollbar_bg');
+    -unity-background-image-tint-color: rgb(44, 62, 80);
+    width: 23px;
+    -unity-font-definition: url('project://database/Assets/UI/Fonts/ChelaOne-Regular%20SDF%201.asset?fileID=11400000&guid=4e008579d9e985040974fa631b2f2b80&type=2#ChelaOne-Regular SDF 1');
+}

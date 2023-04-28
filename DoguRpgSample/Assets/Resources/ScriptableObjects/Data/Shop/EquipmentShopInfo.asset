@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 660191e3a25e4a918abf5cf1016074f4, type: 3}
+  m_Name: EquipmentShopInfo
+  m_EditorClassIdentifier: 
+  id: 0
+  productStacks:
+  - itemId: 30
+    count: 0
+    isEquiped: 0
+  - itemId: 60
+    count: 0
+    isEquiped: 0
+  - itemId: 100
+    count: 0
+    isEquiped: 0
+  - itemId: 40
+    count: 0
+    isEquiped: 0
+  - itemId: 110
+    count: 0
+    isEquiped: 0
+  - itemId: 50
+    count: 0
+    isEquiped: 0
+  - itemId: 90
+    count: 0
+    isEquiped: 0
+  - itemId: 70
+    count: 0
+    isEquiped: 0
+  - itemId: 120
+    count: 0
+    isEquiped: 0
+  - itemId: 80
+    count: 0
+    isEquiped: 0
+  - itemId: 130
+    count: 0
+    isEquiped: 0

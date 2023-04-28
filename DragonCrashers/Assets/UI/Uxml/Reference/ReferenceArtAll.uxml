@@ -1,0 +1,33 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:Template name="ReferenceOptionsScreen" src="project://database/Assets/UI/Uxml/Reference/ReferenceOptionsScreen.uxml?fileID=9197481963319205126&amp;guid=54f3266a6eae1964cadc81989eac368f&amp;type=3#ReferenceOptionsScreen" />
+    <ui:Template name="ReferenceCharStatsPanel" src="project://database/Assets/UI/Uxml/Reference/ReferenceCharStatsPanel.uxml?fileID=9197481963319205126&amp;guid=8ba5bc9d7a58c3740a34647387db7ed6&amp;type=3#ReferenceCharStatsPanel" />
+    <ui:Template name="ReferenceCharSkillsPanel" src="project://database/Assets/UI/Uxml/Reference/ReferenceCharSkillsPanel.uxml?fileID=9197481963319205126&amp;guid=84222b0529bbfdf44b94143196b9ff95&amp;type=3#ReferenceCharSkillsPanel" />
+    <ui:Template name="ReferenceCharBioPanel" src="project://database/Assets/UI/Uxml/Reference/ReferenceCharBioPanel.uxml?fileID=9197481963319205126&amp;guid=6b7519043a2b6ff4d94eac8e5ff0add9&amp;type=3#ReferenceCharBioPanel" />
+    <ui:Template name="ReferenceInventoryScreen" src="project://database/Assets/UI/Uxml/Reference/ReferenceInventoryScreen.uxml?fileID=9197481963319205126&amp;guid=5f95fb670167be342af2c62481a0a394&amp;type=3#ReferenceInventoryScreen" />
+    <ui:Template name="ReferenceShopGold" src="project://database/Assets/UI/Uxml/Reference/ReferenceShopGold.uxml?fileID=9197481963319205126&amp;guid=e6e7d5c432b398d439141fb20a36629d&amp;type=3#ReferenceShopGold" />
+    <ui:Template name="ReferenceShopGem" src="project://database/Assets/UI/Uxml/Reference/ReferenceShopGem.uxml?fileID=9197481963319205126&amp;guid=6c2fcb0dded05bf49a0b2adb29ebcf20&amp;type=3#ReferenceShopGem" />
+    <ui:Template name="ReferenceShopPotion" src="project://database/Assets/UI/Uxml/Reference/ReferenceShopPotion.uxml?fileID=9197481963319205126&amp;guid=d903ca78b25933344b6fd25bfe27f386&amp;type=3#ReferenceShopPotion" />
+    <ui:Template name="ReferenceMailScreen" src="project://database/Assets/UI/Uxml/Reference/ReferenceMailScreen.uxml?fileID=9197481963319205126&amp;guid=f57076fed44e50d4092c8b90d4f2bcac&amp;type=3#ReferenceMailScreen" />
+    <ui:Template name="ReferenceGameScreen" src="project://database/Assets/UI/Uxml/Reference/ReferenceGameScreen.uxml?fileID=9197481963319205126&amp;guid=6f7b4d5c47e98e74794c75594a4964ca&amp;type=3#ReferenceGameScreen" />
+    <ui:Template name="ReferencePauseScreen" src="project://database/Assets/UI/Uxml/Reference/ReferencePauseScreen.uxml?fileID=9197481963319205126&amp;guid=562f17cce7b38fd4494ca9bb50613f87&amp;type=3#ReferencePauseScreen" />
+    <ui:Template name="ReferenceGameWinScreen" src="project://database/Assets/UI/Uxml/Reference/ReferenceGameWinScreen.uxml?fileID=9197481963319205126&amp;guid=a12b666b2ab837847939eb8694a78c8b&amp;type=3#ReferenceGameWinScreen" />
+    <ui:Template name="ReferenceGameLoseScreen" src="project://database/Assets/UI/Uxml/Reference/ReferenceGameLoseScreen.uxml?fileID=9197481963319205126&amp;guid=a0e6ce7a0be3cb54b933890b0f1ac3cc&amp;type=3#ReferenceGameLoseScreen" />
+    <ui:Template name="ReferenceHomeScreen" src="project://database/Assets/UI/Uxml/Reference/ReferenceHomeScreen.uxml?fileID=9197481963319205126&amp;guid=c748e1efdc08fdd4ba22e19b1d298884&amp;type=3#ReferenceHomeScreen" />
+    <Style src="project://database/Assets/UI/Uss/Common.uss?fileID=7433441132597879392&amp;guid=463d710b9ab873a4e98850c5473d5fe8&amp;type=3#Common" />
+    <ui:VisualElement name="reference-screens" class="screen__anchor--center" style="width: 100%; height: 100%; justify-content: center; align-items: center; position: absolute; opacity: 1;">
+        <ui:Instance template="ReferenceHomeScreen" name="ReferenceHomeScreen" class="screen__anchor--center" />
+        <ui:Instance template="ReferenceOptionsScreen" name="ReferenceOptionsScreen" class="screen__anchor--center" style="background-image: url(&apos;project://database/Assets/UI/Reference/1%20options-screen.jpg?fileID=2800000&amp;guid=cf37770f7884f5c438f61acaff6fa5fe&amp;type=3#1 settings-screen&apos;); display: none;" />
+        <ui:Instance template="ReferenceCharStatsPanel" name="ReferenceCharStatsPanel" class="screen__anchor--center" style="display: none; opacity: 1;" />
+        <ui:Instance template="ReferenceCharSkillsPanel" name="ReferenceCharSkillsPanel" style="background-image: url(&apos;project://database/Assets/UI/Reference/2b%20char-skills-screen.jpg?fileID=2800000&amp;guid=ac74d5988c2e00e4db06aa4b488c9d85&amp;type=3#2b char-skills-screen&apos;);" />
+        <ui:Instance template="ReferenceCharBioPanel" name="ReferenceCharBioPanel" />
+        <ui:Instance template="ReferenceInventoryScreen" name="ReferenceInventoryScreen" />
+        <ui:Instance template="ReferenceShopGold" name="ReferenceShopGold" />
+        <ui:Instance template="ReferenceShopGem" name="ReferenceShopGem" />
+        <ui:Instance template="ReferenceShopPotion" name="ReferenceShopPotion" />
+        <ui:Instance template="ReferenceMailScreen" name="ReferenceMailScreen" />
+        <ui:Instance template="ReferenceGameScreen" name="ReferenceGameScreen" />
+        <ui:Instance template="ReferencePauseScreen" name="ReferencePauseScreen" />
+        <ui:Instance template="ReferenceGameWinScreen" name="ReferenceGameWinScreen" />
+        <ui:Instance template="ReferenceGameLoseScreen" name="ReferenceGameLoseScreen" />
+    </ui:VisualElement>
+</ui:UXML>

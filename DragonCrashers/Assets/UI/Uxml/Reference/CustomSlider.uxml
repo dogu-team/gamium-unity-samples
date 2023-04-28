@@ -1,0 +1,9 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements">
+    <ui:VisualElement name="settings__slider1-container" style="width: 100%; flex-direction: row; flex-basis: 17%;">
+        <ui:Label text="Slider example" display-tooltip-when-elided="true" name="settings__slider1-label" class="settings__panel-label" style="flex-basis: 29%; height: 96px; -unity-text-align: middle-left; flex-wrap: wrap; font-size: 36px; white-space: normal; translate: 18px 0;" />
+        <ui:VisualElement name="settings__slider1-drag-area" style="flex-basis: 76%;">
+            <ui:VisualElement name="settings__slider1-custom-tracker" picking-mode="Ignore" style="position: absolute; background-image: url(&apos;project://database/Assets/UI/Textures/UI_atlas.psd?fileID=-8408378496309066828&amp;guid=68de98d899585b7469e0fb40a0fcbc56&amp;type=3#scrollbar_bg&apos;); background-color: rgba(255, 0, 0, 0); -unity-background-image-tint-color: rgb(150, 126, 97); display: flex; width: 95%; max-height: 24px; top: 29px; height: 24px; min-height: 24px; padding-left: 0; left: 4%;" />
+            <ui:Slider high-value="100" name="settings__slider1" value="50" class="settings-slider" style="max-height: 24px; height: 24px; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

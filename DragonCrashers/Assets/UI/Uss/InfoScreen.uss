@@ -1,0 +1,116 @@
+.signup-button {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-image: url('project://database/Assets/UI/Textures/UI_atlas.psd?fileID=-7958151757775347986&guid=68de98d899585b7469e0fb40a0fcbc56&type=3#bt_10');
+    border-left-width: 0;
+    border-right-width: 0;
+    border-top-width: 0;
+    border-bottom-width: 0;
+    height: 21%;
+    width: 90%;
+    top: 82%;
+    position: absolute;
+    margin-bottom: 2%;
+    border-left-color: rgba(0, 0, 0, 0);
+    border-right-color: rgba(0, 0, 0, 0);
+    border-top-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(0, 0, 0, 0);
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.signup-button:hover {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-image: url('project://database/Assets/UI/Textures/UI_atlas.psd?fileID=-4355731583856638786&guid=68de98d899585b7469e0fb40a0fcbc56&type=3#bt_08');
+    border-left-width: 0;
+    border-right-width: 0;
+    border-top-width: 0;
+    border-bottom-width: 0;
+    height: 21%;
+    width: 90%;
+    top: 82%;
+    position: absolute;
+    margin-bottom: 2%;
+    border-left-color: rgba(0, 0, 0, 0);
+    border-right-color: rgba(0, 0, 0, 0);
+    border-top-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(0, 0, 0, 0);
+    background-color: rgba(0, 0, 0, 0);
+    -unity-background-image-tint-color: rgba(255, 197, 0, 255);
+    transition-duration: 0.25s;
+    scale: 1.05 1.05;
+}
+
+.button-orange:hover {
+    -unity-background-image-tint-color: rgb(230, 126, 34);
+    transition-duration: 0.25s;
+    scale: 1.05 1.05;
+}
+
+.button-orange:active {
+    background-color: rgb(255, 255, 255);
+    -unity-background-image-tint-color: rgb(211, 84, 0);
+    transition-duration: 0.25s;
+}
+
+.button-orange--inactive {
+    position: absolute;
+    width: 36%;
+    height: 95px;
+    top: 50%;
+    -unity-font-style: bold;
+    font-size: 45px;
+    color: rgb(255, 255, 255);
+    background-image: url('project://database/Assets/UI/Textures/UI_atlas.psd?fileID=-4355731583856638786&guid=68de98d899585b7469e0fb40a0fcbc56&type=3#bt_08');
+    -unity-font-definition: url('project://database/Assets/UI/Fonts/ChelaOne-Regular%20SDF%201.asset?fileID=11400000&guid=4e008579d9e985040974fa631b2f2b80&type=2#ChelaOne-Regular SDF 1');
+    transition-duration: 0.25s;
+    background-color: rgba(0, 0, 0, 0);
+    -unity-background-image-tint-color: rgb(103, 102, 102);
+    text-shadow: 5px 5px 2px rgba(0, 0, 0, 0.39);
+}
+
+.button-orange {
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    top: 50%;
+    -unity-font-style: bold;
+    font-size: 63px;
+    color: rgb(255, 255, 255);
+    background-image: url('project://database/Assets/UI/Textures/UI_atlas.psd?fileID=-4355731583856638786&guid=68de98d899585b7469e0fb40a0fcbc56&type=3#bt_08');
+    background-color: rgba(0, 0, 0, 0);
+    border-left-color: rgba(0, 0, 0, 0);
+    border-right-color: rgba(0, 0, 0, 0);
+    border-top-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(0, 0, 0, 0);
+    text-shadow: 3px 3px 2px rgba(0, 0, 0, 0.39);
+    transition-duration: 0.25s;
+}
+
+.info-bottom-button {
+    display: flex;
+    flex-basis: 24%;
+    position: relative;
+    -unity-font-definition: url('project://database/Assets/UI/Fonts/ChelaOne-Regular%20SDF%201.asset?fileID=11400000&guid=4e008579d9e985040974fa631b2f2b80&type=2#ChelaOne-Regular SDF 1');
+    -unity-font-style: normal;
+    font-size: 55px;
+    -unity-text-align: upper-center;
+}
+
+.info-bottom-button-label {
+    position: absolute;
+    bottom: -3%;
+    -unity-font-definition: url('project://database/Assets/UI/Fonts/ChelaOne-Regular%20SDF%201.asset?fileID=11400000&guid=4e008579d9e985040974fa631b2f2b80&type=2#ChelaOne-Regular SDF 1');
+    font-size: 45px;
+    color: rgb(236, 240, 241);
+    text-shadow: 3px 3px 2px rgb(0, 0, 0);
+}
+
+.info-bottom-button-icon {
+    -unity-background-scale-mode: scale-to-fit;
+    top: 2%;
+    width: 150px;
+    height: 150px;
+}

@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 79eb9f12f74541b0b172b5bfa615c42a, type: 3}
+  m_Name: IronSwordVariadicItemInfo
+  m_EditorClassIdentifier: 
+  type: 0
+  value:
+    rid: 2950379291527610373
+  references:
+    version: 2
+    RefIds:
+    - rid: 2950379291527610373
+      type: {class: EquipmentVariadicItemInfo, ns: Data.Static, asm: Assembly-CSharp}
+      data:
+        id: 100
+        nickname: IronSword
+        description: starting weapon
+        icon: {fileID: 21300000, guid: 8f28955d92038974a9b04aafaeea79b0, type: 3}
+        equipmentPosition: 0
+        upgradeMax: 10
+        prices:
+          points: dc00000000000000a20100000000000068020000000000002e03000000000000f403000000000000ba04000000000000800500000000000046060000000000000c07000000000000d207000000000000
+          xmin: 0
+          xmax: 10
+          ymin: 220
+          ymax: 2200
+          interpolationType: 0
+        upgradeFailChances:
+          points: 1e0000000000000025000000000000002c0000000000000033000000000000003a00000000000000410000000000000048000000000000004f0000000000000056000000000000005d00000000000000
+          xmin: 0
+          xmax: 10
+          ymin: 30
+          ymax: 100
+          interpolationType: 0
+        stats:
+        - type: 5
+          value:
+            points: 07000000000000000b000000000000000f00000000000000130000000000000018000000000000001c000000000000002000000000000000250000000000000029000000000000002d00000000000000
+            xmin: 0
+            xmax: 10
+            ymin: 7
+            ymax: 50
+            interpolationType: 0
+        onGenerate: 0

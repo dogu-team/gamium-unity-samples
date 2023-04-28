@@ -1,0 +1,69 @@
+.health-bar__container {
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.health-bar__background {
+    background-image: url('project://database/Assets/UI/Textures/UI_atlas.psd?fileID=7766684025725128029&guid=68de98d899585b7469e0fb40a0fcbc56&type=3#Life_Hud_bg');
+    height: 31px;
+    width: 198px;
+    align-items: flex-start;
+    justify-content: center;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    -unity-background-scale-mode: stretch-to-fill;
+    flex-direction: column;
+}
+
+.health-bar__progress {
+    background-image: url('project://database/Assets/UI/Textures/UI_atlas.psd?fileID=6038810318522881895&guid=68de98d899585b7469e0fb40a0fcbc56&type=3#Life_Hud_juice_02');
+    background-color: rgba(255, 255, 255, 0);
+    -unity-background-image-tint-color: rgb(255, 255, 255);
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    justify-content: center;
+    flex-direction: row;
+    align-items: flex-start;
+    height: 100%;
+    min-width: 0;
+    max-width: 100%;
+    width: 100%;
+}
+
+.health-bar__label {
+    position: absolute;
+    top: -16px;
+    left: 12px;
+    color: rgb(255, 255, 255);
+    -unity-font-definition: url('project://database/Assets/UI/Fonts/ChelaOne-Regular%20SDF%201.asset?fileID=11400000&guid=4e008579d9e985040974fa631b2f2b80&type=2#ChelaOne-Regular SDF 1');
+    font-size: 40px;
+    -unity-text-align: middle-left;
+    align-items: flex-start;
+}
+
+.health-bar__title_background {
+    background-image: url('project://database/Assets/UI/Textures/UI_atlas.psd?fileID=-2077197669180643507&guid=68de98d899585b7469e0fb40a0fcbc56&type=3#Header_bg_03');
+    -unity-background-scale-mode: scale-and-crop;
+    width: 627px;
+    height: 84px;
+    align-items: center;
+    left: auto;
+    justify-content: center;
+}
+
+.health-bar__title {
+    -unity-font-definition: url('project://database/Assets/UI/Fonts/ChelaOne-Regular%20SDF%201.asset?fileID=11400000&guid=4e008579d9e985040974fa631b2f2b80&type=2#ChelaOne-Regular SDF 1');
+    color: rgb(252, 240, 219);
+    font-size: 60px;
+    align-items: flex-start;
+    -unity-text-align: upper-center;
+}

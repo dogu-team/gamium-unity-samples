@@ -1,0 +1,8 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:Template name="ReferenceMailScreen" src="project://database/Assets/UI/Uxml/Reference/ReferenceMailScreen.uxml?fileID=9197481963319205126&amp;guid=f57076fed44e50d4092c8b90d4f2bcac&amp;type=3#ReferenceMailScreen" />
+    <Style src="project://database/Assets/UI/Uss/PopUpText.uss?fileID=7433441132597879392&amp;guid=e90f0306f89465149b28de122050005a&amp;type=3#PopUpText" />
+    <ui:Instance template="ReferenceMailScreen" name="ReferenceMailScreen" picking-mode="Ignore" style="width: 100%; height: 100%; display: none;" />
+    <ui:VisualElement focusable="true" picking-mode="Ignore" name="main-menu-popup" style="position: absolute; width: 50%; height: 50%; left: 25%; top: 25%; transition-duration: 0.25s; justify-content: center; align-items: center; display: flex;">
+        <ui:Label text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." display-tooltip-when-elided="true" name="main-menu-popup_text" picking-mode="Ignore" class="popup-text-dark-transluscent popup-text popup-text-active--home popup-text-inactive--home" />
+    </ui:VisualElement>
+</ui:UXML>

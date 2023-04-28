@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba5c1350c9c1148418af341ffcbdcd7b, type: 3}
+  m_Name: TheNecromancer
+  m_EditorClassIdentifier: 
+  characterName: The Necromancer
+  characterVisualsPrefab: {fileID: 5191318743522470371, guid: a5ccbc23809f4f548b7d4b327be01431, type: 3}
+  characterClass: 3
+  rarity: 1
+  attackType: 2
+  bioTitle: The Lord of Bones
+  bio: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+    irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+    nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
+    qui officia deserunt mollit anim id est laborum.\n
+
+    Lorem ipsum dolor sit
+    amet consectetur adipiscing elit metus mus, condimentum non nec dictumst eget
+    massa ornare luctus accumsan venenatis, penatibus leo facilisi dui pulvinar purus
+    porta hendrerit. Hendrerit donec dis viverra aliquam porttitor vestibulum molestie
+    enim, luctus aenean porta penatibus eros varius sociis, quisque ac netus curabitur
+    vivamus auctor sem. Fames orci condimentum pretium nisi tempus interdum urna
+    enim curae, elementum in integer justo morbi quis vitae consequat, aliquet pellentesque
+    sodales ad tellus tincidunt platea gravida.
+
+
+
+    Luctus rutrum malesuada egestas
+    justo viverra praesent hendrerit vel imperdiet integer, blandit sodales taciti
+    vitae facilisis facilisi ullamcorper faucibus auctor cubilia magna, a dictumst
+    aptent fermentum metus suscipit parturient habitant quisque. Libero nisl interdum
+    maecenas cursus habitasse dui cras per lectus, eu neque ut rhoncus velit phasellus
+    duis torquent fusce, natoque vestibulum erat bibendum primis condimentum est
+    cum. Pretium scelerisque ultrices laoreet egestas risus ut et aenean, dictumst
+    non iaculis in proin quam faucibus, metus morbi nisi gravida nisl nostra netus.'
+  basePointsLife: 800
+  basePointsDefense: 171
+  basePointsAttack: 405
+  basePointsAttackSpeed: 0.2
+  basePointsSpecialAttack: 5
+  basePointsCriticalHit: 1099
+  skill1: {fileID: 11400000, guid: ce1307ecc068f624d8155fc93a7d81e2, type: 2}
+  skill2: {fileID: 11400000, guid: 5d21bce7a1ab17e478584ad93f08c97a, type: 2}
+  skill3: {fileID: 11400000, guid: 6eefed88ff5de1d4aa655ef8c6a44ece, type: 2}
+  defaultWeapon: {fileID: 11400000, guid: 85a6443b28d64814da1afeb5e7f7a67d, type: 2}
+  defaultHelmet: {fileID: 11400000, guid: 000b0bbe0f618444bb52bb24dc86c914, type: 2}
+  defaultBoots: {fileID: 0}
+  defaultGloves: {fileID: 0}

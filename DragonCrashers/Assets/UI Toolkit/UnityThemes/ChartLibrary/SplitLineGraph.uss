@@ -1,0 +1,7 @@
+.split-line-graph {
+    --graph-color: var(--color-team-blue);
+    -unity-background-image-tint-color: var(--color-team-red);
+    background-image: url("/Assets/Images/gradient_img.png");
+    border-radius: 10px;
+    overflow: hidden;
+}

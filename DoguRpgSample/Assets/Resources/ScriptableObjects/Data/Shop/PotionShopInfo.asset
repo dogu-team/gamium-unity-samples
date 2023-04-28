@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 660191e3a25e4a918abf5cf1016074f4, type: 3}
+  m_Name: PotionShopInfo
+  m_EditorClassIdentifier: 
+  id: 0
+  products:
+  - {fileID: 11400000, guid: 5f9ec98742d354e95ab2e8fe164a4ca1, type: 2}
+  - {fileID: 11400000, guid: 3530629fc07cf418dbd56dd73934d1da, type: 2}
+  - {fileID: 11400000, guid: fba2dbf9255d04c608fa5ebb149ccea0, type: 2}
+  - {fileID: 11400000, guid: 43a79025bc9d347f7b09d02848a662fb, type: 2}
+  - {fileID: 11400000, guid: 2aed1db4e0aec457385e219ee8d89ef6, type: 2}
+  - {fileID: 11400000, guid: 8d99de5d5470646a8a20ac472e964add, type: 2}
+  productStacks:
+  - itemId: 10
+    count: 1
+    upgradeLevel: 0
+    isEquiped: 0
+  - itemId: 11
+    count: 1
+    upgradeLevel: 0
+    isEquiped: 0
+  - itemId: 12
+    count: 1
+    upgradeLevel: 0
+    isEquiped: 0
+  - itemId: 20
+    count: 1
+    upgradeLevel: 0
+    isEquiped: 0
+  - itemId: 21
+    count: 1
+    upgradeLevel: 0
+    isEquiped: 0
+  - itemId: 22
+    count: 1
+    upgradeLevel: 0
+    isEquiped: 0

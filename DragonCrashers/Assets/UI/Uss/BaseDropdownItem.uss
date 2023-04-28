@@ -1,0 +1,10 @@
+.unity-base-dropdown__item {
+    -unity-font-style: normal;
+    -unity-text-align: upper-left;
+    font-size: 30px;
+    color: rgb(141, 91, 38);
+    -unity-font-definition: url('project://database/Assets/UI/Fonts/ChelaOne-Regular%20SDF%201.asset?fileID=11400000&guid=4e008579d9e985040974fa631b2f2b80&type=2#ChelaOne-Regular SDF 1');
+    background-color: rgba(0, 0, 0, 0);
+    -unity-text-outline-width: 0;
+    cursor: url('project://database/Assets/UI/Textures/Cursors/Cursor_B.png?fileID=2800000&guid=f3c815d95da3a483385620d7bd8fc545&type=3#Cursor_B');
+    }

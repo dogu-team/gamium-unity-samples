@@ -1,0 +1,339 @@
+.settings-screen-background {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: rgb(44, 62, 80);
+}
+
+.settings-account-button {
+    padding-top: 10px;
+    height: 80px;
+    width: 79%;
+    margin-top: 10px;
+    font-size: 40px;
+    background-image: url('project://database/Assets/UI/Textures/UI_atlas.psd?fileID=-4355731583856638786&guid=68de98d899585b7469e0fb40a0fcbc56&type=3#bt_08');
+    border-top-left-radius: -2px;
+    border-bottom-left-radius: -2px;
+    border-top-right-radius: -2px;
+    border-bottom-right-radius: -2px;
+    background-color: rgba(0, 0, 0, 0);
+    border-left-width: 0;
+    border-right-width: 0;
+    border-top-width: 0;
+    border-bottom-width: 0;
+    -unity-text-align: upper-center;
+    -unity-font-style: normal;
+    -unity-font-definition: url('project://database/Assets/UI/Fonts/ChelaOne-Regular%20SDF%201.asset?fileID=11400000&guid=4e008579d9e985040974fa631b2f2b80&type=2#ChelaOne-Regular SDF 1');
+    text-shadow: 3px 3px 1px rgba(0, 0, 0, 0.5);
+    -unity-text-outline-color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    transition-duration: 0.25s;
+}
+
+.settings-account-button:hover {
+    -unity-background-image-tint-color: rgb(255, 255, 255);
+    scale: 1.1 1.1;
+    transition-duration: 0.25s;
+}
+
+.settings-account-button:active {
+    -unity-background-image-tint-color: rgb(140, 140, 140);
+}
+
+.settings__panel-back-button {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-image: url('project://database/Assets/UI/Textures/UI_atlas.psd?fileID=8895885118603013600&guid=68de98d899585b7469e0fb40a0fcbc56&type=3#icon_close');
+    border-left-color: rgba(0, 0, 0, 0);
+    border-right-color: rgba(0, 0, 0, 0);
+    border-top-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(0, 0, 0, 0);
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+.settings__panel-back-button:hover {
+    margin-right: 10px;
+    margin-top: 20px;
+    width: 50px;
+    height: 50px;
+    scale: 1.1 1.1;
+    transition-duration: 0.25s;
+}
+
+.settings__panel-back-button:active {
+    -unity-background-image-tint-color: rgb(176, 176, 176);
+}
+
+.settings__panel-label {
+    -unity-font-style: normal;
+    font-size: 39px;
+    color: rgb(141, 91, 38);
+    -unity-text-align: middle-center;
+    -unity-font-definition: url('project://database/Assets/UI/Fonts/ChelaOne-Regular%20SDF%201.asset?fileID=11400000&guid=4e008579d9e985040974fa631b2f2b80&type=2#ChelaOne-Regular SDF 1');
+    background-color: rgba(0, 0, 0, 0);
+    -unity-text-outline-width: 0;
+}
+
+.settings__panel-body {
+    flex-grow: 1;
+    background-color: rgba(103, 96, 96, 0);
+    width: 50%;
+    justify-content: flex-start;
+    height: 100%;
+    margin-left: 0;
+    padding-left: 5%;
+    padding-right: 3%;
+}
+
+.settings-dropdown {
+    padding-top: 5%;
+    width: 85%;
+}
+
+.settings__panel-header {
+    width: 100%;
+    height: 14%;
+    background-color: rgb(0, 83, 130);
+}
+
+.settings-title-label {
+    -unity-font-style: normal;
+    font-size: 61px;
+    color: rgb(255, 255, 255);
+    -unity-text-align: middle-center;
+    -unity-font-definition: url('project://database/Assets/UI/Fonts/ChelaOne-Regular%20SDF%201.asset?fileID=11400000&guid=4e008579d9e985040974fa631b2f2b80&type=2#ChelaOne-Regular SDF 1');
+    text-shadow: 3px 3px 1px rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0);
+    -unity-text-outline-width: 0;
+    opacity: 1;
+}
+
+.unity-base-popup-field {
+    padding-top: -6px;
+    cursor: url('project://database/Assets/UI/Textures/Cursors/Cursor_B.png?fileID=2800000&guid=f3c815d95da3a483385620d7bd8fc545&type=3#Cursor_B');
+}
+
+.unity-base-popup-field__arrow {
+    background-image: url('project://database/Assets/UI/Textures/UI_atlas.psd?fileID=3263076255209597889&guid=68de98d899585b7469e0fb40a0fcbc56&type=3#bt_03');
+    width: 60px;
+    height: 60px;
+    -unity-background-scale-mode: scale-to-fit;
+    display: flex;
+    -unity-background-image-tint-color: rgb(255, 255, 255);
+    cursor: url('project://database/Assets/UI/Textures/Cursors/Cursor_B.png?fileID=2800000&guid=f3c815d95da3a483385620d7bd8fc545&type=3#Cursor_B');
+}
+
+.unity-base-field__label {
+    cursor: url('project://database/Assets/UI/Textures/Cursors/Cursor_B.png?fileID=2800000&guid=f3c815d95da3a483385620d7bd8fc545&type=3#Cursor_B');
+}
+
+.unity-popup-field__input {
+    background-color: rgba(0, 0, 0, 0);
+    border-left-color: rgba(0, 0, 0, 0);
+    border-right-color: rgba(0, 0, 0, 0);
+    border-top-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(0, 0, 0, 0);
+    -unity-font-definition: url('project://database/Assets/UI/Fonts/ChelaOne-Regular%20SDF%201.asset?fileID=11400000&guid=4e008579d9e985040974fa631b2f2b80&type=2#ChelaOne-Regular SDF 1');
+}
+
+.unity-base-popup-field__text {
+    background-color: rgba(0, 0, 0, 0);
+    -unity-font-definition: url('project://database/Assets/UI/Fonts/ChelaOne-Regular%20SDF%201.asset?fileID=11400000&guid=4e008579d9e985040974fa631b2f2b80&type=2#ChelaOne-Regular SDF 1');
+    -unity-font-style: normal;
+    -unity-text-align: upper-left;
+    left: 9px;
+    top: 5px;
+    color: rgb(150, 126, 97);
+    display: flex;
+}
+
+.unity-base-popup-field {
+    background-image: url('project://database/Assets/UI/Textures/UI_atlas.psd?fileID=-7726495693756561115&guid=68de98d899585b7469e0fb40a0fcbc56&type=3#Hud_bg_02');
+    background-color: rgba(0, 0, 0, 0);
+    border-left-color: rgba(0, 0, 0, 0);
+    border-right-color: rgba(0, 0, 0, 0);
+    border-top-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(0, 0, 0, 0);
+    -unity-font-style: italic;
+}
+
+.unity-toggle__label {
+    width: 85%;
+    font-size: 32px;
+    top: 1%;
+    left: 5%;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    -unity-font-definition: url('project://database/Assets/UI/Fonts/ChelaOne-Regular%20SDF%201.asset?fileID=11400000&guid=4e008579d9e985040974fa631b2f2b80&type=2#ChelaOne-Regular SDF 1');
+    color: rgb(142, 91, 38);
+    cursor: url('project://database/Assets/UI/Textures/Cursors/Cursor_B.png?fileID=2800000&guid=f3c815d95da3a483385620d7bd8fc545&type=3#Cursor_B');
+}
+
+.unity-toggle__checkmark {
+    display: flex;
+    width: 50px;
+    height: 50px;
+    cursor: url('project://database/Assets/UI/Textures/Cursors/Cursor_B.png?fileID=2800000&guid=f3c815d95da3a483385620d7bd8fc545&type=3#Cursor_B');
+    border-left-width: 3px;
+    border-right-width: 3px;
+    border-top-width: 3px;
+    border-bottom-width: 3px;
+    border-left-color: rgb(187, 157, 119);
+    border-right-color: rgb(187, 157, 119);
+    border-top-color: rgb(187, 157, 119);
+    border-bottom-color: rgb(187, 157, 119);
+    border-top-left-radius: 13px;
+    border-bottom-left-radius: 13px;
+    border-top-right-radius: 13px;
+    border-bottom-right-radius: 13px;
+}
+
+.unity-toggle__input {
+    display: flex;
+    cursor: url('project://database/Assets/UI/Textures/Cursors/Cursor_B.png?fileID=2800000&guid=f3c815d95da3a483385620d7bd8fc545&type=3#Cursor_B');
+}
+
+.unity-base-slider__input {
+    cursor: url('project://database/Assets/UI/Textures/Cursors/Cursor_B.png?fileID=2800000&guid=f3c815d95da3a483385620d7bd8fc545&type=3#Cursor_B');
+}
+
+RadioButton {
+    cursor: url('project://database/Assets/UI/Textures/Cursors/Cursor_B.png?fileID=2800000&guid=f3c815d95da3a483385620d7bd8fc545&type=3#Cursor_B');
+}
+
+.unity-radio-button__input {
+    cursor: url('project://database/Assets/UI/Textures/Cursors/Cursor_B.png?fileID=2800000&guid=f3c815d95da3a483385620d7bd8fc545&type=3#Cursor_B');
+}
+
+.unity-radio-button__checkmark-background {
+    scale: 1.1 1.1;
+    translate: 2px 0;
+}
+
+.unity-radio-button__checkmark {
+    background-image: url('project://database/Assets/UI/Textures/UI_atlas.psd?fileID=-3395496807846359274&guid=68de98d899585b7469e0fb40a0fcbc56&type=3#bt_05');
+    scale: 1.2 1.2;
+}
+
+.unity-radio-button__text {
+    margin-left: 16px;
+}
+
+#unity-dragger {
+    background-image: url('project://database/Assets/UI/Textures/UI_atlas.psd?fileID=-3395496807846359274&guid=68de98d899585b7469e0fb40a0fcbc56&type=3#bt_05');
+    -unity-background-scale-mode: scale-to-fit;
+    width: 50px;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0);
+    max-height: 60px;
+    max-width: 60px;
+    border-left-color: rgba(0, 0, 0, 0);
+    border-right-color: rgba(0, 0, 0, 0);
+    border-top-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(0, 0, 0, 0);
+    cursor: url('project://database/Assets/UI/Textures/Cursors/Cursor_B.png?fileID=2800000&guid=f3c815d95da3a483385620d7bd8fc545&type=3#Cursor_B');
+}
+
+#unity-tracker {
+    -unity-background-image-tint-color: rgba(44, 62, 80, 0.48);
+    background-color: rgba(0, 0, 0, 0);
+    background-image: url('project://database/Assets/UI/Textures/UI_atlas.psd?fileID=-8408378496309066828&guid=68de98d899585b7469e0fb40a0fcbc56&type=3#scrollbar_bg');
+    -unity-background-scale-mode: stretch-to-fill;
+    border-left-color: rgba(0, 0, 0, 0);
+    border-right-color: rgba(0, 0, 0, 0);
+    border-top-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(0, 0, 0, 0);
+    min-height: 24px;
+    max-height: 24px;
+    height: 24px;
+    width: 90%;
+    max-width: 90%;
+    min-width: 90%;
+    left: 5%;
+    cursor: url('project://database/Assets/UI/Textures/Cursors/Cursor_A.png?fileID=2800000&guid=0fc53ad8e877049c3aef54a3f8a1e01a&type=3#Cursor_A');
+}
+
+.unity-text-field__input {
+    border-left-width: 3px;
+    border-right-width: 3px;
+    border-top-width: 3px;
+    border-bottom-width: 3px;
+    border-left-color: rgb(187, 157, 119);
+    border-right-color: rgb(187, 157, 119);
+    border-top-color: rgb(187, 157, 119);
+    border-bottom-color: rgb(187, 157, 119);
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    cursor: url('project://database/Assets/UI/Textures/Cursors/Cursor_A.png?fileID=2800000&guid=0fc53ad8e877049c3aef54a3f8a1e01a&type=3#Cursor_A');
+}
+
+.settings__panel {
+    background-color: rgba(20, 24, 255, 0);
+    display: flex;
+    border-left-width: 3px;
+    border-right-width: 3px;
+    border-top-width: 3px;
+    border-bottom-width: 3px;
+    background-image: url('project://database/Assets/UI/Textures/UI_atlas.psd?fileID=-4040379037015584800&guid=68de98d899585b7469e0fb40a0fcbc56&type=3#Window_bg_02');
+    padding-bottom: 0;
+    width: 1110px;
+    height: 740px;
+    opacity: 1;
+    transition-duration: 0.25s;
+}
+
+.settings__panel--inactive {
+    background-color: rgba(20, 24, 255, 0);
+    display: flex;
+    border-left-width: 3px;
+    border-right-width: 3px;
+    border-top-width: 3px;
+    border-bottom-width: 3px;
+    background-image: url('project://database/Assets/UI/Textures/UI_atlas.psd?fileID=-4040379037015584800&guid=68de98d899585b7469e0fb40a0fcbc56&type=3#Window_bg_02');
+    padding-bottom: 0;
+    width: 1110px;
+    height: 740px;
+    opacity: 0.05;
+    transition-duration: 0.25s;
+    transition-property: opacity;
+    scale: 0.8 0.8;
+}
+
+.settings-header-banner {
+    height: 100%;
+    position: absolute;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    left: 25%;
+    background-image: url('project://database/Assets/UI/Textures/UI_atlas.psd?fileID=-2077197669180643507&guid=68de98d899585b7469e0fb40a0fcbc56&type=3#Header_bg_03');
+}
+
+.settings-header-decoration-right {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    right: 19%;
+    background-image: url('project://database/Assets/UI/Textures/UI_atlas.psd?fileID=-1596050124531588824&guid=68de98d899585b7469e0fb40a0fcbc56&type=3#halloween_deco_02');
+    top: 19%;
+    display: flex;
+}
+
+.settings-header-decoration-left {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    left: 19%;
+    background-image: url('project://database/Assets/UI/Textures/UI_atlas.psd?fileID=-1596050124531588824&guid=68de98d899585b7469e0fb40a0fcbc56&type=3#halloween_deco_02');
+    scale: -1 1;
+    top: 21%;
+    display: flex;
+}

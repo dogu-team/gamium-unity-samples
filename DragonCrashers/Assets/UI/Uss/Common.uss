@@ -1,0 +1,267 @@
+.cursor-b {
+    cursor: url('project://database/Assets/UI/Textures/Cursors/Cursor_B.png?fileID=2800000&guid=f3c815d95da3a483385620d7bd8fc545&type=3#Cursor_B');
+}
+
+.cursor-a {
+    cursor: url('project://database/Assets/UI/Textures/Cursors/Cursor_A.png?fileID=2800000&guid=0fc53ad8e877049c3aef54a3f8a1e01a&type=3#Cursor_A');
+}
+
+VisualElement {
+    cursor: url('project://database/Assets/UI/Textures/Cursors/Cursor_A.png?fileID=2800000&guid=0fc53ad8e877049c3aef54a3f8a1e01a&type=3#Cursor_A') 24 17;
+}
+
+Button {
+    cursor: url('project://database/Assets/UI/Textures/Cursors/Cursor_B.png?fileID=2800000&guid=f3c815d95da3a483385620d7bd8fc545&type=3#Cursor_B') 10 11;
+}
+
+Label {
+    cursor: url('project://database/Assets/UI/Textures/Cursors/Cursor_A.png?fileID=2800000&guid=0fc53ad8e877049c3aef54a3f8a1e01a&type=3#Cursor_A') 24 17;
+}
+
+Toggle {
+    cursor: url('project://database/Assets/UI/Textures/Cursors/Cursor_B.png?fileID=2800000&guid=f3c815d95da3a483385620d7bd8fc545&type=3#Cursor_B') 10 11;
+}
+
+ListView {
+    cursor: url('project://database/Assets/UI/Textures/Cursors/Cursor_B.png?fileID=2800000&guid=f3c815d95da3a483385620d7bd8fc545&type=3#Cursor_B') 10 11;
+}
+
+ScrollView {
+    cursor: url('project://database/Assets/UI/Textures/Cursors/Cursor_B.png?fileID=2800000&guid=f3c815d95da3a483385620d7bd8fc545&type=3#Cursor_B') 10 11;
+}
+
+Scroller {
+    cursor: url('project://database/Assets/UI/Textures/Cursors/Cursor_B.png?fileID=2800000&guid=f3c815d95da3a483385620d7bd8fc545&type=3#Cursor_B') 10 11;
+}
+
+RadioButton {
+    cursor: url('project://database/Assets/UI/Textures/Cursors/Cursor_B.png?fileID=2800000&guid=f3c815d95da3a483385620d7bd8fc545&type=3#Cursor_B') 10 11;
+}
+
+GroupBox {
+    cursor: url('project://database/Assets/UI/Textures/Cursors/Cursor_A.png?fileID=2800000&guid=0fc53ad8e877049c3aef54a3f8a1e01a&type=3#Cursor_A') 24 17;
+}
+
+#unity-low-button {
+    display: none;
+}
+
+#unity-high-button {
+    display: none;
+}
+
+#unity-drag-container {
+    width: 111px;
+    height: 61px;
+    left: -40px;
+}
+
+#unity-slider {
+    width: 60px;
+    left: -25px;
+    -unity-background-image-tint-color: rgba(255, 255, 255, 0);
+    height: 61px;
+}
+
+.screen__anchor--top-left {
+    align-items: flex-start;
+    position: absolute;
+    width: auto;
+    height: auto;
+    left: 0;
+    top: 0;
+}
+
+.screen__anchor--top-right {
+    align-items: flex-end;
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.screen__anchor--bottom-left {
+    left: 0;
+    bottom: 0;
+    align-items: flex-start;
+    justify-content: flex-end;
+}
+
+.screen__anchor--bottom-right {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.screen__anchor--center {
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    opacity: 0;
+}
+
+.screen__fader--off {
+    transition-duration: 1s;
+    opacity: 0;
+    transition-property: all;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.screen__fader--on {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(53, 53, 53);
+    transition-duration: 1s;
+    transition-property: all;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+
+.unity-base-popup-field {
+    background-image: url('project://database/Assets/UI/Textures/UI_atlas.psd?fileID=-7726495693756561115&guid=68de98d899585b7469e0fb40a0fcbc56&type=3#Hud_bg_02');
+    background-color: rgba(0, 0, 0, 0);
+    border-left-color: rgba(0, 0, 0, 0);
+    border-right-color: rgba(0, 0, 0, 0);
+    border-top-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(0, 0, 0, 0);
+}
+
+.unity-popup-field__input {
+    background-color: rgba(0, 0, 0, 0);
+    border-left-color: rgba(0, 0, 0, 0);
+    border-right-color: rgba(0, 0, 0, 0);
+    border-top-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(0, 0, 0, 0);
+}
+
+.unity-base-popup-field__text {
+    background-color: rgba(0, 0, 0, 0);
+    -unity-font-definition: url('project://database/Assets/UI/Fonts/ChelaOne-Regular%20SDF%201.asset?fileID=11400000&guid=4e008579d9e985040974fa631b2f2b80&type=2#ChelaOne-Regular SDF 1');
+    -unity-font-style: normal;
+    -unity-text-align: upper-left;
+    left: 9px;
+    top: 8px;
+    color: rgb(113, 73, 30);
+}
+
+.button__label-large {
+    -unity-font-style: normal;
+    -unity-font-definition: url('project://database/Assets/UI/Fonts/ChelaOne-Regular%20SDF%201.asset?fileID=11400000&guid=4e008579d9e985040974fa631b2f2b80&type=2#ChelaOne-Regular SDF 1');
+    font-size: 49px;
+    color: rgb(255, 255, 255);
+    transition-duration: 0.5s;
+    -unity-text-align: upper-center;
+}
+
+.button__label-large--inactive {
+    -unity-font-style: normal;
+    -unity-font-definition: url('project://database/Assets/UI/Fonts/ChelaOne-Regular%20SDF%201.asset?fileID=11400000&guid=4e008579d9e985040974fa631b2f2b80&type=2#ChelaOne-Regular SDF 1');
+    font-size: 49px;
+    color: rgb(108, 108, 108);
+    transition-duration: 0.5s;
+}
+
+.button-gray {
+    position: absolute;
+    width: 26%;
+    height: 34%;
+    top: 59%;
+    background-image: url('project://database/Assets/UI/Textures/UI_atlas.psd?fileID=536820708226765884&guid=68de98d899585b7469e0fb40a0fcbc56&type=3#bt_09');
+    background-color: rgba(0, 0, 0, 0);
+    -unity-font-definition: url('project://database/Assets/UI/Fonts/ChelaOne-Regular%20SDF%201.asset?fileID=11400000&guid=4e008579d9e985040974fa631b2f2b80&type=2#ChelaOne-Regular SDF 1');
+    font-size: 34px;
+    color: rgb(236, 240, 241);
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.38);
+}
+
+.button-gray:hover {
+    -unity-background-image-tint-color: rgb(243, 156, 18);
+    scale: 1.1 1.1;
+    transition-duration: 0.25s;
+}
+
+.button-gray:active {
+    -unity-background-image-tint-color: rgb(219, 92, 5);
+}
+
+.button-orange {
+    position: absolute;
+    width: 36%;
+    height: 95px;
+    top: 50%;
+    -unity-font-style: bold;
+    font-size: 63px;
+    color: rgb(255, 255, 255);
+    background-image: url('project://database/Assets/UI/Textures/UI_atlas.psd?fileID=-4355731583856638786&guid=68de98d899585b7469e0fb40a0fcbc56&type=3#bt_08');
+    background-color: rgba(0, 0, 0, 0);
+    border-left-color: rgba(0, 0, 0, 0);
+    border-right-color: rgba(0, 0, 0, 0);
+    border-top-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(0, 0, 0, 0);
+    text-shadow: 5px 5px 2px rgba(0, 0, 0, 0.39);
+}
+
+.button-orange:hover {
+    -unity-background-image-tint-color: rgb(230, 126, 34);
+}
+
+.button-orange:active {
+    background-color: rgb(255, 255, 255);
+    -unity-background-image-tint-color: rgb(211, 84, 0);
+}
+
+.button-orange--inactive {
+    position: absolute;
+    width: 36%;
+    height: 95px;
+    top: 50%;
+    -unity-font-style: bold;
+    font-size: 45px;
+    color: rgb(255, 255, 255);
+    background-image: url('project://database/Assets/UI/Textures/UI_atlas.psd?fileID=-4355731583856638786&guid=68de98d899585b7469e0fb40a0fcbc56&type=3#bt_08');
+    -unity-font-definition: url('project://database/Assets/UI/Fonts/ChelaOne-Regular%20SDF%201.asset?fileID=11400000&guid=4e008579d9e985040974fa631b2f2b80&type=2#ChelaOne-Regular SDF 1');
+    transition-duration: 0.25s;
+    background-color: rgba(0, 0, 0, 0);
+    -unity-background-image-tint-color: rgb(103, 102, 102);
+    text-shadow: 5px 5px 2px rgba(0, 0, 0, 0.39);
+}
+
+.button-green {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-image: url('project://database/Assets/UI/Textures/UI_atlas.psd?fileID=-7958151757775347986&guid=68de98d899585b7469e0fb40a0fcbc56&type=3#bt_10');
+    border-left-width: 0;
+    border-right-width: 0;
+    border-top-width: 0;
+    border-bottom-width: 0;
+    height: 15%;
+    width: 100%;
+    top: 82%;
+    position: absolute;
+    margin-bottom: 2%;
+}
+
+.button-green:hover {
+    -unity-background-image-tint-color: rgb(255, 226, 124);
+    background-image: url('project://database/Assets/UI/Textures/UI_atlas.psd?fileID=-4355731583856638786&guid=68de98d899585b7469e0fb40a0fcbc56&type=3#bt_08');
+    transition-duration: 0.2s;
+}
+
+.button-green:active {
+    -unity-background-image-tint-color: rgb(255, 177, 0);
+}

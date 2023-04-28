@@ -1,0 +1,152 @@
+#shop-screen-content {
+    flex-basis: 85%;
+    font-size: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    height: 82%;
+    background-color: rgba(101, 101, 101, 0);
+    cursor: url('project://database/Assets/UI/Textures/Cursors/Cursor_A.png?fileID=2800000&guid=0fc53ad8e877049c3aef54a3f8a1e01a&type=3#Cursor_A');
+}
+
+#shop-screen-tabs {
+    flex-basis: 15%;
+    flex-direction: row;
+    font-size: 30px;
+    -unity-font-style: bold;
+    font-size: 30px;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.shop-content {
+    width: 100%;
+    height: 100%;
+    left: 20px;
+    top: 20px;
+    position: absolute;
+    background-image: url('project://database/Assets/UI/Textures/UI_atlas.psd?fileID=975008897348985379&guid=68de98d899585b7469e0fb40a0fcbc56&type=3#Window_bg_03');
+    background-color: rgba(197, 197, 197, 0);
+}
+
+.shop-screen-scroll-view {
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    flex-grow: 0;
+    -unity-text-align: middle-left;
+    align-items: stretch;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0);
+    width: 100%;
+    height: 90%;
+    left: 0;
+    top: 0;
+}
+
+.shop-screen-tabs {
+    font-size: 31px;
+    width: 60%;
+    left: 21%;
+    height: 10%;
+    background-color: rgba(255, 0, 0, 0);
+}
+
+.shoptab {
+    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
+    color: rgb(236, 240, 241);
+    background-image: url('project://database/Assets/UI/Textures/UI_atlas.psd?fileID=6214813937661682407&guid=68de98d899585b7469e0fb40a0fcbc56&type=3#tab_window_03_unselected');
+    background-color: rgba(188, 188, 188, 0);
+    cursor: url('project://database/Assets/UI/Textures/Cursors/Cursor_B.png?fileID=2800000&guid=f3c815d95da3a483385620d7bd8fc545&type=3#Cursor_B');
+}
+
+.selected-shoptab {
+    background-image: url('project://database/Assets/UI/Textures/UI_atlas.psd?fileID=-7422469351783473743&guid=68de98d899585b7469e0fb40a0fcbc56&type=3#tab_window_03_selected');
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.unselected-shopcontent {
+    display: none;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+#unity-low-button {
+    display: none;
+}
+
+#unity-high-button {
+    display: none;
+}
+
+#unity-slider {
+    height: 65px;
+    width: 95%;
+    -unity-background-image-tint-color: rgba(255, 255, 255, 0);
+    background-color: rgba(0, 0, 0, 0);
+    top: 24px;
+    max-width: 95%;
+    min-width: 95%;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    left: 2%;
+    max-height: 65px;
+    min-height: 65px;
+}
+
+#unity-tracker {
+    min-height: 24px;
+    max-height: 24px;
+    height: 24px;
+    -unity-background-image-tint-color: rgba(44, 62, 80, 0.48);
+    min-width: 90%;
+    max-width: 90%;
+    width: 90%;
+    background-color: rgba(0, 0, 0, 0);
+    background-image: url('project://database/Assets/UI/Textures/UI_atlas.psd?fileID=-8408378496309066828&guid=68de98d899585b7469e0fb40a0fcbc56&type=3#scrollbar_bg');
+    -unity-background-scale-mode: stretch-to-fill;
+    top: 16%;
+    left: 9%;
+    border-left-color: rgba(0, 0, 0, 0);
+    border-right-color: rgba(0, 0, 0, 0);
+    border-top-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(0, 0, 0, 0);
+}
+
+#unity-dragger {
+    background-image: url('project://database/Assets/UI/Textures/UI_atlas.psd?fileID=8719887921484617844&guid=68de98d899585b7469e0fb40a0fcbc56&type=3#bt_14');
+    -unity-background-image-tint-color: rgb(255, 255, 255);
+    height: 50px;
+    width: 200px;
+    display: flex;
+    opacity: 1;
+    min-height: 50px;
+    min-width: 200px;
+    max-width: 200px;
+    max-height: 50px;
+    cursor: url('project://database/Assets/UI/Textures/Cursors/Cursor_B.png?fileID=2800000&guid=f3c815d95da3a483385620d7bd8fc545&type=3#Cursor_B');
+    top: 0;
+    left: 3%;
+    border-left-color: rgba(0, 0, 0, 0);
+    border-right-color: rgba(0, 0, 0, 0);
+    border-top-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(0, 0, 0, 0);
+    background-color: rgba(0, 0, 0, 0);
+}
+
+#unity-drag-container {
+    height: 80px;
+    width: 95%;
+    max-height: 80px;
+    max-width: 95%;
+    min-height: 80px;
+    min-width: 95%;
+    -unity-background-image-tint-color: rgba(255, 255, 255, 0);
+    background-color: rgba(0, 0, 0, 0);
+    left: 0;
+}

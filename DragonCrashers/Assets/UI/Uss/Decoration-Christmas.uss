@@ -1,0 +1,16 @@
+
+.theme__decoration--christmas {
+    opacity: 1;
+    display: flex;
+}
+
+.theme__decoration--halloween {
+    opacity: 0;
+    display: none;
+}
+
+.theme__decoration--default {
+    display: none;
+    opacity: 0;
+
+}

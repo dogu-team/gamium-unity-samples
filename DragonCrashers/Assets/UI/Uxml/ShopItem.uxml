@@ -1,0 +1,48 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/Uss/ShopItem.uss?fileID=7433441132597879392&amp;guid=9887be294c5e1014ebb8f4c6e22161d5&amp;type=3#ShopItem" />
+    <ui:VisualElement name="shop-item__parent-container" class="shop-item__size--normal shop-item__size--wide" style="background-image: url(&apos;project://database/Assets/UI/Textures/UI_atlas.psd?fileID=-2291487304718056588&amp;guid=68de98d899585b7469e0fb40a0fcbc56&amp;type=3#Window_bg_04&apos;); display: flex; -unity-background-scale-mode: stretch-to-fill; -unity-slice-left: 0; -unity-slice-top: 0; -unity-slice-right: 0; -unity-slice-bottom: 0; border-left-color: rgba(0, 0, 0, 0); border-right-color: rgba(0, 0, 0, 0); border-top-color: rgba(0, 0, 0, 0); border-bottom-color: rgba(0, 0, 0, 0); cursor: url(&apos;project://database/Assets/UI/Textures/Cursors/Cursor_A.png?fileID=2800000&amp;guid=0fc53ad8e877049c3aef54a3f8a1e01a&amp;type=3#Cursor_A&apos;);">
+        <ui:VisualElement name="shop-item__contents" style="width: 100%; height: 100%; align-items: center; flex-grow: 1; min-width: 100%; max-width: 100%; padding-left: 5%; padding-right: 5%; padding-top: 5%; padding-bottom: 5%; opacity: 1; top: 0; position: absolute; cursor: url(&apos;project://database/Assets/UI/Textures/Cursors/Cursor_A.png?fileID=2800000&amp;guid=0fc53ad8e877049c3aef54a3f8a1e01a&amp;type=3#Cursor_A&apos;);">
+            <ui:Label text="A big pile of Gems" display-tooltip-when-elided="true" name="shop-item__description" picking-mode="Ignore" class="shop-item__description" />
+            <ui:VisualElement name="shop-item-body" picking-mode="Ignore" class="shop-item__body">
+                <ui:VisualElement name="shop-item-frame" picking-mode="Ignore" style="background-image: url(&apos;project://database/Assets/UI/Textures/UI_atlas.psd?fileID=2841462034448977479&amp;guid=68de98d899585b7469e0fb40a0fcbc56&amp;type=3#Frame_02&apos;); width: 94%; height: 93%; rotate: 180deg; position: absolute; -unity-background-image-tint-color: rgb(255, 255, 255); top: 7%;">
+                    <ui:VisualElement name="shop-item-frame-color" picking-mode="Ignore" style="background-color: rgb(163, 137, 103); height: 10%; width: 100%; position: absolute; top: 11%;" />
+                </ui:VisualElement>
+                <ui:VisualElement name="shop-item-footer-background" picking-mode="Ignore" class="shop-item__product-background">
+                    <ui:VisualElement name="shop-item__content-currency" picking-mode="Ignore" class="shop-item__product" style="margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0;" />
+                    <ui:Label text="99" display-tooltip-when-elided="true" name="shop-item__content-value" picking-mode="Ignore" class="shop-item__label" style="margin-left: 0; padding-left: 0; -unity-font-style: normal; font-size: 80px; text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5); width: 20%; align-items: flex-start; -unity-text-align: lower-left;" />
+                </ui:VisualElement>
+                <ui:VisualElement name="shop-item__product-image" picking-mode="Ignore" class="shop-item__graphic" />
+                <ui:VisualElement name="shop-item__discount-badge" picking-mode="Ignore" class="shop-item__badge">
+                    <ui:Label text="50%" display-tooltip-when-elided="true" name="shop-item__badge-text" picking-mode="Ignore" class="shop-item__label" style="left: 44%; -unity-font-style: normal; font-size: 60px; text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.3); top: -11%; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0; position: absolute;" />
+                    <ui:Label text="Off" display-tooltip-when-elided="true" name="shop-item__badge-off-text" picking-mode="Ignore" class="shop-item__label" style="left: 54%; -unity-font-style: normal; font-size: 40px; text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.3); top: 43%; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0; position: absolute;" />
+                </ui:VisualElement>
+                <ui:VisualElement name="shop-item__banner" picking-mode="Ignore" class="shop-item__banner" style="width: 101%; top: 4%; height: 17%; display: none;">
+                    <ui:Label text="Most purchased" display-tooltip-when-elided="true" name="shop-item__banner-label" picking-mode="Ignore" class="shop-item__label" style="font-size: 40px; text-shadow: 3px 3px 3px rgba(44, 62, 80, 0.47); margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0; top: 9%; -unity-font-style: normal;" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:Button text="&#10;" display-tooltip-when-elided="true" name="shop-item__buy-button" class="shop-item__button" style="flex-shrink: 1;">
+                <ui:VisualElement name="shop-item_buy-button-container" picking-mode="Ignore" style="position: absolute; width: 80%; height: 68%; top: 10%; flex-direction: row; background-color: rgba(255, 0, 0, 0); justify-content: center; left: 14%; align-items: center;">
+                    <ui:VisualElement name="shop-item__cost-group" picking-mode="Ignore" style="flex-basis: 50%; background-color: rgba(180, 0, 255, 0); flex-direction: row; flex-grow: 0; align-items: center; height: 100%; display: flex;">
+                        <ui:VisualElement name="shop-item__cost-icon-group" picking-mode="Ignore" style="background-color: rgba(218, 255, 0, 0); flex-basis: 25%; align-items: flex-end; justify-content: center;">
+                            <ui:VisualElement name="shop-item__cost-icon" picking-mode="Ignore" class="shop-item__currency-icon" style="margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0;" />
+                        </ui:VisualElement>
+                        <ui:VisualElement name="shop-item__cost-text" picking-mode="Ignore" style="flex-basis: 75%; background-color: rgba(51, 201, 238, 0); padding-right: 0; justify-content: flex-start; align-items: flex-start; margin-left: 0; flex-grow: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; padding-left: 0; padding-top: 0; padding-bottom: 0; flex-direction: column;">
+                            <ui:Label text="$9.99" display-tooltip-when-elided="true" name="shop-item__cost-price" picking-mode="Ignore" class="shop-item__cost" style="padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0; -unity-text-align: middle-left; margin-left: 10px; margin-right: 0; margin-top: 0; margin-bottom: 0;" />
+                        </ui:VisualElement>
+                        <ui:VisualElement name="shop-item__discount-slash" picking-mode="Ignore" style="position: absolute; width: 96%; height: 100%; left: -11%;">
+                            <ui:VisualElement name="shop-item__discount-slash-graphic" picking-mode="Ignore" style="position: absolute; width: 100%; height: 15%; background-color: rgb(255, 6, 6); rotate: -11deg; background-image: none; left: 0; top: 54%; flex-shrink: 0; display: flex;" />
+                        </ui:VisualElement>
+                    </ui:VisualElement>
+                    <ui:VisualElement name="shop-item__discount-group" picking-mode="Ignore" style="flex-basis: 50%; background-color: rgba(180, 0, 255, 0); flex-direction: row; flex-grow: 0; align-items: center; height: 100%; display: flex; margin-left: 10px;">
+                        <ui:VisualElement name="shop-item__discount-icon-group" picking-mode="Ignore" style="background-color: rgba(218, 255, 0, 0); flex-basis: 25%; align-items: flex-end; justify-content: center;">
+                            <ui:VisualElement name="shop-item__discount-icon" picking-mode="Ignore" class="shop-item__currency-icon" style="margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0;" />
+                        </ui:VisualElement>
+                        <ui:VisualElement name="shop-item__discount-text" picking-mode="Ignore" style="flex-basis: 75%; background-color: rgba(51, 201, 238, 0); padding-right: 0; justify-content: flex-start; align-items: flex-start; margin-left: 0; flex-grow: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; padding-left: 0; padding-top: 0; padding-bottom: 0; flex-direction: column;">
+                            <ui:Label text="$9.99" display-tooltip-when-elided="true" name="shop-item__discount-price" picking-mode="Ignore" class="shop-item__cost" style="margin-left: 10px; margin-right: 0; margin-top: 0; margin-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0; -unity-text-align: middle-left;" />
+                        </ui:VisualElement>
+                    </ui:VisualElement>
+                </ui:VisualElement>
+            </ui:Button>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 79eb9f12f74541b0b172b5bfa615c42a, type: 3}
+  m_Name: LeatherBootVariadicItemInfo
+  m_EditorClassIdentifier: 
+  type: 0
+  value:
+    rid: 2950379291527610373
+  references:
+    version: 2
+    RefIds:
+    - rid: 2950379291527610373
+      type: {class: EquipmentVariadicItemInfo, ns: Data.Static, asm: Assembly-CSharp}
+      data:
+        id: 80
+        nickname: LeatherBoot
+        description: starting boots
+        icon: {fileID: 21300000, guid: 29a1226f7b5e20240942612e151c3c4c, type: 3}
+        equipmentPosition: 4
+        upgradeMax: 10
+        prices:
+          points: 1e00000000000000390000000000000054000000000000006f000000000000008a00000000000000a500000000000000c000000000000000db00000000000000f6000000000000001101000000000000
+          xmin: 0
+          xmax: 10
+          ymin: 30
+          ymax: 300
+          interpolationType: 0
+        upgradeFailChances:
+          points: 1e0000000000000025000000000000002c0000000000000033000000000000003a00000000000000410000000000000048000000000000004f0000000000000056000000000000005d00000000000000
+          xmin: 0
+          xmax: 10
+          ymin: 30
+          ymax: 100
+          interpolationType: 0
+        stats:
+        - type: 9
+          value:
+            points: 0100000000000000020000000000000003000000000000000400000000000000050000000000000006000000000000000700000000000000080000000000000009000000000000000a00000000000000
+            xmin: 0
+            xmax: 10
+            ymin: 1
+            ymax: 11
+            interpolationType: 0
+        onGenerate: 0

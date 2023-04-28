@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26af7cf2ac5642e2a835768b96553341, type: 3}
+  m_Name: IronSwordUpgrade1ItemInfo
+  m_EditorClassIdentifier: 
+  type: 2
+  value:
+    rid: 2950379291527610485
+  references:
+    version: 2
+    RefIds:
+    - rid: 2950379291527610485
+      type: {class: EquipmentItemInfo, ns: Data.Static, asm: Assembly-CSharp}
+      data:
+        id: 101
+        nickname: IronSword
+        description: starting weapon
+        icon: {fileID: 21300000, guid: 8f28955d92038974a9b04aafaeea79b0, type: 3}
+        price: 418
+        variadicItemId: 100
+        upgradeLevel: 1

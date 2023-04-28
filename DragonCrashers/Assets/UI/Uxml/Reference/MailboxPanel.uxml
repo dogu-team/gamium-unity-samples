@@ -1,0 +1,106 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/Uss/MailScreen.uss?fileID=7433441132597879392&amp;guid=093b19c999c06c04ab4d039b75b38838&amp;type=3#MailScreen" />
+    <ui:VisualElement name="mail-box" style="position: absolute; width: 100%; height: 100%; background-color: rgb(41, 128, 185); flex-direction: row;">
+        <ui:VisualElement name="mail-panel-left" style="position: relative; height: 100%; width: 30%; padding-left: 20px; display: flex; padding-right: 0; padding-top: 20px; padding-bottom: 0;">
+            <ui:ScrollView name="mail-items" horizontal-scroller-visibility="Hidden" vertical-scroller-visibility="AlwaysVisible" style="align-items: center; height: 90%; top: 3%; left: 1%;">
+                <ui:VisualElement name="mail-item-subject" class="mail-message" style="width: 95%; display: flex; margin-left: 0; margin-right: 0; margin-top: 10px; margin-bottom: 0;">
+                    <ui:VisualElement name="mail-item-icon-background" class="mail-item-icon-background" style="position: absolute; left: 0; top: 0; background-color: rgba(44, 62, 80, 0); align-items: center;">
+                        <ui:VisualElement name="mail-item-icon" style="position: relative; height: 100px; width: 100px; background-color: rgb(243, 156, 18); right: 0; display: flex;" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="mail-item-subject-background" style="width: 70%; height: 100%; justify-content: center; align-items: flex-start; padding-left: 4%; background-color: rgba(226, 226, 226, 0.39); position: absolute; left: 30%;">
+                        <ui:Label text="Message1" display-tooltip-when-elided="true" name="mail-item-subject" style="-unity-font-style: bold; -unity-font: url(&apos;project://database/Assets/UI%20Toolkit/UnityThemes/UnityDefaultRuntimeTheme.tss?fileID=2230732570650464555&amp;guid=888f5d4c70c64c84fbb5a299b79e20b4&amp;type=3#NotInter-Regular&apos;); font-size: 38px;" />
+                        <ui:Label text="01/01/2022" display-tooltip-when-elided="true" name="mail-item-date" style="-unity-font-style: bold; font-size: 24px; top: -11px;" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="mail-item-badge" style="background-color: rgb(231, 76, 60); width: 50px; height: 50px; position: absolute; right: 0; top: 0;" />
+                </ui:VisualElement>
+                <ui:VisualElement name="mail-item-subject" class="mail-message" style="width: 95%; display: flex; margin-left: 0; margin-right: 0; margin-top: 10px; margin-bottom: 0;">
+                    <ui:VisualElement name="mail-item-icon-background" class="mail-item-icon-background" style="position: absolute; left: 0; top: 0; background-color: rgba(44, 62, 80, 0); align-items: center;">
+                        <ui:VisualElement name="mail-item-icon" style="position: relative; height: 100px; width: 100px; background-color: rgb(243, 156, 18); right: 0; display: flex;" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="mail-item-subject-background" style="width: 70%; height: 100%; justify-content: center; align-items: flex-start; padding-left: 4%; background-color: rgba(226, 226, 226, 0.39); position: absolute; left: 30%;">
+                        <ui:Label text="Message1" display-tooltip-when-elided="true" name="mail-item-subject" style="-unity-font-style: bold; -unity-font: url(&apos;project://database/Assets/UI%20Toolkit/UnityThemes/UnityDefaultRuntimeTheme.tss?fileID=2230732570650464555&amp;guid=888f5d4c70c64c84fbb5a299b79e20b4&amp;type=3#NotInter-Regular&apos;); font-size: 38px;" />
+                        <ui:Label text="01/01/2022" display-tooltip-when-elided="true" name="mail-item-date" style="-unity-font-style: bold; font-size: 24px; top: -11px;" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="mail-item-badge" style="background-color: rgb(231, 76, 60); width: 50px; height: 50px; position: absolute; right: 0; top: 0;" />
+                </ui:VisualElement>
+                <ui:VisualElement name="mail-item-subject" class="mail-message" style="width: 95%; display: flex; margin-left: 0; margin-right: 0; margin-top: 10px; margin-bottom: 0;">
+                    <ui:VisualElement name="mail-item-icon-background" class="mail-item-icon-background" style="position: absolute; left: 0; top: 0; background-color: rgba(44, 62, 80, 0); align-items: center;">
+                        <ui:VisualElement name="mail-item-icon" style="position: relative; height: 100px; width: 100px; background-color: rgb(243, 156, 18); right: 0; display: flex;" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="mail-item-subject-background" style="width: 70%; height: 100%; justify-content: center; align-items: flex-start; padding-left: 4%; background-color: rgba(226, 226, 226, 0.39); position: absolute; left: 30%;">
+                        <ui:Label text="Message1" display-tooltip-when-elided="true" name="mail-item-subject" style="-unity-font-style: bold; -unity-font: url(&apos;project://database/Assets/UI%20Toolkit/UnityThemes/UnityDefaultRuntimeTheme.tss?fileID=2230732570650464555&amp;guid=888f5d4c70c64c84fbb5a299b79e20b4&amp;type=3#NotInter-Regular&apos;); font-size: 38px;" />
+                        <ui:Label text="01/01/2022" display-tooltip-when-elided="true" name="mail-item-date" style="-unity-font-style: bold; font-size: 24px; top: -11px;" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="mail-item-badge" style="background-color: rgb(231, 76, 60); width: 50px; height: 50px; position: absolute; right: 0; top: 0;" />
+                </ui:VisualElement>
+                <ui:VisualElement name="mail-item-subject" class="mail-message" style="width: 95%; display: flex; margin-left: 0; margin-right: 0; margin-top: 10px; margin-bottom: 0;">
+                    <ui:VisualElement name="mail-item-icon-background" class="mail-item-icon-background" style="position: absolute; left: 0; top: 0; background-color: rgba(44, 62, 80, 0); align-items: center;">
+                        <ui:VisualElement name="mail-item-icon" style="position: relative; height: 100px; width: 100px; background-color: rgb(243, 156, 18); right: 0; display: flex;" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="mail-item-subject-background" style="width: 70%; height: 100%; justify-content: center; align-items: flex-start; padding-left: 4%; background-color: rgba(226, 226, 226, 0.39); position: absolute; left: 30%;">
+                        <ui:Label text="Message1" display-tooltip-when-elided="true" name="mail-item-subject" style="-unity-font-style: bold; -unity-font: url(&apos;project://database/Assets/UI%20Toolkit/UnityThemes/UnityDefaultRuntimeTheme.tss?fileID=2230732570650464555&amp;guid=888f5d4c70c64c84fbb5a299b79e20b4&amp;type=3#NotInter-Regular&apos;); font-size: 38px;" />
+                        <ui:Label text="01/01/2022" display-tooltip-when-elided="true" name="mail-item-date" style="-unity-font-style: bold; font-size: 24px; top: -11px;" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="mail-item-badge" style="background-color: rgb(231, 76, 60); width: 50px; height: 50px; position: absolute; right: 0; top: 0;" />
+                </ui:VisualElement>
+                <ui:VisualElement name="mail-item-subject" class="mail-message" style="width: 95%; display: flex; margin-left: 0; margin-right: 0; margin-top: 10px; margin-bottom: 0;">
+                    <ui:VisualElement name="mail-item-icon-background" class="mail-item-icon-background" style="position: absolute; left: 0; top: 0; background-color: rgba(44, 62, 80, 0); align-items: center;">
+                        <ui:VisualElement name="mail-item-icon" style="position: relative; height: 100px; width: 100px; background-color: rgb(243, 156, 18); right: 0; display: flex;" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="mail-item-subject-background" style="width: 70%; height: 100%; justify-content: center; align-items: flex-start; padding-left: 4%; background-color: rgba(226, 226, 226, 0.39); position: absolute; left: 30%;">
+                        <ui:Label text="Message1" display-tooltip-when-elided="true" name="mail-item-subject" style="-unity-font-style: bold; -unity-font: url(&apos;project://database/Assets/UI%20Toolkit/UnityThemes/UnityDefaultRuntimeTheme.tss?fileID=2230732570650464555&amp;guid=888f5d4c70c64c84fbb5a299b79e20b4&amp;type=3#NotInter-Regular&apos;); font-size: 38px;" />
+                        <ui:Label text="01/01/2022" display-tooltip-when-elided="true" name="mail-item-date" style="-unity-font-style: bold; font-size: 24px; top: -11px;" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="mail-item-badge" style="background-color: rgb(231, 76, 60); width: 50px; height: 50px; position: absolute; right: 0; top: 0;" />
+                </ui:VisualElement>
+                <ui:VisualElement name="mail-item-subject" class="mail-message" style="width: 95%; display: flex; margin-left: 0; margin-right: 0; margin-top: 10px; margin-bottom: 0;">
+                    <ui:VisualElement name="mail-item-icon-background" class="mail-item-icon-background" style="position: absolute; left: 0; top: 0; background-color: rgba(44, 62, 80, 0); align-items: center;">
+                        <ui:VisualElement name="mail-item-icon" style="position: relative; height: 100px; width: 100px; background-color: rgb(243, 156, 18); right: 0; display: flex;" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="mail-item-subject-background" style="width: 70%; height: 100%; justify-content: center; align-items: flex-start; padding-left: 4%; background-color: rgba(226, 226, 226, 0.39); position: absolute; left: 30%;">
+                        <ui:Label text="Message1" display-tooltip-when-elided="true" name="mail-item-subject" style="-unity-font-style: bold; -unity-font: url(&apos;project://database/Assets/UI%20Toolkit/UnityThemes/UnityDefaultRuntimeTheme.tss?fileID=2230732570650464555&amp;guid=888f5d4c70c64c84fbb5a299b79e20b4&amp;type=3#NotInter-Regular&apos;); font-size: 38px;" />
+                        <ui:Label text="01/01/2022" display-tooltip-when-elided="true" name="mail-item-date" style="-unity-font-style: bold; font-size: 24px; top: -11px;" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="mail-item-badge" style="background-color: rgb(231, 76, 60); width: 50px; height: 50px; position: absolute; right: 0; top: 0;" />
+                </ui:VisualElement>
+                <ui:VisualElement name="mail-item-subject" class="mail-message" style="width: 95%; display: flex; margin-left: 0; margin-right: 0; margin-top: 10px; margin-bottom: 0;">
+                    <ui:VisualElement name="mail-item-icon-background" class="mail-item-icon-background" style="position: absolute; left: 0; top: 0; background-color: rgba(44, 62, 80, 0); align-items: center;">
+                        <ui:VisualElement name="mail-item-icon" style="position: relative; height: 100px; width: 100px; background-color: rgb(243, 156, 18); right: 0; display: flex;" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="mail-item-subject-background" style="width: 70%; height: 100%; justify-content: center; align-items: flex-start; padding-left: 4%; background-color: rgba(226, 226, 226, 0.39); position: absolute; left: 30%;">
+                        <ui:Label text="Message1" display-tooltip-when-elided="true" name="mail-item-subject" style="-unity-font-style: bold; -unity-font: url(&apos;project://database/Assets/UI%20Toolkit/UnityThemes/UnityDefaultRuntimeTheme.tss?fileID=2230732570650464555&amp;guid=888f5d4c70c64c84fbb5a299b79e20b4&amp;type=3#NotInter-Regular&apos;); font-size: 38px;" />
+                        <ui:Label text="01/01/2022" display-tooltip-when-elided="true" name="mail-item-date" style="-unity-font-style: bold; font-size: 24px; top: -11px;" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="mail-item-badge" style="background-color: rgb(231, 76, 60); width: 50px; height: 50px; position: absolute; right: 0; top: 0;" />
+                </ui:VisualElement>
+                <ui:VisualElement name="mail-item-subject" class="mail-message" style="width: 95%; display: flex; margin-left: 0; margin-right: 0; margin-top: 10px; margin-bottom: 0;">
+                    <ui:VisualElement name="mail-item-icon-background" class="mail-item-icon-background" style="position: absolute; left: 0; top: 0; background-color: rgba(44, 62, 80, 0); align-items: center;">
+                        <ui:VisualElement name="mail-item-icon" style="position: relative; height: 100px; width: 100px; background-color: rgb(243, 156, 18); right: 0; display: flex;" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="mail-item-subject-background" style="width: 70%; height: 100%; justify-content: center; align-items: flex-start; padding-left: 4%; background-color: rgba(226, 226, 226, 0.39); position: absolute; left: 30%;">
+                        <ui:Label text="Message1" display-tooltip-when-elided="true" name="mail-item-subject" style="-unity-font-style: bold; -unity-font: url(&apos;project://database/Assets/UI%20Toolkit/UnityThemes/UnityDefaultRuntimeTheme.tss?fileID=2230732570650464555&amp;guid=888f5d4c70c64c84fbb5a299b79e20b4&amp;type=3#NotInter-Regular&apos;); font-size: 38px;" />
+                        <ui:Label text="01/01/2022" display-tooltip-when-elided="true" name="mail-item-date" style="-unity-font-style: bold; font-size: 24px; top: -11px;" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="mail-item-badge" style="background-color: rgb(231, 76, 60); width: 50px; height: 50px; position: absolute; right: 0; top: 0;" />
+                </ui:VisualElement>
+            </ui:ScrollView>
+        </ui:VisualElement>
+        <ui:VisualElement name="mail-panel-right" style="width: 70%; height: 100%; display: flex; align-items: center; justify-content: center;">
+            <ui:VisualElement name="mail-right-background" style="position: absolute; left: 3%; top: 4%; width: 94%; height: 90%; background-color: rgb(255, 255, 255);" />
+            <ui:Label text="Message 1 title" display-tooltip-when-elided="true" name="mail-message-title" style="-unity-font-style: bold; -unity-font: url(&apos;project://database/Assets/UI%20Toolkit/UnityThemes/UnityDefaultRuntimeTheme.tss?fileID=2230732570650464555&amp;guid=888f5d4c70c64c84fbb5a299b79e20b4&amp;type=3#NotInter-Regular&apos;); font-size: 51px; position: absolute; top: 5%; width: 38%; height: 10%; -unity-text-align: upper-center;" />
+            <ui:VisualElement name="mail-message-container" style="width: 91%; height: 50%; top: -9%; display: flex;">
+                <ui:ScrollView horizontal-scroller-visibility="Hidden" vertical-scroller-visibility="Auto" horizontal-page-size="-1" vertical-page-size="-1" name="mail-message-scroll-view" style="width: 100%; height: 95%;">
+                    <ui:Label text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." display-tooltip-when-elided="true" name="mail-message-text" style="width: 100%; height: 80%; white-space: normal; -unity-font-style: bold; font-size: 39px;" />
+                </ui:ScrollView>
+            </ui:VisualElement>
+            <ui:VisualElement name="mail-right-footer" style="position: absolute; width: 91%; height: 12%; background-color: rgb(127, 140, 141); display: flex; align-items: center; justify-content: center; top: 65%;">
+                <ui:VisualElement name="mail-reward-group" style="width: 39%; height: 80%; align-items: center; justify-content: center; flex-direction: row;">
+                    <ui:VisualElement name="mail-reward-icon" style="background-color: rgb(241, 196, 15); width: 80px; height: 80px;" />
+                    <ui:Label text=" X99" display-tooltip-when-elided="true" name="mail-reward-label" style="position: relative; right: 0; bottom: 0; -unity-font-style: bold; -unity-font: url(&apos;project://database/Assets/UI%20Toolkit/UnityThemes/UnityDefaultRuntimeTheme.tss?fileID=2230732570650464555&amp;guid=888f5d4c70c64c84fbb5a299b79e20b4&amp;type=3#NotInter-Regular&apos;); font-size: 54px; color: rgb(255, 255, 255);" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:Button text="CLAIM" display-tooltip-when-elided="true" name="mail-reward-button" style="position: absolute; width: 30%; height: 90px; -unity-font: url(&apos;project://database/Assets/UI%20Toolkit/UnityThemes/UnityDefaultRuntimeTheme.tss?fileID=2230732570650464555&amp;guid=888f5d4c70c64c84fbb5a299b79e20b4&amp;type=3#NotInter-Regular&apos;); -unity-font-style: bold; font-size: 44px; background-color: rgb(255, 115, 0); bottom: 8%; color: rgb(255, 255, 255); margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0;" />
+            <ui:Button display-tooltip-when-elided="true" name="mail-delete-button" text="DELETE" style="position: absolute; width: 90px; height: 90px; background-color: rgb(211, 84, 0); right: 5%; bottom: 9%; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0; -unity-font-style: bold; font-size: 20px; color: rgb(255, 255, 255);" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
