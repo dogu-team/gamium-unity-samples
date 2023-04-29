@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "com.dogu.gamium.unity.server": "https://github.com/dogu-team/gamium-engine-unity.git#1.0.0",
+    "com.dogu.gamium.engine.unity": "https://github.com/dogu-team/gamium-engine-unity.git#1.0.0",
     "com.unity.collab-proxy": "1.17.7",
     "com.unity.feature.development": "1.0.1",
     "com.unity.ide.rider": "3.0.16",
@@ -43,5 +43,5 @@
     "com.unity.modules.wind": "1.0.0",
     "com.unity.modules.xr": "1.0.0"
   },
-  "testables": ["com.dogu.gamium.unity.server"]
+  "testables": ["com.dogu.gamium.engine.unity"]
 }

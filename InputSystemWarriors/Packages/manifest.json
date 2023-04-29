@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "com.dogu.gamium.unity.server": "https://github.com/dogu-team/gamium-engine-unity.git#1.0.0",
+    "com.dogu.gamium.engine.unity": "https://github.com/dogu-team/gamium-engine-unity.git#1.0.0",
     "com.unity.2d.sprite": "1.0.0",
     "com.unity.cinemachine": "2.8.9",
     "com.unity.collab-proxy": "1.17.7",

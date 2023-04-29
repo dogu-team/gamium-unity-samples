@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "com.dogu.gamium.unity.server": {
+    "com.dogu.gamium.engine.unity": {
       "version": "https://github.com/dogu-team/gamium-engine-unity.git#1.0.0",
       "depth": 0,
       "source": "git",
