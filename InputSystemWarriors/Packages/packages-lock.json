@@ -1,7 +1,7 @@
 {
   "dependencies": {
     "com.dogu.gamium.unity.server": {
-      "version": "https://github.com/dogu-team/gamium-server-unity.git#1.0.0",
+      "version": "https://github.com/dogu-team/gamium-engine-unity.git#1.0.0",
       "depth": 0,
       "source": "git",
       "dependencies": {},

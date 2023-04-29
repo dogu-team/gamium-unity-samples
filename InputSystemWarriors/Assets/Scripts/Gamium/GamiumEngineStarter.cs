@@ -2,7 +2,7 @@ using System.Collections.Generic;
 using Gamium;
 using UnityEngine;
 
-public class GamiumServerStarter
+public class GamiumEngineStarter
 {
     [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.BeforeSceneLoad)]
     private static void OnLoad()
