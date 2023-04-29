@@ -2,8 +2,7 @@
 Gamium Server Unity Samples
 </p>
 
-Unity Example Projects are projects originally released publicly by Unity or other developers.  
-This repository is a collection of projects that apply the [Gamium Server Unity SDK](https://github.com/dogu-team/gamium-server-unity) on these projects.
+This repository is a collection of samples of the [Gamium Server Unity SDK](https://github.com/dogu-team/gamium-server-unity) applied to projects originally released by Unity or other developers publicly.
 
 ## DoguRpgSample
 
