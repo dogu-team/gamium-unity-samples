@@ -25,7 +25,7 @@ public class GamiumEngineStarter
                     },
                 },
                 isVerbose = true
-            }).StartServer();
+            }).Run();
     }
 
     private class EventHandler : Gamium.IEventHandler

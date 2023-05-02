@@ -23,7 +23,7 @@ public class ServerStarter
                 , new InputMapping(){alias = "Fire2", positiveCodes = new HashSet<KeyCode>() {KeyCode.LeftAlt}}
             },
                 isVerbose = true
-            }).StartServer();
+            }).Run();
     }
 
     private class EventHandler : Gamium.IEventHandler
