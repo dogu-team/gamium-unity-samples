@@ -21,6 +21,7 @@ namespace UI.Login
 
         void Awake()
         {
+            Application.targetFrameRate = 60;
             Refresh();
         }
 
