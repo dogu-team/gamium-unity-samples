@@ -1,7 +1,6 @@
 using System;
 using MobileInput;
 using UnityEngine;
-using UnityEngine.TextCore.Text;
 using UnityEngine.UI;
 
 namespace UI

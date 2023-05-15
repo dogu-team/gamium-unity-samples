@@ -14,11 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   type: 0
   value:
-    rid: 2950379311662366772
+    id: 0
   references:
-    version: 2
-    RefIds:
-    - rid: 2950379311662366772
+    version: 1
+    00000000:
       type: {class: KillEnemyQuestInfo, ns: Data.Static, asm: Assembly-CSharp}
       data:
         id: 0

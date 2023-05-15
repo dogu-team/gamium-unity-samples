@@ -108,7 +108,7 @@ public class CharacterActionController : MonoBehaviour
     {
         var action = GetAction(CharacterActionType.Hit);
         var damage =
-            Math.Clamp(fromStatController.Get(Stat.StatType.Attack).Value - stat.Get(Stat.StatType.Defense).Value, 0,
+            (int)Mathf.Clamp(fromStatController.Get(Stat.StatType.Attack).Value - stat.Get(Stat.StatType.Defense).Value, 0,
                 Int64.MaxValue);
         stat.TakeDamage(damage);
         if (stat.Get(Stat.StatType.Health).Value <= 0)

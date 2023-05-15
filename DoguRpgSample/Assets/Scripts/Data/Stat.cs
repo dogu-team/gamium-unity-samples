@@ -44,7 +44,7 @@ public class Stat
         {
             long finalValue = value;
             modifiers.ForEach(x => finalValue += x.value.value);
-            finalValue = Math.Clamp(finalValue, 0, long.MaxValue);
+            finalValue = (long)Mathf.Clamp(finalValue, 0, long.MaxValue);
             return finalValue;
         }
     }
@@ -55,7 +55,7 @@ public class Stat
         {
             long finalValue = 0;
             modifiers.ForEach(x => finalValue += x.value.value);
-            finalValue = Math.Clamp(finalValue, 0, long.MaxValue);
+            finalValue = (long)Mathf.Clamp(finalValue, 0, long.MaxValue);
             return finalValue;
         }
     }

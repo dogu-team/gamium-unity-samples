@@ -14,11 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   type: 2
   value:
-    rid: 2950379291527610482
+    id: 0
   references:
-    version: 2
-    RefIds:
-    - rid: 2950379291527610482
+    version: 1
+    00000000:
       type: {class: EquipmentItemInfo, ns: Data.Static, asm: Assembly-CSharp}
       data:
         id: 98

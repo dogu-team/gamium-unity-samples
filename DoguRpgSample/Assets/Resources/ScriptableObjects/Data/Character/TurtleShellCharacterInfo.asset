@@ -14,33 +14,32 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   type: 1
   value:
-    rid: 2950379199800279244
+    id: 0
   actions:
   - type: 0
     action:
-      rid: 2950379199800279260
+      id: 1
   - type: 1
     action:
-      rid: 2950379199800279261
+      id: 2
   - type: 2
     action:
-      rid: 2950379199800279262
+      id: 3
   - type: 3
     action:
-      rid: 2950379199800279263
+      id: 4
   - type: 4
     action:
-      rid: 2950379199800279264
+      id: 5
   - type: 5
     action:
-      rid: 2950379199800279265
+      id: 6
   - type: 6
     action:
-      rid: 2950379199800279266
+      id: 7
   references:
-    version: 2
-    RefIds:
-    - rid: 2950379199800279244
+    version: 1
+    00000000:
       type: {class: EnemyCharacterInfo, ns: Data.Static, asm: Assembly-CSharp}
       data:
         id: 3
@@ -144,34 +143,34 @@ MonoBehaviour:
         - item: {fileID: 11400000, guid: 0e8e4b448a6a6447e8d7bb87029806b1, type: 2}
           amount: 5
           chance: 0.6
-    - rid: 2950379199800279260
+    00000001:
       type: {class: CharacterActionIdle, ns: Data.Static, asm: Assembly-CSharp}
       data:
         animation: {fileID: 7400000, guid: e599599913457404aa360071350dd7c4, type: 3}
-    - rid: 2950379199800279261
+    00000002:
       type: {class: CharacterActionWalk, ns: Data.Static, asm: Assembly-CSharp}
       data:
         animation: {fileID: 7400000, guid: 769c6c4d31c2dad48b0664b47847f7e1, type: 3}
-    - rid: 2950379199800279262
+    00000003:
       type: {class: CharacterActionRun, ns: Data.Static, asm: Assembly-CSharp}
       data:
         animation: {fileID: 7400000, guid: 769c6c4d31c2dad48b0664b47847f7e1, type: 3}
-    - rid: 2950379199800279263
+    00000004:
       type: {class: CharacterActionJump, ns: Data.Static, asm: Assembly-CSharp}
       data:
         animation: {fileID: 0}
-    - rid: 2950379199800279264
+    00000005:
       type: {class: CharacterActionAttack, ns: Data.Static, asm: Assembly-CSharp}
       data:
         animation: {fileID: 7400000, guid: 18d0edd1f2ba4444d9ba9bdf01f251d4, type: 3}
         attackCollider: {fileID: -6492036973939857855, guid: 6870169b1fbbc400e8c49c2a2e8f6132,
           type: 3}
         cooltime: 4
-    - rid: 2950379199800279265
+    00000006:
       type: {class: CharacterActionHit, ns: Data.Static, asm: Assembly-CSharp}
       data:
         animation: {fileID: 7400000, guid: b374e22ebb027494eaf0e15709666b60, type: 3}
-    - rid: 2950379199800279266
+    00000007:
       type: {class: CharacterActionDie, ns: Data.Static, asm: Assembly-CSharp}
       data:
         animation: {fileID: 7400000, guid: d57bb9f35b232f546851ae283a6a4310, type: 3}

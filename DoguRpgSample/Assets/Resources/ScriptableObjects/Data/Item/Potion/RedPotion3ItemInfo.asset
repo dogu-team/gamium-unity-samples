@@ -14,11 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   type: 1
   value:
-    rid: 2950379229120823307
+    id: 0
   references:
-    version: 2
-    RefIds:
-    - rid: 2950379229120823307
+    version: 1
+    00000000:
       type: {class: PotionItemInfo, ns: Data.Static, asm: Assembly-CSharp}
       data:
         id: 12

@@ -88,13 +88,13 @@ namespace Data
 
         public static long CalcuatePointsSize(long xmin, long xmax)
         {
-            return Math.Clamp(xmax - xmin, 0, Int64.MaxValue);
+            return (long)Mathf.Clamp(xmax - xmin, 0, Int64.MaxValue);
         }
 
         public static long CaculateYValue(ChartInterpolationType interpolationType, long xmin, long xmax, long ymin,
             long ymax, int index)
         {
-            var xdelta = Math.Clamp(xmax - xmin, 0, Int64.MaxValue);
+            var xdelta = (long)Mathf.Clamp(xmax - xmin, 0, Int64.MaxValue);
             switch (interpolationType)
             {
                 case ChartInterpolationType.Linear:

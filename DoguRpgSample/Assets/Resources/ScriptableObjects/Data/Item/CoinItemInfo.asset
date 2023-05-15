@@ -14,11 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   type: 0
   value:
-    rid: 2950379229120823302
+    id: 0 
   references:
-    version: 2
-    RefIds:
-    - rid: 2950379229120823302
+    version: 1
+    00000000:
       type: {class: CoinItemInfo, ns: Data.Static, asm: Assembly-CSharp}
       data:
         id: 0

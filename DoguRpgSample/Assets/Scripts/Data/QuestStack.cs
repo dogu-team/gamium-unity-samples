@@ -1,5 +1,6 @@
 using System;
 using Data.Static;
+using UnityEngine;
 
 namespace Data
 {
@@ -12,7 +13,7 @@ namespace Data
         
         public void Increment(uint argCount)
         {
-            ulong sum = Math.Clamp((ulong)count + (ulong)argCount, uint.MinValue, uint.MaxValue);
+            ulong sum = (ulong)Mathf.Clamp((ulong)count + (ulong)argCount, uint.MinValue, uint.MaxValue);
             count = (uint)sum;
         }
 
