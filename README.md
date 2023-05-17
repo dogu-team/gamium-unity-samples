@@ -2,7 +2,7 @@
 Gamium Engine Unity Samples
 </p>
 
-This repository is a collection of samples of the [Gamium Engine Unity SDK](https://github.com/dogu-team/gamium-engine-unity) applied to projects originally released by Unity or other developers publicly.
+This repository is a collection of samples of the [Gamium SDK](https://github.com/dogu-team/gamium/tree/main/engine/unity) applied to projects originally released by Unity or other developers publicly.
 
 ## DoguRpgSample
 
