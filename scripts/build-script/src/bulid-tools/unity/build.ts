@@ -15,10 +15,10 @@ const desktopParam: {
   };
 } = {
   win32: {
-    unityPath: '"C:/Program Files/Unity/Hub/Editor/2020.3.47f1/Editor/Unity.exe"',
+    unityPath: '"C:/Program Files/Unity/Hub/Editor/[VERSION]/Editor/Unity.exe"',
   },
   darwin: {
-    unityPath: '/Applications/Unity/Hub/Editor/2020.3.47f1/Unity.app/Contents/MacOS/Unity',
+    unityPath: '/Applications/Unity/Hub/Editor/[VERSION]/Unity.app/Contents/MacOS/Unity',
   },
 };
 
@@ -75,12 +75,14 @@ export async function build(projectPath: string, option: BuildOption): Promise<v
 async function buildInternal(projectPath: string, buildTarget: BuildTarget): Promise<BuildResult> {
   const outputReleativeDirectory = `build/${buildTarget}`;
   const logPath = path.resolve(projectPath, outputReleativeDirectory, 'buildlog.txt');
+  const projectVersionFile = await fs.promises.readFile(path.resolve(projectPath, 'ProjectSettings/ProjectVersion.txt'), 'utf8');
+  const projectVersion = projectVersionFile.match(/m_EditorVersion: (.*)/)?.[1];
 
   const desktopInfo = desktopParam[process.platform];
   if (desktopInfo === undefined) {
     throw new Error(`Unsupported platform: ${process.platform}`);
   }
-  const unityPath = desktopInfo.unityPath;
+  const unityPath = desktopInfo.unityPath.replace('[VERSION]', projectVersion);
   const buildTargetInfo = buildTargetConfig[buildTarget];
   if (buildTargetInfo === undefined) {
     throw new Error(`Unsupported build target: ${buildTarget}`);
