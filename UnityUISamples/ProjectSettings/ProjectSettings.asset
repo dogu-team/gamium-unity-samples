@@ -800,6 +800,7 @@ PlayerSettings:
   scriptingDefineSymbols:
     0: USE_GAMIUM
     1: USE_GAMIUM
+    7: USE_GAMIUM
   additionalCompilerArguments: {}
   platformArchitecture:
     Android: 1
