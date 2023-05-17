@@ -44,10 +44,15 @@ import { test } from './functions';
     const keys = Object.keys(UnityKeyboard).filter((v) => isNaN(Number(v)));
 
     for (const key of keys) {
-      await gamium.sendKey(KeyBy.unityKeyboard(UnityKeyboard[key]));
+      await gamium.sendKey(KeyBy.unityKeyboard(key as keyof typeof UnityKeyboard));
       const text = await ui.getText(By.path('/UI[1]/Canvas[1]/Text (TMP)[1]'));
-      assert.equal(UnityKeyboard[text], UnityKeyboard[key], `fail ${key} is not equal to ${text}`);
+      assert.deepStrictEqual(UnityKeyboard[text], UnityKeyboard[key], `fail ${UnityKeyboard[key]} is not equal to ${UnityKeyboard[text]}`);
     }
+  });
+
+  await test('Quit', async () => {
+    await gamium.actions().appQuit().perform();
+    process.exit(0);
   });
 })().catch((e) => {
   console.error(e);

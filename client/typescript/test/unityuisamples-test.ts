@@ -10,7 +10,7 @@ import { test } from './functions';
   let player: Player;
   const cameraLocator = By.path('/Cameras[1]/Main Camera[1]');
 
-  test('RpcMethod test', async () => {
+  await test('RpcMethod test', async () => {
     let ret = await gamium.executeRpc(RpcBy.method('Gamium.Private.CodebaseSample', 'CallEmptyParam'));
     assert.strictEqual(ret, undefined);
     ret = await gamium.executeRpc(RpcBy.method('Gamium.Private.CodebaseSample', 'CallParam1', 10));
@@ -40,7 +40,7 @@ import { test } from './functions';
     });
   });
 
-  test('RpcField test', async () => {
+  await test('RpcField test', async () => {
     let ret = await gamium.executeRpc(RpcBy.field('Gamium.Private.CodebaseSample', 'field1'));
     assert.strictEqual(ret, 10.0);
     ret = await gamium.executeRpc(RpcBy.field('Gamium.Private.CodebaseSample', 'field2'));
@@ -49,14 +49,14 @@ import { test } from './functions';
     assert.deepStrictEqual(ret, { hello: 'nice' });
   });
 
-  test('RpcProperty test', async () => {
+  await test('RpcProperty test', async () => {
     let ret = await gamium.executeRpc(RpcBy.property('Gamium.Private.CodebaseSample', 'property1'));
     assert.strictEqual(ret, 0);
     ret = await gamium.executeRpc(RpcBy.property('Gamium.Private.CodebaseSample', 'property2'));
     assert.deepStrictEqual(ret, []);
   });
 
-  test('Click Test', async () => {
+  await test('Click Test', async () => {
     await ui.click(By.path('/Canvas[1]/MainMenu[1]/Window[1]/Settings[1]'));
     await ui.click(By.path('/Canvas[1]/Settings[1]/SettingsWindow[1]/Video[1]'));
     await ui.click(By.path('/Canvas[1]/Settings[1]/SettingsPanels[1]/VideoWindow[1]/Panel[1]/Settings[1]/Anti-Aliasing toggle[1]/Checkmark[1]'));
@@ -66,7 +66,7 @@ import { test } from './functions';
     await ui.click(By.path('/Canvas[1]/MainMenu[1]/Window[1]/NextScene[1]'));
   });
 
-  test('Drag Test', async () => {
+  await test('Drag Test', async () => {
     await ui.find(By.path('/Canvas[1]/Panel Top[1]/Drag Box[1]/Drag Image[1]'));
     const srcElem = await ui.find(By.path('/Canvas[1]/Panel Top[1]/Drag Box[1]/Drag Image[1]'));
     const src2Elem = await ui.find(By.path('/Canvas[1]/Panel Top[1]/Drag Box[2]/Drag Image[1]'));
@@ -82,7 +82,7 @@ import { test } from './functions';
     await ui.click(By.path('/Canvas[1]/NextScene[1]'));
   });
 
-  test('Controls Test', async () => {
+  await test('Controls Test', async () => {
     const handle = await ui.find(By.path('/Canvas[1]/Panel[1]/Slider[1]/Handle Slide Area[1]/Handle[1]'));
     await handle.waitInteractable();
     await handle.drag({ x: handle.info.screenPosition.x - 30, y: handle.info.screenPosition.y }, { durationMs: 1000, intervalMs: 100 });
@@ -118,15 +118,19 @@ import { test } from './functions';
     await ui.click(By.path('/Canvas[1]/NextScene[1]'));
   });
 
-  test('keycode test', async () => {
+  await test('keycode test', async () => {
     const keys = Object.keys(UnityKeyCode).filter((v) => isNaN(Number(v)));
     const title = await ui.find(By.path('/Canvas[1]/Window[1]/SF Title[1]/TitleLabel[1]'));
 
     for (const key of keys) {
-      await gamium.sendKey(KeyBy.unityKeycode(UnityKeyCode[key]), { duratiomMs: 30 });
+      await gamium.sendKey(KeyBy.unityKeycode(key as keyof typeof UnityKeyCode), { duratiomMs: 30 });
       const text = await title.getText();
       assert.equal(UnityKeyCode[text], UnityKeyCode[key], `fail ${key}`);
     }
+  });
+  await test('Quit', async () => {
+    await gamium.actions().appQuit().perform();
+    process.exit(0);
   });
 })().catch((e) => {
   console.error(e);

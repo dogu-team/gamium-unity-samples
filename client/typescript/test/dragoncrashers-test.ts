@@ -1,6 +1,7 @@
 import { By, GamiumClient, MovePlayerBy, UI, Until, NodeGamiumService } from 'gamium';
 import { test } from './functions';
 import assert from 'assert';
+import crypto from 'crypto';
 
 (async () => {
   const gamiumService = new NodeGamiumService('127.0.0.1', 50061);
@@ -135,6 +136,12 @@ import assert from 'assert';
     for (const path of buttonPaths) {
       await ui.click(By.path(path));
     }
+  });
+
+  await test('Quit', async () => {
+    await gamium.sleep(4000);
+    await gamium.actions().appQuit().perform();
+    process.exit(0);
   });
 })().catch((e) => {
   console.error(e);

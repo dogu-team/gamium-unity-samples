@@ -5,12 +5,12 @@
   "author": "",
   "scripts": {
     "build": "tsc",
-    "run:DoguRpgSample": "ts-node ./test/dogurpgsample-test.ts",
-    "run:DragonCrashers": "ts-node ./test/dragoncrashers-test.ts",
-    "run:DypThePenguin": "ts-node ./test/dypthepenguin-test.ts",
-    "run:InputSystemWarriors": "ts-node ./test/inputsystemwarriors-test.ts",
-    "run:UnityUISamples": "ts-node ./test/unityuisamples-test.ts",
-    "run:WarehouseInvasion": "ts-node ./test/warehouseinvasion-test.ts",
+    "run:DoguRpgSample": "tsc -b && ts-node ./test/dogurpgsample-test.ts",
+    "run:DragonCrashers": "tsc -b && ts-node ./test/dragoncrashers-test.ts",
+    "run:DypThePenguin": "tsc -b && ts-node ./test/dypthepenguin-test.ts",
+    "run:InputSystemWarriors": "tsc -b && ts-node ./test/inputsystemwarriors-test.ts",
+    "run:UnityUISamples": "tsc -b && ts-node ./test/unityuisamples-test.ts",
+    "run:WarehouseInvasion": "tsc -b && ts-node ./test/warehouseinvasion-test.ts",
     "watch": "tsc --watch"
   },
   "dependencies": {

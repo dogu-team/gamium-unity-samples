@@ -6,7 +6,7 @@ import { test } from './functions';
   await gamiumService.connect();
   const gamium = new GamiumClient(gamiumService);
   const ui = gamium.ui();
-  let player: Player;
+  const player = await gamium.player(By.path('/Dyp[1]/Dyp[1]/Root[1]'));
   const cameraLocator = By.path('/Cameras[1]/Main Camera[1]');
 
   await test('Pick First SnowBall', async () => {
@@ -198,6 +198,11 @@ import { test } from './functions';
     await player.move(cameraLocator, { x: -8.8, y: 3.56, z: 3.53 }, { epsilon: 1.3 });
     await gamium.sendKeys([KeyBy.unityKeycode('W'), KeyBy.unityKeycode('A')], { duratiomMs: 100 });
     await gamium.sendKey(KeyBy.unityKeycode('LeftControl'));
+  });
+
+  await test('Quit', async () => {
+    await gamium.actions().appQuit().perform();
+    process.exit(0);
   });
 })().catch((e) => {
   console.error(e);

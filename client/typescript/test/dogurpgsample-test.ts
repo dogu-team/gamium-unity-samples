@@ -185,6 +185,7 @@ import { test } from './functions';
   await test('Quit', async () => {
     await gamium.sleep(4000);
     await gamium.actions().appQuit().perform();
+    process.exit(0);
   });
 })().catch((e) => {
   console.error(e);
