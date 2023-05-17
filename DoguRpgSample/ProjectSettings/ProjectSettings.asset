@@ -825,7 +825,7 @@ PlayerSettings:
     iPhone: 1
   il2cppCompilerConfiguration: {}
   managedStrippingLevel:
-    iPhone: 4
+    iPhone: 2
   incrementalIl2cppBuild: {}
   suppressCommonWarnings: 1
   allowUnsafeCode: 0
