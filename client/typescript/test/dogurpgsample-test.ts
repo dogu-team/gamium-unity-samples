@@ -9,7 +9,7 @@ import { test } from './functions';
 
   await test('Create Account', async () => {
     const result = await ui.tryFind(By.path('/Canvas[1]/Start[1]/DeleteAccountButton[1]'));
-    if (result.success && (await result.value.tryWaitInteractable())) {
+    if (result.success && (await result.value.tryWaitInteractable()).success) {
       await result.value.click();
     }
     await ui.click(By.path('/Canvas[1]/Login[1]/Panel[1]/GuestLoginBtn[1]'));
