@@ -7,8 +7,6 @@ import { test } from './functions';
   await gamiumService.connect();
   const gamium = new GamiumClient(gamiumService);
   const ui = gamium.ui();
-  let player: Player;
-  const cameraLocator = By.path('/Cameras[1]/Main Camera[1]');
 
   await test('RpcMethod test', async () => {
     let ret = await gamium.executeRpc(RpcBy.method('Gamium.Private.CodebaseSample', 'CallEmptyParam'));
