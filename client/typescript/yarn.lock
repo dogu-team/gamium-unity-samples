@@ -130,10 +130,10 @@ function-bind@^1.1.1:
   resolved "https://registry.yarnpkg.com/function-bind/-/function-bind-1.1.1.tgz#a56899d3ea3c9bab874bb9773b7c5ede92f4895d"
   integrity sha512-yIovAzMX49sF8Yl58fSCWJ5svSLuaibPxXQJFLmBObTuCr0Mf1KiPopGM9NiFjiYBCbfaa2Fh6breQ6ANVTI0A==
 
-gamium@^0.0.13:
-  version "0.0.13"
-  resolved "https://registry.yarnpkg.com/gamium/-/gamium-0.0.13.tgz#0b1226ffb2a13265bfb0a8ed154b4be08783682f"
-  integrity sha512-9r/Qk3m5NLLP+6BQcpzcBfmdP3N0+/PE75bK0J32n9N0RnGqCWODq0BfhhN8xjBCuMzvtPRRncbFKzvVGt4oXg==
+gamium@2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/gamium/-/gamium-2.0.0.tgz#899b8e679403f5ca91cf2293e4bdaad88b7b50db"
+  integrity sha512-qeS4WZr0vIfrLxl1AnRGKrkbWQjm6vm3TrjKqmjj4eCix9HzhCj14KIJn+8mRHJLo7HwNHAgAT9RRVYOOi9cKA==
   dependencies:
     flatbuffers "22.10.26"
     gl-matrix "3.4.3"
