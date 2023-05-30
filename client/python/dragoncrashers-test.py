@@ -1,6 +1,5 @@
 import uuid
 from gamium import *
-import asyncio
 import sys
 
 
