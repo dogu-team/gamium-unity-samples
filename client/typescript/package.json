@@ -14,7 +14,7 @@
     "watch": "tsc --watch"
   },
   "dependencies": {
-    "gamium": "2.0.0"
+    "gamium": "2.0.2"
   },
   "devDependencies": {
     "@types/node": "18.15.11",
