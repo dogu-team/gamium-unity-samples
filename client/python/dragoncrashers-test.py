@@ -3,7 +3,8 @@ from gamium import *
 import sys
 
 
-gamium = GamiumClient("127.0.0.1", 50061)
+service = TcpGamiumService("127.0.0.1", 50061)
+gamium = GamiumClient(service)
 gamium.connect()
 ui = gamium.ui()
 
