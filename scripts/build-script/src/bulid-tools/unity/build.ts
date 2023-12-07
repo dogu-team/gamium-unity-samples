@@ -135,7 +135,15 @@ function checkBuildError(logs: string, code: unknown): BuildResult {
     }
   });
 
-  const errorMsgs = ['Unity license has expired', 'Please re-activate new license', ': error', 'Exception:', 'because scripts had compiler errors', 'Result: Failure'];
+  const errorMsgs = [
+    'Unity license has expired',
+    'Please re-activate new license',
+    ': error',
+    'Exception:',
+    'because scripts had compiler errors',
+    'Result: Failure',
+    'Error building Player:',
+  ];
   errorMsgs.forEach((errorMsg) => {
     const index = logs.indexOf(errorMsg);
     if (index != -1) {
