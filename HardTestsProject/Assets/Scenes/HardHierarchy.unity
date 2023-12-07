@@ -431,7 +431,7 @@ MonoBehaviour:
   dummy: {fileID: 6736879104213005939, guid: c6cb5ba9a1739455eae579fff671cc10, type: 3}
   countText: {fileID: 1932685341}
   maxDepth: 6
-  maxWidth: 6
+  maxWidth: 7
 --- !u!4 &1130934608
 Transform:
   m_ObjectHideFlags: 0

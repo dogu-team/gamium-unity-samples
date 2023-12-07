@@ -30,6 +30,11 @@ function recursiveCounting(node: ObjectHierarchyNode): number {
     console.log('time', Date.now() - start);
     console.log('count', count);
   });
+  await test('Quit', async () => {
+    await gamium.sleep(4000);
+    await gamium.actions().appQuit().perform();
+    process.exit(0);
+  });
 })().catch((e) => {
   console.error(e);
   process.exit(1);
