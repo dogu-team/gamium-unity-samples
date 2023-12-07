@@ -156,4 +156,4 @@ def quit():
     gamium.actions().app_quit().perform()
     sys.exit(0)
 
-    quit()
+quit()

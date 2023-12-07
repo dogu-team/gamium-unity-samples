@@ -11,7 +11,7 @@
     "run:InputSystemWarriors": "tsc -b && ts-node ./test/inputsystemwarriors-test.ts",
     "run:UnityUISamples": "tsc -b && ts-node ./test/unityuisamples-test.ts",
     "run:WarehouseInvasion": "tsc -b && ts-node ./test/warehouseinvasion-test.ts",
-    "run:HardTestsProject": "tsc -b && ts-node ./test/hardtestproject-test.ts",
+    "run:HardTestsProject": "tsc -b && ts-node ./test/hardtestsproject-test.ts",
     "watch": "tsc --watch"
   },
   "dependencies": {
