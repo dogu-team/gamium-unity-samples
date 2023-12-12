@@ -18,6 +18,8 @@ function recursiveCounting(node: ObjectHierarchyNode): number {
   const ui = gamium.ui();
 
   await test('Dump test', async () => {
+    await ui.click(By.path('/Canvas[1]/RecreateButton[1]'));
+
     const start = Date.now();
     const hierarchys = await inspector.dumpHierarchy('', 0);
     let count = 0;
