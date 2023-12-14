@@ -126,7 +126,6 @@ def buy_equipment_products():
             item.click()
             return True
 
-
         gamium.wait(scroll_down_until_interactable, WaitOptions(10000))
 
         ui.click(By.path("/Canvas[1]/ShopView[1]/MultipurposePopup(Clone)[1]/UIRoot[1]/Bottom[1]/Confirm[1]/Text[1]"))
