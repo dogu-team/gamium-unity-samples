@@ -57,17 +57,16 @@ def buy_products():
     )
     scrollBar.wait_interactable()
     for item in products:
-
         def scroll_down_until_interactable():
-            result = gamium.try_wait(Until.element_interactable(item), WaitOptions(300))
-            if True == result.success:
-                result.value.click()
-                return True
-            scrollBar.drag(
-                Vector2(scrollBar.info.position.x, scrollBar.info.position.y - 100),
-                ActionDragOptions(duration_ms=100, interval_ms=10),
-            )
-            return False
+            ret = item.try_is_interactable()
+            if not ret.success:
+                scrollBar.drag(
+                    Vector2(scrollBar.info.position.x, scrollBar.info.position.y - 100),
+                    ActionDragOptions(duration_ms=100, interval_ms=10),
+                )
+                return False
+            item.click()
+            return True
 
         gamium.wait(scroll_down_until_interactable, WaitOptions(timeout_ms=10000))
 
@@ -116,13 +115,17 @@ def buy_equipment_products():
         if i not in target_indexes:
             continue
 
-        def scroll_down_until_interactable() -> bool:
-            result = gamium.try_wait(Until.element_interactable(item), WaitOptions(300))
-            if result.success:
-                result.value.click()
-                return True
-            scrollBar.drag(Vector2(scrollBar.info.position.x, scrollBar.info.position.y - 100), ActionDragOptions(100, 10))
-            return False
+        def scroll_down_until_interactable():
+            ret = item.try_is_interactable()
+            if not ret.success:
+                scrollBar.drag(
+                    Vector2(scrollBar.info.position.x, scrollBar.info.position.y - 100),
+                    ActionDragOptions(duration_ms=100, interval_ms=10),
+                )
+                return False
+            item.click()
+            return True
+
 
         gamium.wait(scroll_down_until_interactable, WaitOptions(10000))
 
