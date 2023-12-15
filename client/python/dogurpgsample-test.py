@@ -57,7 +57,7 @@ def buy_products():
     )
     scrollBar.wait_interactable()
     for item in products:
-        def scroll_down_until_interactable():
+        def scroll_down_if_item_isnt_interactable():
             ret = item.try_is_interactable()
             if not ret.success:
                 scrollBar.drag(
@@ -68,7 +68,7 @@ def buy_products():
             item.click()
             return True
 
-        gamium.wait(scroll_down_until_interactable, WaitOptions(timeout_ms=10000))
+        gamium.wait(scroll_down_if_item_isnt_interactable, WaitOptions(timeout_ms=10000))
 
         ui.click(By.path("/Canvas[1]/ShopView[1]/MultipurposePopup(Clone)[1]/UIRoot[1]/Bottom[1]/Confirm[1]/Text[1]"))
 
@@ -77,7 +77,7 @@ buy_products()
 
 
 def sell_items():
-    def sell_last_item_until_coin_left():
+    def sell_last_item_if_exist():
         items = ui.finds(By.path("/Canvas[1]/ShopView[1]/UIRoot[1]/Layout[1]/RightPanel[1]/ItemGridView[1]/GridPanel[1]/ItemSlot(Clone)/Text"))
         if len(items) < 2:
             return True
@@ -87,7 +87,7 @@ def sell_items():
         ui.click(By.path("/Canvas[1]/ShopView[1]/MultipurposePopup(Clone)[1]/UIRoot[1]/Bottom[1]/Confirm[1]/Text[1]"))
         return False
 
-    gamium.wait(sell_last_item_until_coin_left, WaitOptions(timeout_ms=10000))
+    gamium.wait(sell_last_item_if_exist, WaitOptions(timeout_ms=10000))
 
     ui.click(By.path("/Canvas[1]/ShopView[1]/UIRoot[1]/RoundButton[1]"))
 
@@ -115,7 +115,7 @@ def buy_equipment_products():
         if i not in target_indexes:
             continue
 
-        def scroll_down_until_interactable():
+        def scroll_down_if_item_isnt_interactable():
             ret = item.try_is_interactable()
             if not ret.success:
                 scrollBar.drag(
@@ -126,7 +126,7 @@ def buy_equipment_products():
             item.click()
             return True
 
-        gamium.wait(scroll_down_until_interactable, WaitOptions(10000))
+        gamium.wait(scroll_down_if_item_isnt_interactable, WaitOptions(10000))
 
         ui.click(By.path("/Canvas[1]/ShopView[1]/MultipurposePopup(Clone)[1]/UIRoot[1]/Bottom[1]/Confirm[1]/Text[1]"))
 
