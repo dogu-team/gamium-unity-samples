@@ -9,6 +9,8 @@ ui = gamium.ui()
 
 
 def rpc_method_test():
+    ret = gamium.execute_rpc(RpcBy.method("Gamium.Private.CodebaseSample","CallStringParam1","asdf"))
+    assert ret == None
     ret = gamium.execute_rpc(RpcBy.method("Gamium.Private.CodebaseSample", "CallEmptyParam"))
     assert ret == None
     ret = gamium.execute_rpc(RpcBy.method("Gamium.Private.CodebaseSample", "CallParam1", 10))

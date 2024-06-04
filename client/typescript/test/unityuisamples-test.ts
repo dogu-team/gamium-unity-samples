@@ -9,7 +9,9 @@ import { test } from './functions';
   const ui = gamium.ui();
 
   await test('RpcMethod test', async () => {
-    let ret = await gamium.executeRpc(RpcBy.method('Gamium.Private.CodebaseSample', 'CallEmptyParam'));
+    let ret = await gamium.executeRpc(RpcBy.method('Gamium.Private.CodebaseSample', 'CallStringParam1', "asdf"));
+    assert.strictEqual(ret, undefined);
+    ret = await gamium.executeRpc(RpcBy.method('Gamium.Private.CodebaseSample', 'CallEmptyParam'));
     assert.strictEqual(ret, undefined);
     ret = await gamium.executeRpc(RpcBy.method('Gamium.Private.CodebaseSample', 'CallParam1', 10));
     assert.strictEqual(ret, undefined);
